@@ -1,5 +1,6 @@
-#include <curses.h>
+#include "curses.h"
 #include "rogue.h"
+#include "new_level.h"
 
 /*
  * new_level:
@@ -8,7 +9,7 @@
  * @(#)new_level.c	3.7 (Berkeley) 6/2/81
  */
 
-new_level()
+void new_level(void)
 {
     register int rm, i;
     register char ch;
@@ -16,8 +17,8 @@ new_level()
 
     if (level > max_level)
 	max_level = level;
-    wclear(cw);
-    wclear(mw);
+    //wclear(cw);
+    //wclear(mw);
     clear();
     status();
     /*

@@ -4,6 +4,10 @@
  * @(#)rogue.h	3.38 (Berkeley) 6/15/81
  */
 
+#ifndef A2ROGUE_ROGUE_H
+#define A2ROGUE_ROGUE_H
+
+#include "curses.h"
 /*
  * Maximum number of different things
  */
@@ -338,17 +342,17 @@ struct stats {
 /*
  * Structure for monsters and player
  */
-struct thing {
-    coord t_pos;			/* Position */
-    bool t_turn;			/* If slowed, is it a turn to move */
-    char t_type;			/* What it is */
-    char t_disguise;			/* What mimic looks like */
-    char t_oldch;			/* Character that was where it was */
-    coord *t_dest;			/* Where it is running to */
-    short t_flags;			/* State word */
-    struct stats t_stats;		/* Physical description */
-    struct linked_list *t_pack;		/* What the thing is carrying */
-};
+//struct thing {
+//    coord t_pos;			/* Position */
+//    bool t_turn;			/* If slowed, is it a turn to move */
+//    char t_type;			/* What it is */
+//    char t_disguise;			/* What mimic looks like */
+//    char t_oldch;			/* Character that was where it was */
+//    coord *t_dest;			/* Where it is running to */
+//    short t_flags;			/* State word */
+//    struct stats t_stats;		/* Physical description */
+//    struct linked_list *t_pack;		/* What the thing is carrying */
+//};
 
 /*
  * Array containing information on all the various types of mosnters
@@ -387,7 +391,7 @@ struct object {
 struct room rooms[MAXROOMS];		/* One for each room -- A level */
 struct room *oldrp;			/* Roomin(&oldpos) */
 struct linked_list *mlist;		/* List of monsters on the level */
-struct thing player;			/* The rogue */
+//struct thing player;			/* The rogue */
 struct stats max_stats;			/* The maximum for the player */
 struct monster monsters[26];		/* The initial monster states */
 struct linked_list *lvl_obj;		/* List of objects on this level */
@@ -425,7 +429,7 @@ int hungry_state;			/* How hungry is he */
 
 char take;				/* Thing the rogue is taking */
 char prbuf[80];				/* Buffer for sprintfs */
-char outbuf[BUFSIZ];			/* Output buffer for stdout */
+//char outbuf[BUFSIZ];			/* Output buffer for stdout */
 char runch;				/* Direction player is running */
 char *s_names[MAXSCROLLS];		/* Names of the scrolls */
 char *p_colors[MAXPOTIONS];		/* Colors of the potions */
@@ -445,9 +449,9 @@ char *ws_type[MAXSTICKS];		/* Is it a wand or a staff */
 char file_name[80];			/* Save file name */
 char home[80];				/* User's home directory */
 
-WINDOW *cw;				/* Window that the player sees */
-WINDOW *hw;				/* Used for the help command */
-WINDOW *mw;				/* Used to store mosnters */
+//WINDOW *cw;				/* Window that the player sees */
+//WINDOW *hw;				/* Used for the help command */
+//WINDOW *mw;				/* Used to store mosnters */
 
 bool running;				/* True if player is running */
 bool playing;				/* True until he quits */
@@ -493,3 +497,5 @@ int checkout();
 long lseek();
 
 struct trap *trap_at();
+
+#endif
