@@ -1,6 +1,7 @@
 #include "rogue.h"
 #include "new_level.h"
 #include "rooms.h"
+#include "passages.h"
 #include "random.h"
 #include "curses.h"
 
@@ -28,7 +29,7 @@ void new_level(void)
      */
 //    free_list(mlist);
     do_rooms();				/* Draw rooms */
-//    do_passages();			/* Draw passages */
+    do_passages();			/* Draw passages */
 //    no_food++;
 //    put_things();			/* Place objects (if any) */
     /*

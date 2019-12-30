@@ -406,7 +406,7 @@ extern struct magic_item p_magic[MAXPOTIONS];	/* Names and chances for potions *
 extern struct magic_item r_magic[MAXRINGS];	/* Names and chances for rings */
 extern struct magic_item ws_magic[MAXSTICKS];	/* Names and chances for sticks */
 
-extern int level;				/* What level rogue is on */
+extern char level;				/* What level rogue is on */
 extern int purse;				/* How much gold the rogue has */
 extern int mpos;				/* Where cursor is on top line */
 extern int ntraps;				/* Number of traps on this level */
@@ -481,7 +481,7 @@ extern coord delta;				/* Change indicated to get_dir() */
 struct linked_list *find_mons(), *find_obj(), *get_item(), *new_item();
 struct linked_list *new_thing(), *wake_monster();
 
-char *malloc(), *getenv(), *unctrl(), *tr_name(), *new(), *sprintf();
+//char *malloc(), *getenv(), *unctrl(), *tr_name(), *new(), *sprintf();
 char *vowelstr(), *inv_name(), *strcpy(), *strcat(), *sbrk(), *brk();
 char *ctime(), *num(), *ring_num();
 

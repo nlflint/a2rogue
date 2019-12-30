@@ -4,15 +4,18 @@
  * @(#)passages.c	3.4 (Berkeley) 6/15/81
  */
 
-#include <curses.h>
+#include <stdlib.h>
+#include "curses.h"
 #include "rogue.h"
+#include "random.h"
+#include "passages.h"
 
 /*
  * do_passages:
  *	Draw all the passages on a level.
  */
 
-do_passages()
+void do_passages(void)
 {
     register struct rdes *r1, *r2;
     register int i, j;
@@ -120,8 +123,7 @@ do_passages()
  *	Draw a corridor from a room in a certain direction.
  */
 
-conn(r1, r2)
-int r1, r2;
+void conn(int r1, int r2)
 {
     register struct room *rpf, *rpt;
     register char rmt;
@@ -197,8 +199,8 @@ int r1, r2;
 	turn_distance = abs(spos.y - epos.y);
 	turn_spot = rnd(distance-1) + 1;
     }
-    else
-	debug("error in connection tables");
+    //else
+	//debug("error in connection tables");
     /*
      * Draw in the doors on either side of the passage or just put #'s
      * if the rooms are gone.
@@ -247,8 +249,8 @@ int r1, r2;
     }
     curr.x += delta.x;
     curr.y += delta.y;
-    if (!ce(curr, epos))
-	msg("Warning, connectivity problem on this level.");
+//    if (!ce(curr, epos))
+//	msg("Warning, connectivity problem on this level.");
 }
 
 /*
@@ -256,9 +258,7 @@ int r1, r2;
  * also enters the door in the exits array of the room.
  */
 
-door(rm, cp)
-register struct room *rm;
-register coord *cp;
+void door(struct room *rm, coord *cp)
 {
     cmov(*cp);
     addch(rnd(10) < level - 1 && rnd(100) < 20 ? SECRETDOOR : DOOR);
@@ -269,12 +269,12 @@ register coord *cp;
  *	add the passages to the current window (wizard command)
  */
 
-add_pass()
-{
-    register int y, x, ch;
-
-    for (y = 1; y < LINES - 2; y++)
-	for (x = 0; x < COLS; x++)
-	    if ((ch=mvinch(y, x)) == PASSAGE || ch == DOOR || ch == SECRETDOOR)
-		mvwaddch(cw, y, x, ch);
-}
+//add_pass()
+//{
+//    register int y, x, ch;
+//
+//    for (y = 1; y < LINES - 2; y++)
+//	for (x = 0; x < COLS; x++)
+//	    if ((ch=mvinch(y, x)) == PASSAGE || ch == DOOR || ch == SECRETDOOR)
+//		mvwaddch(cw, y, x, ch);
+//}

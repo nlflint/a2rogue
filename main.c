@@ -189,11 +189,15 @@ void main(void/*argc, argv, envp*/)
 //    add_pack(item, TRUE);
 //    playit();
 
+    
     while(1) {
         new_level();
-        gotoxy(5,23);
-        cprintf("Press any key to re-generate");
+        cputsxy(5, 23, "Press any key to re-generate");
+        gotoxy(37,23);
+        cprintf("%3d", level);
+        level++;
         cgetc();
+
     }
 }
 
