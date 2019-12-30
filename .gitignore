@@ -1,2 +1,4 @@
 .idea
 *.dsk
+*.o
+main
