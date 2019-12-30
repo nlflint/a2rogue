@@ -14,6 +14,7 @@
 #include "rogue.h"
 #include "new_level.h"
 #include "curses.h"
+#include <conio.h>
 
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
@@ -187,6 +188,13 @@ void main(void/*argc, argv, envp*/)
 //    obj->o_which = 0;
 //    add_pack(item, TRUE);
 //    playit();
+
+    while(1) {
+        new_level();
+        gotoxy(5,23);
+        cprintf("Press any key to re-generate");
+        cgetc();
+    }
 }
 
 /*

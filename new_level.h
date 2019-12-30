@@ -6,5 +6,6 @@
 #define A2ROGUE_NEW_LEVEL_H
 
 void new_level(void);
+int rnd_room(void);
 
 #endif //A2ROGUE_NEW_LEVEL_H

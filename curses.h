@@ -14,6 +14,17 @@
 # define	ERR	(0)
 # define	OK	(1)
 
+void clear(void);
+
+//move STD cursor to x,y
+void move(unsigned char y, unsigned char x);
+char getx(void);
+char gety(void);
+void addch(char character);
+
+#define COLS 40
+#define LINES 23
+
 //# define	_SUBWIN		01
 //# define	_ENDLINE	02
 //# define	_FULLWIN	04

@@ -4,10 +4,13 @@
  * @(#)rooms.c	3.8 (Berkeley) 6/15/81
  */
 
-#include <curses.h>
+#include "curses.h"
 #include "rogue.h"
+#include "rooms.h"
+#include "random.h"
+#include "new_level.h"
 
-do_rooms()
+void do_rooms(void)
 {
     register int i;
     register struct room *rp;
@@ -39,67 +42,69 @@ do_rooms()
      */
     for (i = 0, rp = rooms; i < MAXROOMS; rp++, i++)
     {
-	/*
-	 * Find upper left corner of box that this room goes in
-	 */
-	top.x = (i%3)*bsze.x + 1;
-	top.y = i/3*bsze.y;
-	if (rp->r_flags & ISGONE)
-	{
-	    /*
-	     * Place a gone room.  Make certain that there is a blank line
-	     * for passage drawing.
-	     */
-	    do
-	    {
-		rp->r_pos.x = top.x + rnd(bsze.x-2) + 1;
-		rp->r_pos.y = top.y + rnd(bsze.y-2) + 1;
-		rp->r_max.x = -COLS;
-		rp->r_max.x = -LINES;
-	    } until(rp->r_pos.y > 0 && rp->r_pos.y < LINES-1);
-	    continue;
-	}
-	if (rnd(10) < level-1)
-	    rp->r_flags |= ISDARK;
-	/*
-	 * Find a place and size for a random room
-	 */
-	do
-	{
-	    rp->r_max.x = rnd(bsze.x - 4) + 4;
-	    rp->r_max.y = rnd(bsze.y - 4) + 4;
-	    rp->r_pos.x = top.x + rnd(bsze.x - rp->r_max.x);
-	    rp->r_pos.y = top.y + rnd(bsze.y - rp->r_max.y);
-	} until (rp->r_pos.y != 0);
-	/*
-	 * Put the gold in
-	 */
-	if (rnd(100) < 50 && (!amulet || level >= max_level))
-	{
-	    rp->r_goldval = GOLDCALC;
-	    rnd_pos(rp, &rp->r_gold);
-	    if (roomin(&rp->r_gold) != rp)
-		endwin(), abort();
-	}
-	draw_room(rp);
-	/*
-	 * Put the monster in
-	 */
-	if (rnd(100) < (rp->r_goldval > 0 ? 80 : 25))
-	{
-	    item = new_item(sizeof *tp);
-	    tp = (struct thing *) ldata(item);
-	    do
-	    {
-		rnd_pos(rp, &mp);
-	    } until(mvwinch(stdscr, mp.y, mp.x) == FLOOR);
-	    new_monster(item, randmonster(FALSE), &mp);
-	    /*
-	     * See if we want to give it a treasure to carry around.
-	     */
-	    if (rnd(100) < monsters[tp->t_type-'A'].m_carry)
-		attach(tp->t_pack, new_thing());
-	}
+        /*
+         * Find upper left corner of box that this room goes in
+         */
+        top.x = (i%3)*bsze.x + 1;
+        top.y = i/3*bsze.y;
+        if (rp->r_flags & ISGONE)
+        {
+            /*
+             * Place a gone room.  Make certain that there is a blank line
+             * for passage drawing.
+             */
+            do
+            {
+                rp->r_pos.x = top.x + rnd(bsze.x-2) + 1;
+                rp->r_pos.y = top.y + rnd(bsze.y-2) + 1;
+                rp->r_max.x = -COLS;
+                rp->r_max.x = -LINES;
+            } until(rp->r_pos.y > 0 && rp->r_pos.y < LINES-1);
+            continue;
+        }
+        if (rnd(10) < level-1)
+            rp->r_flags |= ISDARK;
+        /*
+         * Find a place and size for a random room
+         */
+        do
+        {
+            rp->r_max.x = rnd(bsze.x - 4) + 4;
+            rp->r_max.y = rnd(bsze.y - 4) + 4;
+            rp->r_pos.x = top.x + rnd(bsze.x - rp->r_max.x);
+            rp->r_pos.y = top.y + rnd(bsze.y - rp->r_max.y);
+        } until (rp->r_pos.y != 0);
+        /*
+         * Put the gold in
+         */
+//        if (rnd(100) < 50 && (!amulet || level >= max_level))
+//        {
+//            rp->r_goldval = GOLDCALC;
+//            rnd_pos(rp, &(rp->r_gold));
+//
+//            //A2ROGUE: I think this checks if gold just added was actually added, and quits if not?? why is this needed?
+////    	    if (roomin(&rp->r_gold) != rp)
+////    		endwin(), abort();
+//        }
+        draw_room(rp);
+        /*
+         * Put the monster in
+         */
+//    	if (rnd(100) < (rp->r_goldval > 0 ? 80 : 25))
+//    	{
+//    	    item = new_item(sizeof *tp);
+//    	    tp = (struct thing *) ldata(item);
+//    	    do
+//    	    {
+//    		rnd_pos(rp, &mp);
+//    	    } until(mvwinch(stdscr, mp.y, mp.x) == FLOOR);
+//    	    new_monster(item, randmonster(FALSE), &mp);
+//    	    /*
+//    	     * See if we want to give it a treasure to carry around.
+//    	     */
+//    	    if (rnd(100) < monsters[tp->t_type-'A'].m_carry)
+//    		attach(tp->t_pack, new_thing());
+//    	}
     }
 }
 
@@ -107,8 +112,7 @@ do_rooms()
  * Draw a box around a room
  */
 
-draw_room(rp)
-register struct room *rp;
+void draw_room(struct room *rp)
 {
     register int j, k;
 
@@ -131,8 +135,8 @@ register struct room *rp;
     /*
      * Put the gold there
      */
-    if (rp->r_goldval)
-	mvaddch(rp->r_gold.y, rp->r_gold.x, GOLD);
+//    if (rp->r_goldval)
+//	mvaddch(rp->r_gold.y, rp->r_gold.x, GOLD);
 }
 
 /*
@@ -140,8 +144,7 @@ register struct room *rp;
  *	draw a horizontal line
  */
 
-horiz(cnt)
-register int cnt;
+void horiz(unsigned char cnt)
 {
     while (cnt--)
 	addch('-');
@@ -152,16 +155,17 @@ register int cnt;
  *	draw a vertical line
  */
 
-vert(cnt)
-register int cnt;
+void vert(char cnt)
 {
-    register int x, y;
+    register unsigned char x, y;
 
-    getyx(stdscr, y, x);
+    //getyx(stdscr, y, x);
+    x = getx();
+    y = gety();
     x--;
     while (cnt--) {
-	move(++y, x);
-	addch('|');
+        move(++y, x);
+        addch('|');
     }
 }
 
@@ -170,9 +174,7 @@ register int cnt;
  *	pick a random spot in a room
  */
 
-rnd_pos(rp, cp)
-register struct room *rp;
-register coord *cp;
+void rnd_pos(struct room *rp, coord *cp)
 {
     cp->x = rp->r_pos.x + rnd(rp->r_max.x-2) + 1;
     cp->y = rp->r_pos.y + rnd(rp->r_max.y-2) + 1;
