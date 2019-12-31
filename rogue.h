@@ -8,6 +8,7 @@
 #define A2ROGUE_ROGUE_H
 
 # define	bool	char
+#define NULL 0
 /*
  * Maximum number of different things
  */
@@ -344,17 +345,17 @@ struct stats {
 /*
  * Structure for monsters and player
  */
-//struct thing {
-//    coord t_pos;			/* Position */
-//    bool t_turn;			/* If slowed, is it a turn to move */
-//    char t_type;			/* What it is */
-//    char t_disguise;			/* What mimic looks like */
-//    char t_oldch;			/* Character that was where it was */
-//    coord *t_dest;			/* Where it is running to */
-//    short t_flags;			/* State word */
-//    struct stats t_stats;		/* Physical description */
-//    struct linked_list *t_pack;		/* What the thing is carrying */
-//};
+struct thing {
+    coord t_pos;			/* Position */
+    bool t_turn;			/* If slowed, is it a turn to move */
+    char t_type;			/* What it is */
+    char t_disguise;			/* What mimic looks like */
+    char t_oldch;			/* Character that was where it was */
+    coord *t_dest;			/* Where it is running to */
+    short t_flags;			/* State word */
+    struct stats t_stats;		/* Physical description */
+    struct linked_list *t_pack;		/* What the thing is carrying */
+};
 
 /*
  * Array containing information on all the various types of mosnters
@@ -393,7 +394,7 @@ struct object {
 extern struct room rooms[MAXROOMS];		/* One for each room -- A level */
 extern struct room *oldrp;			/* Roomin(&oldpos) */
 extern struct linked_list *mlist;		/* List of monsters on the level */
-//extern struct thing player;			/* The rogue */
+extern struct thing player;			/* The rogue */
 extern struct stats max_stats;			/* The maximum for the player */
 extern struct monster monsters[26];		/* The initial monster states */
 extern struct linked_list *lvl_obj;		/* List of objects on this level */
@@ -427,7 +428,7 @@ extern int quiet;				/* Number of quiet turns */
 extern int max_level;				/* Deepest player has gone */
 extern int food_left;				/* Amount of food in hero's stomach */
 extern int group;				/* Current group number */
-extern int hungry_state;			/* How hungry is he */
+extern char hungry_state;			/* How hungry is he */
 
 extern char take;				/* Thing the rogue is taking */
 extern char prbuf[80];				/* Buffer for sprintfs */
@@ -482,7 +483,7 @@ struct linked_list *find_mons(), *find_obj(), *get_item(), *new_item();
 struct linked_list *new_thing(), *wake_monster();
 
 //char *malloc(), *getenv(), *unctrl(), *tr_name(), *new(), *sprintf();
-char *vowelstr(), *inv_name(), *strcpy(), *strcat(), *sbrk(), *brk();
+char *vowelstr(), *inv_name(), *sbrk(), *brk();
 char *ctime(), *num(), *ring_num();
 
 struct room *roomin();

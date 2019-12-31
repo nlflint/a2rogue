@@ -275,7 +275,7 @@ register char *str;
                 continue;
                 if (*str == '~')
                 {
-			        strcpy((char *) op->o_opt, home);
+			        `strcpy((char *) op->o_opt, home);
 			        start = (char *) op->o_opt + strlen(home);
 			        while (*++str == '/')
 			        continue;

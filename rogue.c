@@ -9,7 +9,7 @@ struct trap traps[MAXTRAPS];
 struct room rooms[MAXROOMS];		/* One for each room -- A level */
 struct room *oldrp;			/* Roomin(&oldpos) */
 struct linked_list *mlist;		/* List of monsters on the level */
-//struct thing player;			/* The rogue */
+struct thing player;			/* The rogue */
 struct stats max_stats;			/* The maximum for the player */
 struct monster monsters[26];		/* The initial monster states */
 struct linked_list *lvl_obj;		/* List of objects on this level */
@@ -43,7 +43,7 @@ int quiet;				/* Number of quiet turns */
 int max_level;				/* Deepest player has gone */
 int food_left;				/* Amount of food in hero's stomach */
 int group;				/* Current group number */
-int hungry_state;			/* How hungry is he */
+char hungry_state;			/* How hungry is he */
 
 char take;				/* Thing the rogue is taking */
 char prbuf[80];				/* Buffer for sprintfs */

@@ -21,9 +21,10 @@ void move(unsigned char y, unsigned char x);
 char getx(void);
 char gety(void);
 void addch(char character);
+void mvaddch(unsigned char y, unsigned char x, char character);
 
-#define COLS 40
-#define LINES 23
+#define COLS 80
+#define LINES 24
 
 //# define	_SUBWIN		01
 //# define	_ENDLINE	02

@@ -30,13 +30,13 @@ void do_rooms(void)
      * Clear things for a new level
      */
     for (rp = rooms; rp < &rooms[MAXROOMS]; rp++)
-	rp->r_goldval = rp->r_nexits = rp->r_flags = 0;
+	    rp->r_goldval = rp->r_nexits = rp->r_flags = 0;
     /*
      * Put the gone rooms, if any, on the level
      */
     left_out = rnd(4);
     for (i = 0; i < left_out; i++)
-	rooms[rnd_room()].r_flags |= ISGONE;
+	    rooms[rnd_room()].r_flags |= ISGONE;
     /*
      * dig and populate all the rooms on the level
      */
@@ -77,15 +77,15 @@ void do_rooms(void)
         /*
          * Put the gold in
          */
-//        if (rnd(100) < 50 && (!amulet || level >= max_level))
-//        {
-//            rp->r_goldval = GOLDCALC;
-//            rnd_pos(rp, &(rp->r_gold));
-//
-//            //A2ROGUE: I think this checks if gold just added was actually added, and quits if not?? why is this needed?
-////    	    if (roomin(&rp->r_gold) != rp)
-////    		endwin(), abort();
-//        }
+        if (rnd(100) < 50 && (!amulet || level >= max_level))
+        {
+            rp->r_goldval = GOLDCALC;
+            rnd_pos(rp, &(rp->r_gold));
+
+            //A2ROGUE: I think this checks if gold just added was actually added, and quits if not?? why is this needed?
+//    	    if (roomin(&rp->r_gold) != rp)
+//    		endwin(), abort();
+        }
         draw_room(rp);
         /*
          * Put the monster in
@@ -135,8 +135,8 @@ void draw_room(struct room *rp)
     /*
      * Put the gold there
      */
-//    if (rp->r_goldval)
-//	mvaddch(rp->r_gold.y, rp->r_gold.x, GOLD);
+    if (rp->r_goldval)
+        mvaddch(rp->r_gold.y, rp->r_gold.x, GOLD);
 }
 
 /*

@@ -4,6 +4,7 @@
 #include "passages.h"
 #include "random.h"
 #include "curses.h"
+#include "io.h"
 
 /*
  * new_level:
@@ -23,7 +24,7 @@ void new_level(void)
     //wclear(cw);
     //wclear(mw);
     clear();
-    //status();
+    status();
     /*
      * Free up the monsters on the last level
      */

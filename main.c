@@ -15,14 +15,16 @@
 #include "new_level.h"
 #include "curses.h"
 #include <conio.h>
+#include <apple2enh.h>
+#include "random.h"
+
+char *EIGHTY_COLUMN = 0xC00D;
 
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
 //#endif
 
-void main(void/*argc, argv, envp*/)
-//char **argv;
-//char **envp;
+void main(void)
 {
 //    register char *env;
 //    register struct passwd *pw;
@@ -32,6 +34,9 @@ void main(void/*argc, argv, envp*/)
 //    char *getpass(), *crypt();
 //    int quit(), lowtime;
 //    long now;
+
+    videomode((unsigned char) 80);
+    while(1) {
 
     /*
      * check for print-score option
@@ -122,7 +127,7 @@ void main(void/*argc, argv, envp*/)
 //    mw = newwin(LINES, COLS, 0, 0);
 //    hw = newwin(LINES, COLS, 0, 0);
 //    waswizard = wizard;
-//    new_level();			/* Draw current level */
+    new_level();			/* Draw current level */
     /*
      * Start up daemons and fuses
      */
@@ -189,14 +194,10 @@ void main(void/*argc, argv, envp*/)
 //    add_pack(item, TRUE);
 //    playit();
 
-    
-    while(1) {
-        new_level();
-        cputsxy(5, 23, "Press any key to re-generate");
-        gotoxy(37,23);
-        cprintf("%3d", level);
         level++;
         cgetc();
+        hungry_state = rnd(4);
+        purse = rnd(20000);
 
     }
 }

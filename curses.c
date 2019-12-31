@@ -23,3 +23,11 @@ char gety(void) {
 void addch(char character) {
     cputc(character);
 }
+
+void mvaddch(unsigned char y, unsigned char x, char character) {
+    cputcxy(x, y, character);
+}
+
+void mvaddstr(unsigned char y, unsigned char x, char *string) {
+    cputsxy(y, x, string);
+};
