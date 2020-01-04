@@ -144,65 +144,21 @@
 
 void status(void)
 {
-    register int oy, ox, temp;
-    register char *pb;
-    static char buf[80];
-    static int hpwidth = 0, s_hungry = -1;
-    static int s_lvl = -1, s_pur, s_hp = -1, s_str, s_add, s_ac = 0;
-    static long s_exp = 0;
+    char *hungry_description;
 
-    /*
-     * If nothing has changed since the last status, don't
-     * bother.
-     */
-    if (s_hp == pstats.s_hpt && s_exp == pstats.s_exp && s_pur == purse
-	&& s_ac == (cur_armor != NULL ? cur_armor->o_ac : pstats.s_arm)
-	&& s_str == pstats.s_str.st_str && s_add == pstats.s_str.st_add
-	&& s_lvl == level && s_hungry == hungry_state)
-	    return;
-
-    // save old cursor location, who cares?
-    //getyx(cw, oy, ox);
-
-    if (s_hp != max_hp)
+    switch (hungry_state)
     {
-	temp = s_hp = max_hp;
-	for (hpwidth = 0; temp; hpwidth++)
-	    temp /= 10;
+        case 1: hungry_description = "  Hungry";
+        case 2: hungry_description = "  Weak";
+        case 3: hungry_description = "  Fainting";
+        default: hungry_description = "";
     }
-//    sprintf(buf, "Level: %d  Gold: %-5d  Hp: %*d(%*d)  Str: %-2d",
-//	level, purse, hpwidth, pstats.s_hpt, hpwidth, max_hp,
-//	pstats.s_str.st_str);
-//    if (pstats.s_str.st_add != 0)
-//    {
-//	pb = &buf[strlen(buf)];
-//	sprintf(pb, "/%d", pstats.s_str.st_add);
-//    }
-//    pb = &buf[strlen(buf)];
-//    sprintf(pb, "  Ac: %-2d  Exp: %d/%ld",
-//	cur_armor != NULL ? cur_armor->o_ac : pstats.s_arm, pstats.s_lvl,
-//	pstats.s_exp);
-    /*
-     * Save old status
-     */
-    s_lvl = level;
-    s_pur = purse;
-    s_hp = pstats.s_hpt;
-    s_str = pstats.s_str.st_str;
-    s_add = pstats.s_str.st_add;
-    s_exp = pstats.s_exp; 
-    s_ac = (cur_armor != NULL ? cur_armor->o_ac : pstats.s_arm);
-    // changed mvwaddstr(cw, LINES - 1, 0, buf);
-
-
 
     gotoxy(0, LINES - 1);
-    cprintf("Level: %d  Gold: %-5d  Hp: %*d(%*d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
+    cprintf("Level: %d  Gold: %-5d  Hp: %d(%d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
             level,
             purse,
-            hpwidth,
             pstats.s_hpt,
-            hpwidth,
             max_hp,
             pstats.s_str.st_str,
             pstats.s_str.st_add,
@@ -210,32 +166,10 @@ void status(void)
             pstats.s_lvl,
             pstats.s_exp,
             get_hunger_state());
-
-
-
-//    switch (hungry_state)
-//    {
-//	when 0: ;
-//	when 1:
-//	    waddstr(cw, "  Hungry");
-//	when 2:
-//	    waddstr(cw, "  Weak");
-//	when 3:
-//	    waddstr(cw, "  Fainting");
-//    }
-//    wclrtoeol(cw);
-    s_hungry = hungry_state;
-//    wmove(cw, oy, ox);
 }
 
 const char *get_hunger_state() {
-    switch (hungry_state)
-    {
-        case 1: return "  Hungry";
-        case 2: return "  Weak";
-        case 3: return "  Fainting";
-    }
-    return "";
+
 }
 
 /*

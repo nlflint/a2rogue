@@ -15,9 +15,10 @@
 
 void new_level(void)
 {
+    char rm;
 //    register int rm, i;
 //    register char ch;
-//    coord stairs;
+    coord stairs;
 
 //    if (level > max_level)
 //	max_level = level;
@@ -36,11 +37,11 @@ void new_level(void)
     /*
      * Place the staircase down.
      */
-//    do {
-//        rm = rnd_room();
-//	rnd_pos(&rooms[rm], &stairs);
-//    } until (winat(stairs.y, stairs.x) == FLOOR);
-//    addch(STAIRS);
+    do {
+        rm = rnd_room();
+	    rnd_pos(&rooms[rm], &stairs);
+    } until (winat(stairs.y, stairs.x) == FLOOR);
+    addch(STAIRS);
     /*
      * Place the traps
      */
@@ -87,9 +88,9 @@ void new_level(void)
  * Pick a room that is really there
  */
 
-int rnd_room(void)
+char rnd_room(void)
 {
-    register int rm;
+    char rm;
 
     do
     {
