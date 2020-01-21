@@ -30,7 +30,7 @@ struct WINDOW dungeon_window, *stdscr;
 char level;				/* What level rogue is on */
 int purse;				/* How much gold the rogue has */
 int mpos;				/* Where cursor is on top line */
-int ntraps;				/* Number of traps on this level */
+char ntraps;				/* Number of traps on this level */
 int no_move;				/* Number of turns held in place */
 int no_command;				/* Number of turns asleep */
 int inpack;				/* Number of things in pack */

@@ -423,7 +423,7 @@ extern struct magic_item ws_magic[MAXSTICKS];	/* Names and chances for sticks */
 extern char level;				/* What level rogue is on */
 extern int purse;				/* How much gold the rogue has */
 extern int mpos;				/* Where cursor is on top line */
-extern int ntraps;				/* Number of traps on this level */
+extern char ntraps;				/* Number of traps on this level */
 extern int no_move;				/* Number of turns held in place */
 extern int no_command;				/* Number of turns asleep */
 extern int inpack;				/* Number of things in pack */

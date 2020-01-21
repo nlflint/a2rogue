@@ -15,7 +15,7 @@
 
 void new_level(void)
 {
-    char rm;
+    char rm, i, ch;
 //    register int rm, i;
 //    register char ch;
     coord stairs;
@@ -46,34 +46,34 @@ void new_level(void)
     /*
      * Place the traps
      */
-//    if (rnd(10) < level)
-//    {
-//	ntraps = rnd(level/4)+1;
-//	if (ntraps > MAXTRAPS)
-//	    ntraps = MAXTRAPS;
-//	i = ntraps;
-//	while (i--)
-//	{
-//	    do
-//	    {
-//		rm = rnd_room();
-//		rnd_pos(&rooms[rm], &stairs);
-//	    } until (winat(stairs.y, stairs.x) == FLOOR);
-//	    switch(rnd(6))
-//	    {
-//		when 0: ch = TRAPDOOR;
-//		when 1: ch = BEARTRAP;
-//		when 2: ch = SLEEPTRAP;
-//		when 3: ch = ARROWTRAP;
-//		when 4: ch = TELTRAP;
-//		when 5: ch = DARTTRAP;
-//	    }
-//	    addch(TRAP);
-//	    traps[i].tr_type = ch;
-//	    traps[i].tr_flags = 0;
-//	    traps[i].tr_pos = stairs;
-//	}
-//    }
+    if (rnd(10) < level)
+    {
+        ntraps = rnd(level/4)+1;
+        if (ntraps > MAXTRAPS)
+            ntraps = MAXTRAPS;
+        i = ntraps;
+        while (i--)
+        {
+            do
+            {
+                rm = rnd_room();
+                rnd_pos(&rooms[rm], &stairs);
+            } until (winat(stairs.y, stairs.x) == FLOOR);
+            switch(rnd(6))
+            {
+                when 0: ch = TRAPDOOR;
+                when 1: ch = BEARTRAP;
+                when 2: ch = SLEEPTRAP;
+                when 3: ch = ARROWTRAP;
+                when 4: ch = TELTRAP;
+                when 5: ch = DARTTRAP;
+            }
+            addch(TRAP);
+            traps[i].tr_type = ch;
+            traps[i].tr_flags = 0;
+            traps[i].tr_pos = stairs;
+        }
+    }
 //    do
 //    {
 //	rm = rnd_room();
