@@ -261,6 +261,12 @@
 #define WS_CANCEL 13
 #define MAXSTICKS 14
 
+#define SCREEN_WINDOW 0
+#define HELP_WINDOW 1
+#define COLS 80
+#define LINES 24
+
+
 /*
  * Now we define the structures and types
  */
@@ -387,6 +393,13 @@ struct object {
     int o_group;			/* Group number for this object */
 };
 
+struct WINDOW {
+    unsigned char x;
+    unsigned char y;
+    char data[LINES][COLS];
+    char end;
+};
+
 /*
  * Now all the global variables
  */
@@ -452,9 +465,10 @@ extern char *ws_type[MAXSTICKS];		/* Is it a wand or a staff */
 extern char file_name[80];			/* Save file name */
 extern char home[80];				/* User's home directory */
 
-//WINDOW *cw;				/* Window that the player sees */
-//WINDOW *hw;				/* Used for the help command */
-//WINDOW *mw;				/* Used to store mosnters */
+extern struct WINDOW *cw, play_window;   /* What the player sees */
+extern struct WINDOW *hw, help_window;   /* help window */
+extern struct WINDOW monster_window, *mw; /* Used to store monsters */
+extern struct WINDOW dungeon_window, *stdscr;			/* Used to store dungeon */
 
 extern bool running;				/* True if player is running */
 extern bool playing;				/* True until he quits */

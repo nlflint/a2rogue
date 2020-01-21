@@ -22,6 +22,11 @@ struct magic_item p_magic[MAXPOTIONS];	/* Names and chances for potions */
 struct magic_item r_magic[MAXRINGS];	/* Names and chances for rings */
 struct magic_item ws_magic[MAXSTICKS];	/* Names and chances for sticks */
 
+struct WINDOW play_window, *cw;
+struct WINDOW help_window, *hw;
+struct WINDOW monster_window, *mw;
+struct WINDOW dungeon_window, *stdscr;
+
 char level;				/* What level rogue is on */
 int purse;				/* How much gold the rogue has */
 int mpos;				/* Where cursor is on top line */

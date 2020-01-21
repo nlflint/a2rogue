@@ -35,21 +35,29 @@ void main(void)
 //    int quit(), lowtime;
 //    long now;
 
+    char key_pressed;
+
+    cw = &play_window;
+    mw = &monster_window;
+    stdscr = &dungeon_window;
+    clrscr();
+
     videomode((unsigned char) 80);
+    clrscr();
     while(1) {
 
-    /*
-     * check for print-score option
-     */
+        /*
+         * check for print-score option
+         */
 //    if (argc == 2 && strcmp(argv[1], "-s") == 0)
 //    {
 //        waswizard = TRUE;
 //        score(0, -1);
 //        exit(0);
 //    }
-    /*
-     * Check to see if he is a wizard
-     */
+        /*
+         * Check to see if he is a wizard
+         */
 //    if (argc >= 2 && argv[1][0] == '\0')
 //        if (strcmp(PASSWD, crypt(getpass("Wizard's password: "), "mT")) == 0)
 //        {
@@ -58,9 +66,9 @@ void main(void)
 //            argc--;
 //        }
 
-    /*
-     * get home and options from environment
-     */
+        /*
+         * get home and options from environment
+         */
 //    if ((env = getenv("HOME")) != NULL)
 //	    strcpy(home, env);
 //    else if ((pw = getpwuid(getuid())) != NULL)
@@ -120,24 +128,27 @@ void main(void)
 //    init_materials();			/* Set up materials of wands */
 //    initscr();				/* Start up cursor package */
 //    setup();
-    /*
-     * Set up windows
-     */
+        /*
+         * Set up windows
+         */
 //    cw = newwin(LINES, COLS, 0, 0);
+//    play_window = {0, 0, {0}};
 //    mw = newwin(LINES, COLS, 0, 0);
 //    hw = newwin(LINES, COLS, 0, 0);
 //    waswizard = wizard;
-    new_level();			/* Draw current level */
-    /*
-     * Start up daemons and fuses
-     */
+
+
+        //new_level();			/* Draw current level */
+        /*
+         * Start up daemons and fuses
+         */
 //    daemon(doctor, 0, AFTER);
 //    fuse(swander, 0, WANDERTIME, AFTER);
 //    daemon(stomach, 0, AFTER);
 //    daemon(runners, 0, AFTER);
-    /*
-     * Give the rogue his weaponry.  First a mace.
-     */
+        /*
+         * Give the rogue his weaponry.  First a mace.
+         */
 //    item = new_item(sizeof *obj);
 //    obj = (struct object *) ldata(item);
 //    obj->o_type = WEAPON;
@@ -148,9 +159,9 @@ void main(void)
 //    obj->o_flags |= ISKNOW;
 //    add_pack(item, TRUE);
 //    cur_weapon = obj;
-    /*
-     * Now a +1 bow
-     */
+        /*
+         * Now a +1 bow
+         */
 //    item = new_item(sizeof *obj);
 //    obj = (struct object *) ldata(item);
 //    obj->o_type = WEAPON;
@@ -160,9 +171,9 @@ void main(void)
 //    obj->o_dplus = 0;
 //    obj->o_flags |= ISKNOW;
 //    add_pack(item, TRUE);
-    /*
-     * Now some arrows
-     */
+        /*
+         * Now some arrows
+         */
 //    item = new_item(sizeof *obj);
 //    obj = (struct object *) ldata(item);
 //    obj->o_type = WEAPON;
@@ -172,9 +183,9 @@ void main(void)
 //    obj->o_hplus = obj->o_dplus = 0;
 //    obj->o_flags |= ISKNOW;
 //    add_pack(item, TRUE);
-    /*
-     * And his suit of armor
-     */
+        /*
+         * And his suit of armor
+         */
 //    item = new_item(sizeof *obj);
 //    obj = (struct object *) ldata(item);
 //    obj->o_type = ARMOR;
@@ -183,9 +194,9 @@ void main(void)
 //    obj->o_flags |= ISKNOW;
 //    cur_armor = obj;
 //    add_pack(item, TRUE);
-    /*
-     * Give him some food too
-     */
+        /*
+         * Give him some food too
+         */
 //    item = new_item(sizeof *obj);
 //    obj = (struct object *) ldata(item);
 //    obj->o_type = FOOD;
@@ -195,12 +206,22 @@ void main(void)
 //    playit();
 
         level++;
-        cgetc();
         hungry_state = rnd(4);
         purse = rnd(20000);
+        new_level();
+        show_window(stdscr);
+        apply_status();
+
+        key_pressed = cgetc();
+
+        if (key_pressed == 'm') {
+            show_window(mw);
+            cgetc();
+        }
 
     }
 }
+
 
 /*
  * endit:

@@ -7,7 +7,7 @@
 #include "curses.h"
 #include "io.h"
 #include "rogue.h"
-#include <conio.h>
+#include <stdio.h>
 
 
 /*
@@ -144,7 +144,7 @@
 
 void status(void)
 {
-    char *hungry_description;
+    char *hungry_description, *status_bar;
 
     switch (hungry_state)
     {
@@ -154,8 +154,8 @@ void status(void)
         default: hungry_description = "";
     }
 
-    gotoxy(0, LINES - 1);
-    cprintf("Level: %d  Gold: %-5d  Hp: %d(%d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
+    status_bar = play_window.data[23];
+    sprintf(status_bar, "Level: %d  Gold: %-5d  Hp: %d(%d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
             level,
             purse,
             pstats.s_hpt,

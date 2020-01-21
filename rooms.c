@@ -159,9 +159,7 @@ void vert(char cnt)
 {
     register unsigned char x, y;
 
-    //getyx(stdscr, y, x);
-    x = getx();
-    y = gety();
+    getyx(stdscr, y, x);
     x--;
     while (cnt--) {
         move(++y, x);

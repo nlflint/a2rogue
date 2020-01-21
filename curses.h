@@ -9,22 +9,24 @@
 # define	bool	char
 //# define	reg	register
 
-# define	TRUE	(1)
-# define	FALSE	(0)
-# define	ERR	(0)
-# define	OK	(1)
-
-void clear(void);
+#define	TRUE	(1)
+#define	FALSE	(0)
+#define	ERR	(0)
+#define	OK	(1)
+#define	move(y, x) wmove(stdscr, y, x)
 
 //move STD cursor to x,y
-void move(unsigned char y, unsigned char x);
-char getx(void);
-char gety(void);
-void addch(char character);
-void mvaddch(unsigned char y, unsigned char x, char character);
+void wmove(struct WINDOW *window, unsigned char y, unsigned char x);
+void waddch(struct WINDOW *window, char character);
+char winch(struct WINDOW *window);
+void wclear(struct WINDOW *window);
+char mvwinch(struct WINDOW *window, unsigned char y, unsigned char x);
+void mvwaddch(struct WINDOW *window, unsigned char y, unsigned char x, char ch);
+void show_window(struct WINDOW *window);
+void apply_status(void);
+void debug_num(char *description, int number);
+void debug_char(char *description, char ch);
 
-#define COLS 80
-#define LINES 24
 
 //# define	_SUBWIN		01
 //# define	_ENDLINE	02
@@ -94,7 +96,7 @@ void mvaddch(unsigned char y, unsigned char x, char character);
 /*
  * psuedo functions for standard screen
  */
-//# define	addch(ch)	VOID(waddch(stdscr, ch))
+#define	addch(ch)	waddch(stdscr, ch)
 //# define	getch()		VOID(wgetch(stdscr))
 //# define	addstr(str)	VOID(waddstr(stdscr, str))
 //# define	getstr(str)	VOID(wgetstr(stdscr, str))
@@ -113,12 +115,12 @@ void mvaddch(unsigned char y, unsigned char x, char character);
 /*
  * mv functions
  */
-//#define	mvwaddch(win,y,x,ch)	VOID(wmove(win,y,x)==ERR?ERR:waddch(win,ch))
+//#define	mvwaddch(win,y,x,ch)	(wmove(win,y,x)==ERR?ERR:waddch(win,ch))
 //#define	mvwgetch(win,y,x)	VOID(wmove(win,y,x)==ERR?ERR:wgetch(win))
 //#define	mvwaddstr(win,y,x,str)	VOID(wmove(win,y,x)==ERR?ERR:waddstr(win,str))
 //#define	mvwgetstr(win,y,x)	VOID(wmove(win,y,x)==ERR?ERR:wgetstr(win))
-//#define	mvwinch(win,y,x)	VOID(wmove(win,y,x) == ERR ? ERR : winch(win))
-//#define	mvaddch(y,x,ch)		mvwaddch(stdscr,y,x,ch)
+//#define	mvwinch(win,y,x)	(wmove(win,y,x) == ERR ? ERR : winch(win))
+#define	mvaddch(y,x,ch)		mvwaddch(stdscr,y,x,ch)
 //#define	mvgetch(y,x)		mvwgetch(stdscr,y,x)
 //#define	mvaddstr(y,x,str)	mvwaddstr(stdscr,y,x,str)
 //#define	mvgetstr(y,x)		mvwgetstr(stdscr,y,x)
@@ -132,7 +134,7 @@ void mvaddch(unsigned char y, unsigned char x, char character);
 //#define	leaveok(win,bf)	 (win->_leave = bf)
 //#define	scrollok(win,bf) (win->_scroll = bf)
 //#define flushok(win,bf)	 (bf ? (win->_flags |= _FLUSH):(win->_flags &= ~_FLUSH))
-//#define	getyx(win,y,x)	 y = win->_cury, x = win->_curx
+#define	getyx(win,y,x)	 y = win->y, x = win->x
 //#define	winch(win)	 (win->_y[win->_cury][win->_curx])
 //
 //#define raw()	 (_tty.sg_flags|=RAW, _pfast=_rawmode=TRUE, stty(_tty_ch,&_tty))

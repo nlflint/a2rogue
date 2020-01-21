@@ -22,9 +22,10 @@ void new_level(void)
 
 //    if (level > max_level)
 //	max_level = level;
-    //wclear(cw);
-    //wclear(mw);
-    clear();
+    wclear(cw);
+    wclear(mw);
+    wclear(stdscr);
+    //clear();
     status();
     /*
      * Free up the monsters on the last level
@@ -39,7 +40,7 @@ void new_level(void)
      */
     do {
         rm = rnd_room();
-	    rnd_pos(&rooms[rm], &stairs);
+        rnd_pos(&rooms[rm], &stairs);
     } until (winat(stairs.y, stairs.x) == FLOOR);
     addch(STAIRS);
     /*
