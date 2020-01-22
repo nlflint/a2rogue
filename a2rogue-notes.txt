@@ -1,0 +1,51 @@
+Player uses:
+    t_flags
+    hero t_pos
+    pstats t_stats
+    pack t_pack
+    
+    Follup: save_throw
+    
+Monster feature:
+
+Add monsters to room:
+    start a monster chars array
+    copy monsters to level (for now)
+    monster structs go in master array
+    mlist is a list of pointers
+    No more linked lists, statically allocated array
+    How many monsters to allow?
+    Monster struct size: 28 bytes
+    things are 25 bytes
+    new_item becomes new_monster
+    implement clear monsters
+    
+    
+
+Renaming:
+    new_thing is really new object
+    object struct is really a beast/monster
+    thing struct is fine
+    monster struct is a beast/monster type
+
+Questions:
+    How are dark rooms erased.
+    How does hero light up around him
+    
+Things and objects:
+Facts:
+    There are 9 rooms
+    There can be 1 monster per room to start
+    Wanderers are spawned ~70 moves
+    
+    30 monster limit?  20 * 28 bytes = 560 bytes
+    
+    Hero can hold 23 items
+    monsters can hold 1 item
+    1 thing can spawn in every room
+    traps can spawn darts
+    
+    50 thing limit? 50 * 25 bytes =  1250 bytes
+    
+    2k for items and monsters?
+    
