@@ -3,6 +3,7 @@
 //
 #include <conio.h>
 #include <stdio.h>
+#include <string.h>
 #include "curses.h"
 #include "rogue.h"
 
@@ -55,13 +56,35 @@ void show_window(struct WINDOW *window) {
     cputsxy(0, 0, window->data[0]);
 }
 
-void apply_status(void) {
-    cputsxy(0, 23, cw->data[23]);
+void wclrtoeol(struct WINDOW *window) {
+    unsigned char
+        *row = window->data[window->y],
+        x = window->x;
+
+    while (x < COLS)
+    {
+        row[x] = ' ';
+    }
+}
+
+void waddstr(struct WINDOW *window, char *string) {
+    strcpy(&window->data[window->y][window->x], string);
 }
 
 char buffer[81];
+
 void debug_num(char *description, int number) {
+    gotoxy(0,0);
+    cclear(80);
     sprintf(buffer, "%s: %d", description, number);
+    cputsxy(0, 0, buffer);
+    cgetc();
+}
+
+void debug_coord(char *description, coord *coor) {
+    gotoxy(0,0);
+    cclear(80);
+    sprintf(buffer, "%s: x:%d, y:%d", description, coor->x, coor->y);
     cputsxy(0, 0, buffer);
     cgetc();
 }

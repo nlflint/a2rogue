@@ -33,8 +33,10 @@
 #define prev(ptr) (*ptr).l_prev
 #define ldata(ptr) (*ptr).l_data
 #define inroom(rp, cp) (\
-    (cp)->x <= (rp)->r_pos.x + ((rp)->r_max.x - 1) && (rp)->r_pos.x <= (cp)->x \
- && (cp)->y <= (rp)->r_pos.y + ((rp)->r_max.y - 1) && (rp)->r_pos.y <= (cp)->y)
+    (cp)->x <= (rp)->r_pos.x + ((rp)->r_max.x - 1) \
+    && (rp)->r_pos.x <= (cp)->x \
+    && (cp)->y <= (rp)->r_pos.y + ((rp)->r_max.y - 1) \
+    && (rp)->r_pos.y <= (cp)->y)
 #define winat(y, x) (mvwinch(mw,y,x)==' '?mvwinch(stdscr,y,x):winch(mw))
 #define debug if (wizard) msg
 #define RN (((seed = seed*11109+13849) & 0x7fff) >> 1)
@@ -422,7 +424,7 @@ extern struct magic_item ws_magic[MAXSTICKS];	/* Names and chances for sticks */
 
 extern char level;				/* What level rogue is on */
 extern int purse;				/* How much gold the rogue has */
-extern int mpos;				/* Where cursor is on top line */
+extern unsigned char mpos;				/* Where cursor is on top line */
 extern char ntraps;				/* Number of traps on this level */
 extern int no_move;				/* Number of turns held in place */
 extern int no_command;				/* Number of turns asleep */
@@ -500,8 +502,6 @@ struct linked_list *new_thing(), *wake_monster();
 char *vowelstr(), *inv_name(), *sbrk(), *brk();
 char *ctime(), *num(), *ring_num();
 
-struct room *roomin();
-
 coord *rndmove();
 
 int auto_save(), endit(), nohaste(), doctor(), runners(), swander();
@@ -513,6 +513,6 @@ int tstp(), unconfuse(), unsee(), rollwand(), stomach(), sight();
 
 long lseek();
 
-struct trap *trap_at();
+//struct trap *trap_at();
 
 #endif

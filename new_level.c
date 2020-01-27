@@ -5,6 +5,9 @@
 #include "random.h"
 #include "curses.h"
 #include "io.h"
+#include "move.h"
+
+
 
 /*
  * new_level:
@@ -74,15 +77,15 @@ void new_level(void)
             traps[i].tr_pos = stairs;
         }
     }
-//    do
-//    {
-//	rm = rnd_room();
-//	rnd_pos(&rooms[rm], &hero);
-//    }
-//    until(winat(hero.y, hero.x) == FLOOR);
-//    light(&hero);
-//    wmove(cw, hero.y, hero.x);
-//    waddch(cw, PLAYER);
+    do
+    {
+        rm = rnd_room();
+        rnd_pos(&rooms[rm], &hero);
+    } until(winat(hero.y, hero.x) == FLOOR);
+
+    light(&hero);
+    wmove(cw, hero.y, hero.x);
+    waddch(cw, PLAYER);
 }
 
 /*

@@ -6,6 +6,8 @@
 #ifndef A2ROGUE_CURSES_H
 #define A2ROGUE_CURSES_H
 
+#include "rogue.h"
+
 # define	bool	char
 //# define	reg	register
 
@@ -14,6 +16,8 @@
 #define	ERR	(0)
 #define	OK	(1)
 #define	move(y, x) wmove(stdscr, y, x)
+
+extern char debug_row;
 
 //move STD cursor to x,y
 void wmove(struct WINDOW *window, unsigned char y, unsigned char x);
@@ -26,6 +30,9 @@ void show_window(struct WINDOW *window);
 void apply_status(void);
 void debug_num(char *description, int number);
 void debug_char(char *description, char ch);
+void debug_coord(char *description, coord *coor);
+void wclrtoeol(struct WINDOW *window);
+void waddstr(struct WINDOW *window, char *string);
 
 
 //# define	_SUBWIN		01
@@ -104,7 +111,7 @@ void debug_char(char *description, char ch);
 //# define	clear()		VOID(wclear(stdscr))
 //# define	erase()		VOID(werase(stdscr))
 //# define	clrtobot()	VOID(wclrtobot(stdscr))
-//# define	clrtoeol()	VOID(wclrtoeol(stdscr))
+#define	clrtoeol()	wclrtoeol(stdscr)
 //# define	insertln()	VOID(winsertln(stdscr))
 //# define	deleteln()	VOID(wdeleteln(stdscr))
 //# define	refresh()	VOID(wrefresh(stdscr))
@@ -117,7 +124,7 @@ void debug_char(char *description, char ch);
  */
 //#define	mvwaddch(win,y,x,ch)	(wmove(win,y,x)==ERR?ERR:waddch(win,ch))
 //#define	mvwgetch(win,y,x)	VOID(wmove(win,y,x)==ERR?ERR:wgetch(win))
-//#define	mvwaddstr(win,y,x,str)	VOID(wmove(win,y,x)==ERR?ERR:waddstr(win,str))
+#define	mvwaddstr(win,y,x,str)	wmove(win,y,x);waddstr(win,str)
 //#define	mvwgetstr(win,y,x)	VOID(wmove(win,y,x)==ERR?ERR:wgetstr(win))
 //#define	mvwinch(win,y,x)	(wmove(win,y,x) == ERR ? ERR : winch(win))
 #define	mvaddch(y,x,ch)		mvwaddch(stdscr,y,x,ch)

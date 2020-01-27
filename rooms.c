@@ -57,8 +57,8 @@ void do_rooms(void)
             {
                 rp->r_pos.x = top.x + rnd(bsze.x-2) + 1;
                 rp->r_pos.y = top.y + rnd(bsze.y-2) + 1;
-                rp->r_max.x = -COLS;
-                rp->r_max.x = -LINES;
+                rp->r_max.x = 1;
+                rp->r_max.x = 1;
             } until(rp->r_pos.y > 0 && rp->r_pos.y < LINES-1);
             continue;
         }

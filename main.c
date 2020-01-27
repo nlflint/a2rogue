@@ -205,20 +205,25 @@ void main(void)
 //    add_pack(item, TRUE);
 //    playit();
 
-        level++;
-        hungry_state = rnd(4);
-        purse = rnd(20000);
-        new_level();
-        show_window(stdscr);
-        apply_status();
-
         key_pressed = cgetc();
 
-        if (key_pressed == 'm') {
-            show_window(mw);
-            cgetc();
+        switch (key_pressed) {
+            case 'm':
+                show_window(mw);
+                break;
+            case 'n':
+                level++;
+                hungry_state = rnd(4);
+                purse = rnd(20000);
+                new_level();
+            case 'd':
+                show_window(stdscr);
+                break;
+            case 'c':
+                show_window(cw);
+            default:
+                break;
         }
-
     }
 }
 

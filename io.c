@@ -8,6 +8,8 @@
 #include "io.h"
 #include "rogue.h"
 #include <stdio.h>
+#include <string.h>
+#include <conio.h>
 
 
 /*
@@ -15,30 +17,31 @@
  *	Display a message at the top of the screen.
  */
 
-//static char msgbuf[BUFSIZ];
-//static int newpos = 0;
+static char msgbuf[COLS+1];
+static int next_pos = 0;
 
 /*VARARGS1*/
-//msg(fmt, args)
-//char *fmt;
-//int args;
-//{
-//    /*
-//     * if the string is "", just clear the line
-//     */
-//    if (*fmt == '\0')
-//    {
-//	wmove(cw, 0, 0);
-//	wclrtoeol(cw);
-//	mpos = 0;
-//	return;
-//    }
-//    /*
-//     * otherwise add to the message and flush it out
-//     */
-//    doadd(fmt, &args);
-//    endmsg();
-//}
+void msg(char *fmt, char count, ...)
+{
+    va_list varargs;
+    /*
+     * if the string is "", just clear the line
+     */
+    if (*fmt == '\0')
+    {
+        wmove(cw, 0, 0);
+        wclrtoeol(cw);
+        mpos = 0;
+        return;
+    }
+    /*
+     * otherwise add to the message and flush it out
+     */
+    va_start(varargs, count);
+    doadd(fmt, varargs);
+    endmsg();
+    va_end(varargs)
+}
 
 /*
  * add things to the current message
@@ -54,39 +57,40 @@
  * Display a new msg (giving him a chance to see the previous one if it
  * is up there with the --More--)
  */
-//endmsg()
-//{
-//    strcpy(huh, msgbuf);
-//    if (mpos)
-//    {
-//	wmove(cw, 0, mpos);
-//	waddstr(cw, "--More--");
-//	draw(cw);
-//	wait_for(' ');
-//    }
-//    mvwaddstr(cw, 0, 0, msgbuf);
-//    wclrtoeol(cw);
-//    mpos = newpos;
-//    newpos = 0;
-//    draw(cw);
-//}
-//
-//doadd(fmt, args)
-//char *fmt;
-//int **args;
-//{
+void endmsg(void)
+{
+    strcpy(huh, msgbuf);
+    if (mpos)
+    {
+        wmove(cw, 0, mpos);
+        waddstr(cw, "--More--");
+        //draw(cw);
+        wait_for(' ');
+    }
+    mvwaddstr(cw, 0, 0, msgbuf);
+    wclrtoeol(cw);
+    mpos = next_pos;
+    next_pos = 0;
+    //draw(cw);
+}
+
+void doadd(char *fmt, va_list varargs)
+{
+    vsprintf(&msgbuf[next_pos], fmt, varargs);
+    next_pos = strlen(msgbuf);
 //    static FILE junk;
-//
-//    /*
-//     * Do the printf into buf
-//     */
+
+    /*
+     * Do the printf into buf
+     */
 //    junk._flag = _IOWRT + _IOSTRG;
 //    junk._ptr = &msgbuf[newpos];
 //    junk._cnt = 32767;
 //    _doprnt(fmt, args, &junk);
 //    putc('\0', &junk);
 //    newpos = strlen(msgbuf);
-//}
+
+}
 
 /*
  * step_ok:
@@ -165,30 +169,29 @@ void status(void)
             cur_armor != NULL ? cur_armor->o_ac : pstats.s_arm,
             pstats.s_lvl,
             pstats.s_exp,
-            get_hunger_state());
+            /*get_hunger_state()*/ "Hungry");
 }
 
-const char *get_hunger_state() {
-
-}
+//const char *get_hunger_state() {
+//
+//}
 
 /*
  * wait_for
  *	Sit around until the guy types the right key
  */
 
-//wait_for(ch)
-//register char ch;
-//{
-//    register char c;
-//
+void wait_for(char ch)
+{
+    register char c;
+
 //    if (ch == '\n')
-//        while ((c = readchar()) != '\n' && c != '\r')
+//        while ((c = cgetc()) != '\n' && c != '\r')
 //	    continue;
 //    else
-//        while (readchar() != ch)
-//	    continue;
-//}
+        while (cgetc() != ch)
+	        continue;
+}
 
 /*
  * show_win:
