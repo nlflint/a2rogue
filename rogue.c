@@ -72,9 +72,9 @@ char *ws_type[MAXSTICKS];		/* Is it a wand or a staff */
 char file_name[80];			/* Save file name */
 char home[80];				/* User's home directory */
 
-bool running;				/* True if player is running */
-bool playing;				/* True until he quits */
-bool wizard;				/* True if allows wizard commands */
+bool running = FALSE;				/* True if player is running */
+bool playing = TRUE;				/* True until he quits */
+bool wizard = FALSE;				/* True if allows wizard commands */
 bool after;				/* True if we want after daemons */
 bool notify;				/* True if player wants to know */
 bool fight_flush;			/* True if toilet input */

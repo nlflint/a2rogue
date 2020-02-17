@@ -11,8 +11,6 @@
 # define	bool	char
 //# define	reg	register
 
-#define	TRUE	(1)
-#define	FALSE	(0)
 #define	ERR	(0)
 #define	OK	(1)
 #define	move(y, x) wmove(stdscr, y, x)
@@ -131,7 +129,7 @@ void waddstr(struct WINDOW *window, char *string);
 //#define	mvgetch(y,x)		mvwgetch(stdscr,y,x)
 //#define	mvaddstr(y,x,str)	mvwaddstr(stdscr,y,x,str)
 //#define	mvgetstr(y,x)		mvwgetstr(stdscr,y,x)
-//#define	mvinch(y,x)		mvwinch(stdscr,y,x)
+#define	mvinch(y,x)		mvwinch(stdscr,y,x)
 
 /*
  * psuedo functions
@@ -141,7 +139,7 @@ void waddstr(struct WINDOW *window, char *string);
 //#define	leaveok(win,bf)	 (win->_leave = bf)
 //#define	scrollok(win,bf) (win->_scroll = bf)
 //#define flushok(win,bf)	 (bf ? (win->_flags |= _FLUSH):(win->_flags &= ~_FLUSH))
-#define	getyx(win,y,x)	 y = win->y, x = win->x
+#define	getyx(win,y_var,x_var)	 y_var = win->y, x_var = win->x
 //#define	winch(win)	 (win->_y[win->_cury][win->_curx])
 //
 //#define raw()	 (_tty.sg_flags|=RAW, _pfast=_rawmode=TRUE, stty(_tty_ch,&_tty))

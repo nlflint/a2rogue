@@ -48,99 +48,104 @@ coord nh;
  *	Check to see that a move is legal.  If it is handle the
  * consequences (fighting, picking up, etc.)
  */
-//
-//do_move(dy, dx)
-//int dy, dx;
-//{
-//    register char ch;
-//
-//    firstmove = FALSE;
-//    if (no_move)
-//    {
-//	no_move--;
-//	msg("You are still stuck in the bear trap");
-//	return;
-//    }
-//    /*
-//     * Do a confused move (maybe)
-//     */
+
+void do_move(char dy, char dx)
+{
+    register char ch;
+
+    firstmove = FALSE;
+    if (no_move)
+    {
+        no_move--;
+        msg("You are still stuck in the bear trap", 0);
+        return;
+    }
+    /*
+     * Do a confused move (maybe)
+     */
 //    if (rnd(100) < 80 && on(player, ISHUH))
-//	nh = *rndmove(&player);
+//	    nh = *rndmove(&player);
 //    else
 //    {
-//	nh.y = hero.y + dy;
-//	nh.x = hero.x + dx;
+        nh.y = hero.y + dy;
+        nh.x = hero.x + dx;
 //    }
-//
-//    /*
-//     * Check if he tried to move off the screen or make an illegal
-//     * diagonal move, and stop him if he did.
-//     */
-//    if (nh.x < 0 || nh.x > COLS-1 || nh.y < 0 || nh.y > LINES - 1
-//	|| !diag_ok(&hero, &nh))
-//    {
-//	after = FALSE;
-//	running = FALSE;
-//	return;
-//    }
-//    if (running && ce(hero, nh))
-//	after = running = FALSE;
-//    ch = winat(nh.y, nh.x);
-//    if (on(player, ISHELD) && ch != 'F')
-//    {
-//	msg("You are being held");
-//	return;
-//    }
-//    switch(ch)
-//    {
-//	case ' ':
-//	case '|':
-//	case '-':
-//	case SECRETDOOR:
-//	    after = running = FALSE;
-//	    return;
-//	case TRAP:
-//	    ch = be_trapped(&nh);
-//	    if (ch == TRAPDOOR || ch == TELTRAP)
-//		return;
-//	    goto move_stuff;
-//	case GOLD:
-//	case POTION:
-//	case SCROLL:
-//	case FOOD:
-//	case WEAPON:
-//	case ARMOR:
-//	case RING:
-//	case AMULET:
-//	case STICK:
-//	    running = FALSE;
-//	    take = ch;
-//	default:
-//move_stuff:
-//	    if (ch == PASSAGE && winat(hero.y, hero.x) == DOOR)
-//		light(&hero);
-//	    else if (ch == DOOR)
-//	    {
-//		running = FALSE;
-//		if (winat(hero.y, hero.x) == PASSAGE)
-//		    light(&nh);
-//	    }
-//	    else if (ch == STAIRS)
-//		running = FALSE;
+
+    /*
+     * Check if he tried to move off the screen or make an illegal
+     * diagonal move, and stop him if he did.
+     */
+    if (nh.x < 0 || nh.x > COLS-1 || nh.y < 0 || nh.y > LINES - 1
+//	    || !diag_ok(&hero, &nh)
+	    )
+    {
+        after = FALSE;
+        running = FALSE;
+        return;
+    }
+
+    if (running && ce(hero, nh))
+	    after = running = FALSE;
+
+    ch = winat(nh.y, nh.x);
+
+    if (on(player, ISHELD) && ch != 'F')
+    {
+        msg("You are being held", 0);
+        return;
+    }
+    switch(ch)
+    {
+        case ' ':
+        case '|':
+        case '-':
+        case SECRETDOOR:
+            after = running = FALSE;
+            return;
+//        case TRAP:
+//            ch = be_trapped(&nh);
+//            if (ch == TRAPDOOR || ch == TELTRAP)
+//            return;
+//            goto move_stuff;
+//        case GOLD:
+//        case POTION:
+//        case SCROLL:
+//        case FOOD:
+//        case WEAPON:
+//        case ARMOR:
+//        case RING:
+//        case AMULET:
+//        case STICK:
+//            running = FALSE;
+//            take = ch;
+        default:
+
+    move_stuff:
+	    if (ch == PASSAGE && winat(hero.y, hero.x) == DOOR)
+		    light(&hero);
+	    else if (ch == DOOR)
+	    {
+		    running = FALSE;
+		    if (winat(hero.y, hero.x) == PASSAGE)
+		        light(&nh);
+	    }
+	    else if (ch == STAIRS)
+		    running = FALSE;
 //	    else if (isupper(ch))
 //	    {
-//		running = FALSE;
-//		fight(&nh, ch, cur_weapon, FALSE);
-//		return;
+//            running = FALSE;
+//            fight(&nh, ch, cur_weapon, FALSE);
+//            return;
 //	    }
-//	    ch = winat(hero.y, hero.x);
-//	    wmove(cw, unc(hero));
-//	    waddch(cw, ch);
-//	    hero = nh;
-//	    wmove(cw, unc(hero));
-//	    waddch(cw, PLAYER);
-//    }
-//}
+
+	    ch = winat(hero.y, hero.x);
+	    wmove(cw, unc(hero));
+	    waddch(cw, ch);
+	    hero = nh;
+	    wmove(cw, unc(hero));
+	    waddch(cw, PLAYER);
+    }
+}
 
 /*
  * Called to illuminate a room.

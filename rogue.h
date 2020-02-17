@@ -8,6 +8,8 @@
 #define A2ROGUE_ROGUE_H
 
 # define	bool	char
+#define	TRUE	(1)
+#define	FALSE	(0)
 #define NULL 0
 /*
  * Maximum number of different things

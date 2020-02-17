@@ -17,12 +17,15 @@
 #include <conio.h>
 #include <apple2enh.h>
 #include "random.h"
+#include "chase.h"
+#include "command.h"
 
 char *EIGHTY_COLUMN = 0xC00D;
 
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
 //#endif
+void playit(void);
 
 void main(void)
 {
@@ -208,18 +211,21 @@ void main(void)
         key_pressed = cgetc();
 
         switch (key_pressed) {
-            case 'm':
+            case '3':
                 show_window(mw);
+                break;
+            case 'p':
+                playit();
                 break;
             case 'n':
                 level++;
                 hungry_state = rnd(4);
                 purse = rnd(20000);
                 new_level();
-            case 'd':
+            case '2':
                 show_window(stdscr);
                 break;
-            case 'c':
+            case '1':
                 show_window(cw);
             default:
                 break;
@@ -343,14 +349,14 @@ void main(void)
  * refreshing things and looking at the proper times.
  */
 
-//playit()
-//{
+void playit(void)
+{
 //    register char *opts;
-//
-//    /*
-//     * set up defaults for slow terminals
-//     */
-//
+
+    /*
+     * set up defaults for slow terminals
+     */
+
 //    if (_tty.sg_ospeed < B1200)
 //    {
 //	terse = TRUE;
@@ -362,14 +368,15 @@ void main(void)
 //     */
 //    if ((opts = getenv("ROGUEOPTS")) != NULL)
 //	parse_opts(opts);
-//
-//
-//    oldpos = hero;
-//    oldrp = roomin(&hero);
-//    while (playing)
-//	command();			/* Command execution */
-//    endit();
-//}
+
+
+    oldpos = hero;
+    oldrp = roomin(&hero);
+    while (playing)
+	    command();			/* Command execution */
+
+	//endit();
+}
 
 //#if MAXLOAD|MAXUSERS
 /*

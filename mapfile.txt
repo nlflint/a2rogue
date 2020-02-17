@@ -1,0 +1,2088 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=0000AF  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000002  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+new_level.o:
+    CODE              Offs=0000AF  Size=0003A2  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+rooms.o:
+    CODE              Offs=000451  Size=0006BE  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+random.o:
+    CODE              Offs=000B0F  Size=000034  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+curses.o:
+    CODE              Offs=000B43  Size=000397  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=00006E  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000051  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+rogue.o:
+    CODE              Offs=000EDA  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=00006E  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=000051  Size=00268C  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+move.o:
+    CODE              Offs=000EDA  Size=0004B4  Align=00001  Fill=0000
+    RODATA            Offs=00006E  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0026DD  Size=000002  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+passages.o:
+    CODE              Offs=00138E  Size=000AFF  Align=00001  Fill=0000
+    RODATA            Offs=00006E  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=0026DF  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=000002  Size=0000AB  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+io.o:
+    CODE              Offs=001E8D  Size=000244  Align=00001  Fill=0000
+    RODATA            Offs=00006E  Size=00006D  Align=00001  Fill=0000
+    BSS               Offs=0026DF  Size=000051  Align=00001  Fill=0000
+    DATA              Offs=0000AD  Size=000002  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+chase.o:
+    CODE              Offs=0020D1  Size=000107  Align=00001  Fill=0000
+    RODATA            Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002730  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_cursor.o):
+    CODE              Offs=0021D8  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002730  Size=000001  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_directerrno.o):
+    CODE              Offs=0021D8  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_hextab.o):
+    CODE              Offs=0021E1  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000DB  Size=000010  Align=00001  Fill=0000
+    BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_longminstr.o):
+    CODE              Offs=0021E1  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000EB  Size=00000C  Align=00001  Fill=0000
+    BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_oserror.o):
+    CODE              Offs=0021E1  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002731  Size=000001  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_printf.o):
+    CODE              Offs=0021E1  Size=0003A5  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002732  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=0000AF  Size=000003  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_seterrno.o):
+    CODE              Offs=002586  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(add.o):
+    CODE              Offs=00258F  Size=000018  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(addeqsp.o):
+    CODE              Offs=0025A7  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(addysp.o):
+    CODE              Offs=0025B8  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(aslax1.o):
+    CODE              Offs=0025C6  Size=000008  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(axlong.o):
+    CODE              Offs=0025CE  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(bneg.o):
+    CODE              Offs=0025DB  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(callmain.o):
+    CODE              Offs=0025E9  Size=000017  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B2  Size=000004  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cclear.o):
+    CODE              Offs=002600  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B6  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cgetc.o):
+    CODE              Offs=00260A  Size=00002D  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B6  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(chline.o):
+    CODE              Offs=002637  Size=000019  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B6  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(clrscr.o):
+    CODE              Offs=002650  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B6  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(condes.o):
+    CODE              Offs=002650  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000B6  Size=000025  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cout.o):
+    CODE              Offs=00265C  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    LOWCODE           Offs=000000  Size=00000A  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cputc.o):
+    CODE              Offs=00265C  Size=00005B  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    ONCE              Offs=00000C  Size=000007  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cputs.o):
+    CODE              Offs=0026B7  Size=000023  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DB  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(crt0.o):
+    CODE              Offs=0026DA  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=0000F7  Size=000007  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DB  Size=000003  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=000034  Align=00001  Fill=0000
+    ONCE              Offs=000013  Size=00006A  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001D  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ctype.o):
+    CODE              Offs=0026EC  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0000FE  Size=000100  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax1.o):
+    CODE              Offs=0026EC  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax2.o):
+    CODE              Offs=0026F3  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax4.o):
+    CODE              Offs=0026FA  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp1.o):
+    CODE              Offs=002701  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp2.o):
+    CODE              Offs=00270A  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp4.o):
+    CODE              Offs=002717  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp5.o):
+    CODE              Offs=002724  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp6.o):
+    CODE              Offs=002731  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(div.o):
+    CODE              Offs=00273E  Size=000015  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(enter.o):
+    CODE              Offs=002753  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(eq.o):
+    CODE              Offs=002761  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(errno.o):
+    CODE              Offs=00276B  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275D  Size=000002  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(exehdr.o):
+    CODE              Offs=00276B  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    EXEHDR            Offs=000000  Size=00003A  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(gotoxy.o):
+    CODE              Offs=00276B  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(home.o):
+    CODE              Offs=00277C  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    LOWCODE           Offs=00000A  Size=00000A  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(icmp.o):
+    CODE              Offs=00277C  Size=00002E  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax2.o):
+    CODE              Offs=0027AA  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax3.o):
+    CODE              Offs=0027B1  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax5.o):
+    CODE              Offs=0027B6  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incaxy.o):
+    CODE              Offs=0027BB  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp1.o):
+    CODE              Offs=0027C6  Size=000007  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp2.o):
+    CODE              Offs=0027CD  Size=000015  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp3.o):
+    CODE              Offs=0027E2  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp4.o):
+    CODE              Offs=0027E7  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp5.o):
+    CODE              Offs=0027EC  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp6.o):
+    CODE              Offs=0027F1  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp7.o):
+    CODE              Offs=0027F6  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaui.o):
+    CODE              Offs=0027FB  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaxi.o):
+    CODE              Offs=002804  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaxsp.o):
+    CODE              Offs=002811  Size=000009  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(leaaxsp.o):
+    CODE              Offs=00281A  Size=00000C  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(leave.o):
+    CODE              Offs=002826  Size=00001B  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lneg.o):
+    CODE              Offs=002841  Size=00001E  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lpush.o):
+    CODE              Offs=00285F  Size=00001E  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lt.o):
+    CODE              Offs=00287D  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ltoa.o):
+    CODE              Offs=002887  Size=000093  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(makebool.o):
+    CODE              Offs=00291A  Size=00002C  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(memcpy.o):
+    CODE              Offs=002946  Size=00003C  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mod.o):
+    CODE              Offs=002982  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mul.o):
+    CODE              Offs=002993  Size=000045  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mul8.o):
+    CODE              Offs=0029D8  Size=00003A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mulax10.o):
+    CODE              Offs=002A12  Size=000019  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mulax5.o):
+    CODE              Offs=002A2B  Size=000014  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ne.o):
+    CODE              Offs=002A3F  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(negabs.o):
+    CODE              Offs=002A49  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(popa.o):
+    CODE              Offs=002A5B  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(popptr1.o):
+    CODE              Offs=002A65  Size=00000E  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(push1.o):
+    CODE              Offs=002A73  Size=000005  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pusha.o):
+    CODE              Offs=002A78  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pushax.o):
+    CODE              Offs=002A8E  Size=00001A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pushwsp.o):
+    CODE              Offs=002AA8  Size=00001C  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(rand.o):
+    CODE              Offs=002AC4  Size=00004A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000DE  Size=000004  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(return0.o):
+    CODE              Offs=002B0E  Size=000004  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(shelp.o):
+    CODE              Offs=002B12  Size=000020  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(shrax2.o):
+    CODE              Offs=002B32  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(sprintf.o):
+    CODE              Offs=002B3D  Size=00002B  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=00275F  Size=000001  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staspidx.o):
+    CODE              Offs=002B68  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staxsp.o):
+    CODE              Offs=002B7E  Size=00000B  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staxspi.o):
+    CODE              Offs=002B89  Size=00001A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strcpy.o):
+    CODE              Offs=002BA3  Size=00001F  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strlen.o):
+    CODE              Offs=002BC2  Size=000016  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strlower.o):
+    CODE              Offs=002BD8  Size=000028  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(sub.o):
+    CODE              Offs=002C00  Size=000014  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(subysp.o):
+    CODE              Offs=002C14  Size=00000D  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(udiv.o):
+    CODE              Offs=002C21  Size=00004F  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(uge.o):
+    CODE              Offs=002C70  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ugt.o):
+    CODE              Offs=002C7A  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ule.o):
+    CODE              Offs=002C84  Size=00000A  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ult.o):
+    CODE              Offs=002C8E  Size=000008  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(videomode.o):
+    CODE              Offs=002C96  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    LOWCODE           Offs=000014  Size=00002A  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vsnprintf.o):
+    CODE              Offs=002C96  Size=0000DA  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000E2  Size=000008  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vsprintf.o):
+    CODE              Offs=002D70  Size=000012  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000EA  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vtabz.o):
+    CODE              Offs=002D82  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000EA  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+    LOWCODE           Offs=00003E  Size=00000A  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(zerobss.o):
+    CODE              Offs=002D82  Size=000023  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000EA  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(zeropage.o):
+    CODE              Offs=002DA5  Size=000000  Align=00001  Fill=0000
+    RODATA            Offs=0001FE  Size=000000  Align=00001  Fill=0000
+    BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
+    DATA              Offs=0000EA  Size=000000  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+    NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+NULL                  000000  000000  000000  00001
+ZEROPAGE              000080  000099  00001A  00001
+EXEHDR                0007C9  000802  00003A  00001
+STARTUP               000803  000836  000034  00001
+LOWCODE               000837  00087E  000048  00001
+CODE                  00087F  003623  002DA5  00001
+RODATA                003624  003821  0001FE  00001
+DATA                  003822  00390B  0000EA  00001
+INIT                  00390C  003928  00001D  00001
+BSS                   003929  006088  002760  00001
+ONCE                  003929  0039A7  00007F  00001
+
+
+Exports list by name:
+---------------------
+COUT                      000837 RLA    HOME                      000841 RLA    
+VTABZ                     000875 RLA    _EIGHTY_COLUMN            003822  LA    
+__BSS_LOAD__              003929  LA    __BSS_RUN__               003929 RLA    
+__BSS_SIZE__              002760 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__CONSTRUCTOR_TABLE__     0039A6 RLA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      003822 RLA    __EXEHDR__                000001 REA    
+__FILETYPE__              000006 REA    __HIMEM__                 009600 REA    
+__LCADDR__                00D400 REA    __LCSIZE__                000C00 REA    
+__LC_FILEOFFS__           000000  EA    __LC_LAST__               00D400 RLA    
+__LC_SIZE__               000C00  EA    __LC_START__              00D400 RLA    
+__MAIN_FILEOFFS__         00003A  EA    __MAIN_LAST__             0039A8 RLA    
+__MAIN_SIZE__             008DFD  EA    __MAIN_START__            000803 RLA    
+__ONCE_LOAD__             003929 RLA    __ONCE_RUN__              003929 RLA    
+__ONCE_SIZE__             00007F REA    __STACKSIZE__             000800 REA    
+__STARTUP__               000001 REA    __ZP_FILEOFFS__           000000  EA    
+__ZP_LAST__               00009A  LA    __ZP_SIZE__               00001A  EA    
+__ZP_START__              000080  LA    __argc                    0038D4  LA    
+__argv                    0038D6  LA    __ctype                   003722 RLA    
+__directerrno             002A57 RLA    __errno                   006086 RLA    
+__hextab                  0036FF RLA    __longminstr              00370F RLA    
+__oserror                 00605A RLA    __printf                  002B53 RLA    
+__seterrno                002E05 RLA    _a_chances                003E65  LA    
+_a_class                  003E75  LA    _a_names                  003F5A  LA    
+_abs                      0032C8 RLA    _after                    005FBD  LA    
+_amulet                   006000 RLA    _askme                    005FC6  LA    
+_buffer                   003929  LA    _cclear                   002E84 RLA    
+_cclearxy                 002E7F  LA    _cgetc                    002E89 RLA    
+_chline                   002EBB  LA    _chlinexy                 002EB6  LA    
+_clrscr                   000841 RLA    _conn                     0020A8  LA    
+_count                    003E8B  LA    _cputc                    002EE0 RLA    
+_cputcxy                  002EDB  LA    _cputs                    002F40  LA    
+_cputsxy                  002F36 RLA    _cur_armor                003CD0 RLA    
+_cur_ring                 003CD2  LA    _cur_weapon               003CCE  LA    
+_cw                       0041A6 RLA    _debug_char               001611  LA    
+_debug_coord              001650  LA    _debug_num                0015C4  LA    
+_delta                    006004  LA    _dnum                     003E8D  LA    
+_do_passages              001C0D RLA    _do_rooms                 000CD0 RLA    
+_doadd                    00270C  LA    _door                     00263F  LA    
+_door_stop                005FC1  LA    _draw_room                001121  LA    
+_dungeon_window           005835 RLA    _endmsg                   0028B1  LA    
+_exit                     00080F  LA    _fight_flush              005FBF  LA    
+_file_name                004106  LA    _firstmove                005FC4  LA    
+_food_left                003E95  LA    _fruit                    003FD8  LA    
+_fung_hit                 003E8F  LA    _gotox                    002FF8  LA    
+_gotoxy                   002FED RLA    _group                    003E97  LA    
+_help_window              00492D  LA    _home                     004156  LA    
+_horiz                    0012F2  LA    _huh                      004028 RLA    
+_hungry_state             003E99 RLA    _hw                       00492B  LA    
+_in_shell                 006001  LA    _inpack                   003E5F  LA    
+_jump                     005FC2  LA    _lastscore                003E85  LA    
+_level                    003E56 RLA    _light                    001759 RLA    
+_ltoa                     00311E RLA    _lvl_obj                  003CCC  LA    
+_main                     00087F RLA    _max_hp                   003E61 RLA    
+_max_level                003E93 RLA    _max_stats                003A80  LA    
+_memcpy                   0031C5 RLA    _mlist                    003A62  LA    
+_monster_window           0050B0 RLA    _monsters                 003A90  LA    
+_mpos                     003E59 RLA    _msg                      002830  LA    
+_mvwaddch                 001579 RLA    _mvwinch                  001551 RLA    
+_mw                       005833 RLA    _new_level                00092E RLA    
+_nh                       006006  LA    _no_command               003E5D  LA    
+_no_food                  003E87  LA    _no_move                  003E5B  LA    
+_notify                   005FBE  LA    _ntraps                   003E5A RLA    
+_oldpos                   006002  LA    _oldrp                    003A60  LA    
+_p_colors                 003F0C  LA    _p_guess                  004098  LA    
+_p_know                   005FD7  LA    _p_magic                  003D60  LA    
+_play_window              0041A8 RLA    _player                   003A64 RLA    
+_playing                  005FBB  LA    _prbuf                    003E9B  LA    
+_purse                    003E57 RLA    _quiet                    003E91  LA    
+_r_guess                  0040B4  LA    _r_know                   005FE5  LA    
+_r_magic                  003DB4  LA    _r_stones                 003F28  LA    
+_rand                     003343 RLA    _release                  003F86  LA    
+_rnd                      00138E RLA    _rnd_pos                  0010B4 RLA    
+_rnd_room                 000C8B RLA    _roomin                   002950 RLA    
+_rooms                    0039AC RLA    _runch                    003EEB  LA    
+_running                  005FBA  LA    _s_guess                  004078  LA    
+_s_know                   005FC7  LA    _s_magic                  003D00  LA    
+_s_names                  003EEC  LA    _seed                     003E89  LA    
+_show                     001A27  LA    _show_window              0015A5 RLA    
+_slow_invent              005FC3  LA    _sprintf                  0033BC RLA    
+_srand                    00337E  LA    _status                   002742 RLA    
+_stdscr                   005FB8 RLA    _strcpy                   003422 RLA    
+_strlen                   003441 RLA    _strlower                 003457 RLA    
+_strlwr                   003457  LA    _take                     003E9A  LA    
+_terse                    005FC0  LA    _things                   003CD6  LA    
+_total                    003E63  LA    _trap_at                  001B61  LA    
+_traps                    00397A RLA    _ultoa                    00315D RLA    
+_vert                     00131A  LA    _videomode                00084B RLA    
+_vsnprintf                003515  LA    _vsprintf                 0035EF RLA    
+_w_names                  003F42  LA    _waddch                   0013EF RLA    
+_waddstr                  001715 RLA    _wait_for                 00292F  LA    
+_waswizard                005FC5  LA    _wclear                   0014B5 RLA    
+_wclrtoeol                0016AF RLA    _whoami                   003F88  LA    
+_winch                    00145D RLA    _wizard                   005FBC  LA    
+_wmove                    0013C2 RLA    _ws_guess                 0040CE  LA    
+_ws_know                  005FF2  LA    _ws_made                  003F6A  LA    
+_ws_magic                 003E02  LA    _ws_type                  0040EA  LA    
+addeq0sp                  002E26  LA    addeqysp                  002E28 RLA    
+addysp                    002E38 RLA    addysp1                   002E37 RLA    
+aslax1                    002E45 RLA    axlong                    002E4D RLA    
+axulong                   002E53 RLA    bnega                     002E5E RLA    
+bnegax                    002E5A RLA    booleq                    00319F RLA    
+boolge                    0031B0  LA    boolgt                    0031AE  LA    
+boolle                    0031A6  LA    boollt                    0031A8 RLA    
+boolne                    003199 RLA    booluge                   0031C0 RLA    
+boolugt                   0031BE RLA    boolule                   0031B6 RLA    
+boolult                   0031B8 RLA    callmain                  002E68 RLA    
+chlinedirect              002EBD RLA    condes                    0038D8  LA    
+cputdirect                002EEA RLA    cursor                    006059 RLA    
+decax1                    002F6B RLA    decax2                    002F72 RLA    
+decax4                    002F79 RLA    decsp1                    002F80 RLA    
+decsp2                    002F89 RLA    decsp4                    002F96 RLA    
+decsp5                    002FA3 RLA    decsp6                    002FB0 RLA    
+done                      0038FD  LA    donelib                   002ECF RLA    
+enter                     002FD2 RLA    gotoxy                    002FEA RLA    
+incax2                    003029 RLA    incax3                    003030 RLA    
+incax4                    00303A RLA    incax5                    003035 RLA    
+incaxy                    00303C RLA    incsp1                    003045 RLA    
+incsp2                    003053 RLA    incsp3                    003061 RLA    
+incsp4                    003066 RLA    incsp5                    00306B RLA    
+incsp6                    003070 RLA    incsp7                    003075 RLA    
+initconio                 003935  LAI   initlib                   003929 RLA    
+ldauidx                   00307A RLA    ldax0sp                   003090  LA    
+ldaxi                     003083  LA    ldaxidx                   003085 RLA    
+ldaxysp                   003092 RLA    leaa0sp                   003099 RLA    
+leaaxsp                   00309B RLA    leave                     0030B2  LA    
+leave0                    0030A7  LA    leave00                   0030A5  LA    
+leavey                    0030AF RLA    leavey0                   0030AD  LA    
+leavey00                  0030AB  LA    memcpy_getparams          0031EE  LA    
+memcpy_upwards            0031C8  LA    mul8x16                   003259 RLA    
+mul8x16a                  003263 RLA    mulax10                   003291 RLA    
+mulax5                    0032AA RLA    negax                     0032CC RLA    
+negeax                    0030C0 RLA    newline                   002EFD  LA    
+popa                      0032DA RLA    popax                     00304C RLA    
+popptr1                   0032E4 RLA    popsargsudiv16            003391 RLA    
+ptr1                      000088 RLZ    ptr2                      00008A RLZ    
+ptr3                      00008C RLZ    ptr4                      00008E RLZ    
+push0                     00330D  LA    push0ax                   0030E1  LA    
+push1                     0032F2 RLA    pusha                     0032FB RLA    
+pusha0                    00330F RLA    pusha0sp                  0032F7  LA    
+pushax                    003311 RLA    pushaysp                  0032F9  LA    
+pusheax                   0030E5 RLA    pushl0                    0030DE  LA    
+pushw0sp                  003327 RLA    pushwysp                  003329  LA    
+putchar                   002F0C  LA    putchardirect             002F1C RLA    
+regbank                   000094 RLZ    regsave                   000084 RLZ    
+return                    002F64  LA    return0                   00338D RLA    
+shlax1                    002E45  LA    shrax2                    0033B1 RLA    
+sp                        000080 RLZ    sreg                      000082 RLZ    
+staspidx                  0033E7 RLA    stax0sp                   0033FD  LA    
+staxspidx                 003408 RLA    staxysp                   0033FF RLA    
+subysp                    003493 RLA    tmp1                      000090 RLZ    
+tmp2                      000091 RLZ    tmp3                      000092  LZ    
+tmp4                      000093  LZ    tosadda0                  002E0E  LA    
+tosaddax                  002E10 RLA    tosdiva0                  002FBD  LA    
+tosdivax                  002FBF RLA    toseq00                   002FE0  LA    
+toseqa0                   002FE2  LA    toseqax                   002FE4 RLA    
+tosicmp                   002FFD RLA    tosicmp0                  002FFB  LA    
+toslt00                   0030FC  LA    toslta0                   0030FE  LA    
+tosltax                   003100 RLA    tosmoda0                  003201  LA    
+tosmodax                  003203 RLA    tosmula0                  003257  LA    
+tosmulax                  003212 RLA    tosne00                   0032BE  LA    
+tosnea0                   0032C0  LA    tosneax                   0032C2 RLA    
+tossuba0                  00347F  LA    tossubax                  003481 RLA    
+tosudiva0                 0034A0  LA    tosudivax                 0034A2  LA    
+tosuge00                  0034EF  LA    tosugea0                  0034F1  LA    
+tosugeax                  0034F3 RLA    tosugt00                  0034F9  LA    
+tosugta0                  0034FB  LA    tosugtax                  0034FD RLA    
+tosule00                  003503  LA    tosulea0                  003505  LA    
+tosuleax                  003507 RLA    tosult00                  00338D  EA    
+tosulta0                  00350D  LA    tosultax                  00350F RLA    
+tosumula0                 003257  LA    tosumulax                 003212 RLA    
+udiv16                    0034B1 RLA    vsnprintf                 003518 RLA    
+zerobss                   003601 RLA    
+
+
+Exports list by value:
+----------------------
+__LC_FILEOFFS__           000000  EA    __ZP_FILEOFFS__           000000  EA    
+__DESTRUCTOR_COUNT__      000000 REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__EXEHDR__                000001 REA    __STARTUP__               000001 REA    
+__FILETYPE__              000006 REA    __ZP_SIZE__               00001A  EA    
+__MAIN_FILEOFFS__         00003A  EA    __ONCE_SIZE__             00007F REA    
+__ZP_START__              000080  LA    sp                        000080 RLZ    
+sreg                      000082 RLZ    regsave                   000084 RLZ    
+ptr1                      000088 RLZ    ptr2                      00008A RLZ    
+ptr3                      00008C RLZ    ptr4                      00008E RLZ    
+tmp1                      000090 RLZ    tmp2                      000091 RLZ    
+tmp3                      000092  LZ    tmp4                      000093  LZ    
+regbank                   000094 RLZ    __ZP_LAST__               00009A  LA    
+__STACKSIZE__             000800 REA    __MAIN_START__            000803 RLA    
+_exit                     00080F  LA    COUT                      000837 RLA    
+HOME                      000841 RLA    _clrscr                   000841 RLA    
+_videomode                00084B RLA    VTABZ                     000875 RLA    
+_main                     00087F RLA    _new_level                00092E RLA    
+__LCSIZE__                000C00 REA    __LC_SIZE__               000C00  EA    
+_rnd_room                 000C8B RLA    _do_rooms                 000CD0 RLA    
+_rnd_pos                  0010B4 RLA    _draw_room                001121  LA    
+_horiz                    0012F2  LA    _vert                     00131A  LA    
+_rnd                      00138E RLA    _wmove                    0013C2 RLA    
+_waddch                   0013EF RLA    _winch                    00145D RLA    
+_wclear                   0014B5 RLA    _mvwinch                  001551 RLA    
+_mvwaddch                 001579 RLA    _show_window              0015A5 RLA    
+_debug_num                0015C4  LA    _debug_char               001611  LA    
+_debug_coord              001650  LA    _wclrtoeol                0016AF RLA    
+_waddstr                  001715 RLA    _light                    001759 RLA    
+_show                     001A27  LA    _trap_at                  001B61  LA    
+_do_passages              001C0D RLA    _conn                     0020A8  LA    
+_door                     00263F  LA    _doadd                    00270C  LA    
+_status                   002742 RLA    __BSS_SIZE__              002760 REA    
+_msg                      002830  LA    _endmsg                   0028B1  LA    
+_wait_for                 00292F  LA    _roomin                   002950 RLA    
+__directerrno             002A57 RLA    __printf                  002B53 RLA    
+__seterrno                002E05 RLA    tosadda0                  002E0E  LA    
+tosaddax                  002E10 RLA    addeq0sp                  002E26  LA    
+addeqysp                  002E28 RLA    addysp1                   002E37 RLA    
+addysp                    002E38 RLA    aslax1                    002E45 RLA    
+shlax1                    002E45  LA    axlong                    002E4D RLA    
+axulong                   002E53 RLA    bnegax                    002E5A RLA    
+bnega                     002E5E RLA    callmain                  002E68 RLA    
+_cclearxy                 002E7F  LA    _cclear                   002E84 RLA    
+_cgetc                    002E89 RLA    _chlinexy                 002EB6  LA    
+_chline                   002EBB  LA    chlinedirect              002EBD RLA    
+donelib                   002ECF RLA    _cputcxy                  002EDB  LA    
+_cputc                    002EE0 RLA    cputdirect                002EEA RLA    
+newline                   002EFD  LA    putchar                   002F0C  LA    
+putchardirect             002F1C RLA    _cputsxy                  002F36 RLA    
+_cputs                    002F40  LA    return                    002F64  LA    
+decax1                    002F6B RLA    decax2                    002F72 RLA    
+decax4                    002F79 RLA    decsp1                    002F80 RLA    
+decsp2                    002F89 RLA    decsp4                    002F96 RLA    
+decsp5                    002FA3 RLA    decsp6                    002FB0 RLA    
+tosdiva0                  002FBD  LA    tosdivax                  002FBF RLA    
+enter                     002FD2 RLA    toseq00                   002FE0  LA    
+toseqa0                   002FE2  LA    toseqax                   002FE4 RLA    
+gotoxy                    002FEA RLA    _gotoxy                   002FED RLA    
+_gotox                    002FF8  LA    tosicmp0                  002FFB  LA    
+tosicmp                   002FFD RLA    incax2                    003029 RLA    
+incax3                    003030 RLA    incax5                    003035 RLA    
+incax4                    00303A RLA    incaxy                    00303C RLA    
+incsp1                    003045 RLA    popax                     00304C RLA    
+incsp2                    003053 RLA    incsp3                    003061 RLA    
+incsp4                    003066 RLA    incsp5                    00306B RLA    
+incsp6                    003070 RLA    incsp7                    003075 RLA    
+ldauidx                   00307A RLA    ldaxi                     003083  LA    
+ldaxidx                   003085 RLA    ldax0sp                   003090  LA    
+ldaxysp                   003092 RLA    leaa0sp                   003099 RLA    
+leaaxsp                   00309B RLA    leave00                   0030A5  LA    
+leave0                    0030A7  LA    leavey00                  0030AB  LA    
+leavey0                   0030AD  LA    leavey                    0030AF RLA    
+leave                     0030B2  LA    negeax                    0030C0 RLA    
+pushl0                    0030DE  LA    push0ax                   0030E1  LA    
+pusheax                   0030E5 RLA    toslt00                   0030FC  LA    
+toslta0                   0030FE  LA    tosltax                   003100 RLA    
+_ltoa                     00311E RLA    _ultoa                    00315D RLA    
+boolne                    003199 RLA    booleq                    00319F RLA    
+boolle                    0031A6  LA    boollt                    0031A8 RLA    
+boolgt                    0031AE  LA    boolge                    0031B0  LA    
+boolule                   0031B6 RLA    boolult                   0031B8 RLA    
+boolugt                   0031BE RLA    booluge                   0031C0 RLA    
+_memcpy                   0031C5 RLA    memcpy_upwards            0031C8  LA    
+memcpy_getparams          0031EE  LA    tosmoda0                  003201  LA    
+tosmodax                  003203 RLA    tosumulax                 003212 RLA    
+tosmulax                  003212 RLA    tosmula0                  003257  LA    
+tosumula0                 003257  LA    mul8x16                   003259 RLA    
+mul8x16a                  003263 RLA    mulax10                   003291 RLA    
+mulax5                    0032AA RLA    tosne00                   0032BE  LA    
+tosnea0                   0032C0  LA    tosneax                   0032C2 RLA    
+_abs                      0032C8 RLA    negax                     0032CC RLA    
+popa                      0032DA RLA    popptr1                   0032E4 RLA    
+push1                     0032F2 RLA    pusha0sp                  0032F7  LA    
+pushaysp                  0032F9  LA    pusha                     0032FB RLA    
+push0                     00330D  LA    pusha0                    00330F RLA    
+pushax                    003311 RLA    pushw0sp                  003327 RLA    
+pushwysp                  003329  LA    _rand                     003343 RLA    
+_srand                    00337E  LA    tosult00                  00338D  EA    
+return0                   00338D RLA    popsargsudiv16            003391 RLA    
+shrax2                    0033B1 RLA    _sprintf                  0033BC RLA    
+staspidx                  0033E7 RLA    stax0sp                   0033FD  LA    
+staxysp                   0033FF RLA    staxspidx                 003408 RLA    
+_strcpy                   003422 RLA    _strlen                   003441 RLA    
+_strlwr                   003457  LA    _strlower                 003457 RLA    
+tossuba0                  00347F  LA    tossubax                  003481 RLA    
+subysp                    003493 RLA    tosudiva0                 0034A0  LA    
+tosudivax                 0034A2  LA    udiv16                    0034B1 RLA    
+tosuge00                  0034EF  LA    tosugea0                  0034F1  LA    
+tosugeax                  0034F3 RLA    tosugt00                  0034F9  LA    
+tosugta0                  0034FB  LA    tosugtax                  0034FD RLA    
+tosule00                  003503  LA    tosulea0                  003505  LA    
+tosuleax                  003507 RLA    tosulta0                  00350D  LA    
+tosultax                  00350F RLA    _vsnprintf                003515  LA    
+vsnprintf                 003518 RLA    _vsprintf                 0035EF RLA    
+zerobss                   003601 RLA    __hextab                  0036FF RLA    
+__longminstr              00370F RLA    __ctype                   003722 RLA    
+_EIGHTY_COLUMN            003822  LA    __DESTRUCTOR_TABLE__      003822 RLA    
+__argc                    0038D4  LA    __argv                    0038D6  LA    
+condes                    0038D8  LA    done                      0038FD  LA    
+__BSS_RUN__               003929 RLA    _buffer                   003929  LA    
+initlib                   003929 RLA    __BSS_LOAD__              003929  LA    
+__ONCE_RUN__              003929 RLA    __ONCE_LOAD__             003929 RLA    
+initconio                 003935  LAI   _traps                    00397A RLA    
+__CONSTRUCTOR_TABLE__     0039A6 RLA    __MAIN_LAST__             0039A8 RLA    
+_rooms                    0039AC RLA    _oldrp                    003A60  LA    
+_mlist                    003A62  LA    _player                   003A64 RLA    
+_max_stats                003A80  LA    _monsters                 003A90  LA    
+_lvl_obj                  003CCC  LA    _cur_weapon               003CCE  LA    
+_cur_armor                003CD0 RLA    _cur_ring                 003CD2  LA    
+_things                   003CD6  LA    _s_magic                  003D00  LA    
+_p_magic                  003D60  LA    _r_magic                  003DB4  LA    
+_ws_magic                 003E02  LA    _level                    003E56 RLA    
+_purse                    003E57 RLA    _mpos                     003E59 RLA    
+_ntraps                   003E5A RLA    _no_move                  003E5B  LA    
+_no_command               003E5D  LA    _inpack                   003E5F  LA    
+_max_hp                   003E61 RLA    _total                    003E63  LA    
+_a_chances                003E65  LA    _a_class                  003E75  LA    
+_lastscore                003E85  LA    _no_food                  003E87  LA    
+_seed                     003E89  LA    _count                    003E8B  LA    
+_dnum                     003E8D  LA    _fung_hit                 003E8F  LA    
+_quiet                    003E91  LA    _max_level                003E93 RLA    
+_food_left                003E95  LA    _group                    003E97  LA    
+_hungry_state             003E99 RLA    _take                     003E9A  LA    
+_prbuf                    003E9B  LA    _runch                    003EEB  LA    
+_s_names                  003EEC  LA    _p_colors                 003F0C  LA    
+_r_stones                 003F28  LA    _w_names                  003F42  LA    
+_a_names                  003F5A  LA    _ws_made                  003F6A  LA    
+_release                  003F86  LA    _whoami                   003F88  LA    
+_fruit                    003FD8  LA    _huh                      004028 RLA    
+_s_guess                  004078  LA    _p_guess                  004098  LA    
+_r_guess                  0040B4  LA    _ws_guess                 0040CE  LA    
+_ws_type                  0040EA  LA    _file_name                004106  LA    
+_home                     004156  LA    _cw                       0041A6 RLA    
+_play_window              0041A8 RLA    _hw                       00492B  LA    
+_help_window              00492D  LA    _monster_window           0050B0 RLA    
+_mw                       005833 RLA    _dungeon_window           005835 RLA    
+_stdscr                   005FB8 RLA    _running                  005FBA  LA    
+_playing                  005FBB  LA    _wizard                   005FBC  LA    
+_after                    005FBD  LA    _notify                   005FBE  LA    
+_fight_flush              005FBF  LA    _terse                    005FC0  LA    
+_door_stop                005FC1  LA    _jump                     005FC2  LA    
+_slow_invent              005FC3  LA    _firstmove                005FC4  LA    
+_waswizard                005FC5  LA    _askme                    005FC6  LA    
+_s_know                   005FC7  LA    _p_know                   005FD7  LA    
+_r_know                   005FE5  LA    _ws_know                  005FF2  LA    
+_amulet                   006000 RLA    _in_shell                 006001  LA    
+_oldpos                   006002  LA    _delta                    006004  LA    
+_nh                       006006  LA    cursor                    006059 RLA    
+__oserror                 00605A RLA    __errno                   006086 RLA    
+__MAIN_SIZE__             008DFD  EA    __HIMEM__                 009600 REA    
+__LC_START__              00D400 RLA    __LC_LAST__               00D400 RLA    
+__LCADDR__                00D400 REA    
+
+
+Imports list:
+-------------
+COUT (cout.o):
+    videomode.o               apple2/videomode.s(9)
+HOME (home.o):
+    clrscr.o                  apple2/clrscr.s(8)
+VTABZ (vtabz.o):
+    gotoxy.o                  apple2/gotoxy.s(9)
+    cputc.o                   apple2/cputc.s(13)
+_EIGHTY_COLUMN (main.o):
+__BSS_LOAD__ ([linker generated]):
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(7)
+__FILETYPE__ ([linker generated]):
+    exehdr.o                  apple2/exehdr.s(9)
+__HIMEM__ ([linker generated]):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(18)
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(17)
+__LCADDR__ ([linker generated]):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(19)
+__LCSIZE__ ([linker generated]):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(19)
+__LC_FILEOFFS__ ([linker generated]):
+__LC_LAST__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(13)
+__LC_SIZE__ ([linker generated]):
+__LC_START__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(13)
+__MAIN_FILEOFFS__ ([linker generated]):
+__MAIN_LAST__ ([linker generated]):
+    exehdr.o                  apple2/exehdr.s(10)
+__MAIN_SIZE__ ([linker generated]):
+__MAIN_START__ ([linker generated]):
+    exehdr.o                  apple2/exehdr.s(10)
+__ONCE_LOAD__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(12)
+__ONCE_RUN__ ([linker generated]):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(18)
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(18)
+__ONCE_SIZE__ ([linker generated]):
+    crt0.o                    apple2/crt0.s(12)
+__STACKSIZE__ ([linker generated]):
+    [linker generated]        /usr/local/Cellar/cc65/2.18/share/cc65/cfg/apple2enh.cfg(18)
+__STARTUP__ (crt0.o):
+    main.o                    main.s(13)
+__ZP_FILEOFFS__ ([linker generated]):
+__ZP_LAST__ ([linker generated]):
+__ZP_SIZE__ ([linker generated]):
+__ZP_START__ ([linker generated]):
+__argc (callmain.o):
+__argv (callmain.o):
+__ctype (ctype.o):
+    strlower.o                common/strlower.s(13)
+__directerrno (_directerrno.o):
+    vsnprintf.o               /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(7)
+__hextab (_hextab.o):
+    ltoa.o                    common/ltoa.s(10)
+__longminstr (_longminstr.o):
+    ltoa.o                    common/ltoa.s(10)
+__oserror (_oserror.o):
+    _directerrno.o            /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(7)
+__printf (_printf.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+__seterrno (_seterrno.o):
+    _directerrno.o            /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(9)
+_a_chances (rogue.o):
+_a_class (rogue.o):
+_a_names (rogue.o):
+_abs (negabs.o):
+    passages.o                passages.s(13)
+_after (rogue.o):
+_amulet (rogue.o):
+    rooms.o                   rooms.s(17)
+_askme (rogue.o):
+_buffer (curses.o):
+_cclear (cclear.o):
+    curses.o                  curses.s(17)
+_cclearxy (cclear.o):
+_cgetc (cgetc.o):
+    io.o                      io.s(35)
+    curses.o                  curses.s(16)
+    main.o                    main.s(27)
+_chline (chline.o):
+_chlinexy (chline.o):
+_clrscr (clrscr.o):
+    curses.o                  curses.s(13)
+    main.o                    main.s(26)
+_conn (passages.o):
+_count (rogue.o):
+_cputc (cputc.o):
+    cputs.o                   conio/cputs.s(9)
+_cputcxy (cputc.o):
+_cputs (cputs.o):
+_cputsxy (cputs.o):
+    curses.o                  curses.s(15)
+_cur_armor (rogue.o):
+    io.o                      io.s(14)
+_cur_ring (rogue.o):
+_cur_weapon (rogue.o):
+_cw (rogue.o):
+    io.o                      io.s(21)
+    move.o                    move.s(16)
+    new_level.o               new_level.s(19)
+    main.o                    main.s(17)
+_debug_char (curses.o):
+_debug_coord (curses.o):
+_debug_num (curses.o):
+_delta (rogue.o):
+_dnum (rogue.o):
+_do_passages (passages.o):
+    new_level.o               new_level.s(26)
+_do_rooms (rooms.o):
+    new_level.o               new_level.s(24)
+_doadd (io.o):
+_door (passages.o):
+_door_stop (rogue.o):
+_draw_room (rooms.o):
+_dungeon_window (rogue.o):
+    main.o                    main.s(21)
+_endmsg (io.o):
+_exit (crt0.o):
+_fight_flush (rogue.o):
+_file_name (rogue.o):
+_firstmove (rogue.o):
+_food_left (rogue.o):
+_fruit (rogue.o):
+_fung_hit (rogue.o):
+_gotox (gotoxy.o):
+_gotoxy (gotoxy.o):
+    curses.o                  curses.s(14)
+_group (rogue.o):
+_help_window (rogue.o):
+_home (rogue.o):
+_horiz (rooms.o):
+_huh (rogue.o):
+    io.o                      io.s(20)
+_hungry_state (rogue.o):
+    io.o                      io.s(19)
+    main.o                    main.s(16)
+_hw (rogue.o):
+_in_shell (rogue.o):
+_inpack (rogue.o):
+_jump (rogue.o):
+_lastscore (rogue.o):
+_level (rogue.o):
+    io.o                      io.s(15)
+    passages.o                passages.s(15)
+    rooms.o                   rooms.s(14)
+    new_level.o               new_level.s(16)
+    main.o                    main.s(14)
+_light (move.o):
+    new_level.o               new_level.s(34)
+_ltoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_lvl_obj (rogue.o):
+_main (main.o):
+    callmain.o                runtime/callmain.s(11)
+_max_hp (rogue.o):
+    io.o                      io.s(18)
+_max_level (rogue.o):
+    rooms.o                   rooms.s(15)
+    new_level.o               new_level.s(18)
+_max_stats (rogue.o):
+_memcpy (memcpy.o):
+    vsnprintf.o               common/vsnprintf.s(10)
+_mlist (rogue.o):
+_monster_window (rogue.o):
+    main.o                    main.s(19)
+_monsters (rogue.o):
+_mpos (rogue.o):
+    io.o                      io.s(17)
+_msg (io.o):
+_mvwaddch (curses.o):
+    move.o                    move.s(22)
+    rooms.o                   rooms.s(20)
+_mvwinch (curses.o):
+    move.o                    move.s(21)
+    new_level.o               new_level.s(32)
+_mw (rogue.o):
+    move.o                    move.s(17)
+    new_level.o               new_level.s(20)
+    main.o                    main.s(20)
+_new_level (new_level.o):
+    main.o                    main.s(23)
+_nh (move.o):
+_no_command (rogue.o):
+_no_food (rogue.o):
+_no_move (rogue.o):
+_notify (rogue.o):
+_ntraps (rogue.o):
+    move.o                    move.s(15)
+    new_level.o               new_level.s(17)
+_oldpos (rogue.o):
+_oldrp (rogue.o):
+_p_colors (rogue.o):
+_p_guess (rogue.o):
+_p_know (rogue.o):
+_p_magic (rogue.o):
+_play_window (rogue.o):
+    io.o                      io.s(22)
+    main.o                    main.s(18)
+_player (rogue.o):
+    io.o                      io.s(13)
+    move.o                    move.s(14)
+    new_level.o               new_level.s(15)
+_playing (rogue.o):
+_prbuf (rogue.o):
+_purse (rogue.o):
+    io.o                      io.s(16)
+    main.o                    main.s(15)
+_quiet (rogue.o):
+_r_guess (rogue.o):
+_r_know (rogue.o):
+_r_magic (rogue.o):
+_r_stones (rogue.o):
+_rand (rand.o):
+    random.o                  random.s(14)
+_release (rogue.o):
+_rnd (random.o):
+    passages.o                passages.s(19)
+    rooms.o                   rooms.s(25)
+    new_level.o               new_level.s(27)
+    main.o                    main.s(28)
+_rnd_pos (rooms.o):
+    new_level.o               new_level.s(25)
+_rnd_room (new_level.o):
+    rooms.o                   rooms.s(27)
+_roomin (chase.o):
+    move.o                    move.s(26)
+_rooms (rogue.o):
+    chase.o                   chase.s(13)
+    passages.o                passages.s(14)
+    rooms.o                   rooms.s(13)
+    new_level.o               new_level.s(14)
+_runch (rogue.o):
+_running (rogue.o):
+_s_guess (rogue.o):
+_s_know (rogue.o):
+_s_magic (rogue.o):
+_s_names (rogue.o):
+_seed (rogue.o):
+_show (move.o):
+_show_window (curses.o):
+    main.o                    main.s(24)
+_slow_invent (rogue.o):
+_sprintf (sprintf.o):
+    io.o                      io.s(31)
+    curses.o                  curses.s(18)
+_srand (rand.o):
+_status (io.o):
+    new_level.o               new_level.s(33)
+_stdscr (rogue.o):
+    passages.o                passages.s(16)
+    move.o                    move.s(18)
+    rooms.o                   rooms.s(16)
+    new_level.o               new_level.s(21)
+    main.o                    main.s(22)
+_strcpy (strcpy.o):
+    io.o                      io.s(33)
+    curses.o                  curses.s(19)
+_strlen (strlen.o):
+    _printf.o                 common/_printf.s(13)
+    io.o                      io.s(34)
+_strlower (strlower.o):
+    _printf.o                 common/_printf.s(13)
+_strlwr (strlower.o):
+_take (rogue.o):
+_terse (rogue.o):
+_things (rogue.o):
+_total (rogue.o):
+_trap_at (move.o):
+_traps (rogue.o):
+    move.o                    move.s(13)
+    new_level.o               new_level.s(13)
+_ultoa (ltoa.o):
+    _printf.o                 common/_printf.s(12)
+_vert (rooms.o):
+_videomode (videomode.o):
+    main.o                    main.s(25)
+_vsnprintf (vsnprintf.o):
+_vsprintf (vsprintf.o):
+    sprintf.o                 common/sprintf.s(8)
+    io.o                      io.s(32)
+_w_names (rogue.o):
+_waddch (curses.o):
+    passages.o                passages.s(18)
+    rooms.o                   rooms.s(19)
+    new_level.o               new_level.s(29)
+_waddstr (curses.o):
+    io.o                      io.s(25)
+_wait_for (io.o):
+_waswizard (rogue.o):
+_wclear (curses.o):
+    new_level.o               new_level.s(31)
+_wclrtoeol (curses.o):
+    io.o                      io.s(24)
+_whoami (rogue.o):
+_winch (curses.o):
+    move.o                    move.s(20)
+    new_level.o               new_level.s(30)
+_wizard (rogue.o):
+_wmove (curses.o):
+    io.o                      io.s(23)
+    passages.o                passages.s(17)
+    move.o                    move.s(19)
+    rooms.o                   rooms.s(18)
+    new_level.o               new_level.s(28)
+_ws_guess (rogue.o):
+_ws_know (rogue.o):
+_ws_made (rogue.o):
+_ws_magic (rogue.o):
+_ws_type (rogue.o):
+addeq0sp (addeqsp.o):
+addeqysp (addeqsp.o):
+    passages.o                passages.s(1442)
+addysp (addysp.o):
+    sprintf.o                 common/sprintf.s(8)
+    leave.o                   runtime/leave.s(14)
+    incsp7.o                  runtime/incsp7.s(8)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    incsp3.o                  runtime/incsp3.s(8)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+addysp1 (addysp.o):
+    sub.o                     runtime/sub.s(8)
+aslax1 (aslax1.o):
+    passages.o                passages.s(1442)
+axlong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+axulong (axlong.o):
+    _printf.o                 common/_printf.s(11)
+bnega (bneg.o):
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+bnegax (bneg.o):
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+booleq (makebool.o):
+    eq.o                      runtime/eq.s(8)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    random.o                  random.s(48)
+    new_level.o               new_level.s(447)
+boolge (makebool.o):
+boolgt (makebool.o):
+boolle (makebool.o):
+boollt (makebool.o):
+    lt.o                      runtime/lt.s(8)
+boolne (makebool.o):
+    ne.o                      runtime/ne.s(8)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+booluge (makebool.o):
+    uge.o                     runtime/uge.s(8)
+boolugt (makebool.o):
+    ugt.o                     runtime/ugt.s(8)
+boolule (makebool.o):
+    ule.o                     runtime/ule.s(8)
+boolult (makebool.o):
+    ult.o                     runtime/ult.s(8)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+callmain (callmain.o):
+    crt0.o                    apple2/crt0.s(11)
+chlinedirect (chline.o):
+    cclear.o                  apple2/cclear.s(9)
+condes (condes.o):
+cputdirect (cputc.o):
+    chline.o                  apple2/chline.s(9)
+cursor (_cursor.o):
+    cgetc.o                   apple2/cgetc.s(10)
+decax1 (decax1.o):
+    chase.o                   chase.s(125)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+decax2 (decax2.o):
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+decax4 (decax4.o):
+    rooms.o                   rooms.s(800)
+decsp1 (decsp1.o):
+    io.o                      io.s(355)
+    new_level.o               new_level.s(447)
+    main.o                    main.s(113)
+decsp2 (decsp2.o):
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+decsp4 (decsp4.o):
+    sprintf.o                 common/sprintf.s(8)
+    lpush.o                   runtime/lpush.s(12)
+    io.o                      io.s(355)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+decsp5 (decsp5.o):
+    new_level.o               new_level.s(447)
+decsp6 (decsp6.o):
+    _printf.o                 common/_printf.s(11)
+done (crt0.o):
+donelib (condes.o):
+    crt0.o                    apple2/crt0.s(10)
+enter (enter.o):
+    io.o                      io.s(355)
+gotoxy (gotoxy.o):
+    cputs.o                   conio/cputs.s(9)
+    cputc.o                   apple2/cputc.s(13)
+    chline.o                  apple2/chline.s(9)
+    cclear.o                  apple2/cclear.s(9)
+incax2 (incax2.o):
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+incax3 (incax3.o):
+    passages.o                passages.s(1442)
+incax4 (incaxy.o):
+    rooms.o                   rooms.s(800)
+incax5 (incax5.o):
+    move.o                    move.s(539)
+incaxy (incaxy.o):
+    incax5.o                  runtime/incax5.s(8)
+    incax3.o                  runtime/incax3.s(8)
+    chase.o                   chase.s(125)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+incsp1 (incsp1.o):
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+    main.o                    main.s(113)
+incsp2 (incsp2.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    staxspi.o                 runtime/staxspi.s(9)
+    staspidx.o                runtime/staspidx.s(8)
+    popptr1.o                 runtime/popptr1.s(8)
+    io.o                      io.s(355)
+    curses.o                  curses.s(587)
+    random.o                  random.s(48)
+incsp3 (incsp3.o):
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+incsp4 (incsp4.o):
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+incsp5 (incsp5.o):
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    new_level.o               new_level.s(447)
+incsp6 (incsp6.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+incsp7 (incsp7.o):
+    move.o                    move.s(539)
+initconio (cputc.o):
+initlib (condes.o):
+    crt0.o                    apple2/crt0.s(10)
+ldauidx (ldaui.o):
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+ldax0sp (ldaxsp.o):
+ldaxi (ldaxi.o):
+ldaxidx (ldaxi.o):
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+ldaxysp (ldaxsp.o):
+    vsnprintf.o               common/vsnprintf.s(9)
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    random.o                  random.s(48)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+leaa0sp (leaaxsp.o):
+    passages.o                passages.s(1442)
+    new_level.o               new_level.s(447)
+leaaxsp (leaaxsp.o):
+    io.o                      io.s(355)
+leave (leave.o):
+leave0 (leave.o):
+leave00 (leave.o):
+leavey (leave.o):
+    io.o                      io.s(355)
+leavey0 (leave.o):
+leavey00 (leave.o):
+memcpy_getparams (memcpy.o):
+memcpy_upwards (memcpy.o):
+mul8x16 (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mul8x16a (mul8.o):
+    mul.o                     runtime/mul.s(8)
+mulax10 (mulax10.o):
+    rooms.o                   rooms.s(800)
+mulax5 (mulax5.o):
+    move.o                    move.s(539)
+    new_level.o               new_level.s(447)
+negax (negabs.o):
+    shelp.o                   runtime/shelp.s(11)
+    mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
+negeax (lneg.o):
+    ltoa.o                    common/ltoa.s(9)
+newline (cputc.o):
+popa (popa.o):
+    gotoxy.o                  apple2/gotoxy.s(9)
+popax (incsp2.o):
+    memcpy.o                  common/memcpy.s(14)
+    ltoa.o                    common/ltoa.s(9)
+    _printf.o                 common/_printf.s(11)
+    vsnprintf.o               common/vsnprintf.s(9)
+    strcpy.o                  common/strcpy.s(8)
+    shelp.o                   runtime/shelp.s(11)
+popptr1 (popptr1.o):
+    memcpy.o                  common/memcpy.s(14)
+    ltoa.o                    common/ltoa.s(9)
+    udiv.o                    runtime/udiv.s(9)
+    mul8.o                    runtime/mul8.s(9)
+    mul.o                     runtime/mul.s(9)
+popsargsudiv16 (shelp.o):
+    mod.o                     runtime/mod.s(11)
+    div.o                     runtime/div.s(11)
+ptr1 (zeropage.o):
+    strlower.o                common/strlower.s(14)
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(12)
+    vsnprintf.o               common/vsnprintf.s(11)
+    zerobss.o                 common/zerobss.s(9)
+    udiv.o                    runtime/udiv.s(10)
+    strcpy.o                  common/strcpy.s(9)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
+    shelp.o                   runtime/shelp.s(12)
+    popptr1.o                 runtime/popptr1.s(9)
+    mulax5.o                  runtime/mulax5.s(9)
+    mulax10.o                 runtime/mulax10.s(9)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    ldaui.o                   runtime/ldaui.s(8)
+    div.o                     runtime/div.s(12)
+    cputs.o                   conio/cputs.s(10)
+    rooms.o                   rooms.s(11)
+ptr2 (zeropage.o):
+    strlower.o                common/strlower.s(14)
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(12)
+    strlen.o                  common/strlen.s(12)
+    strcpy.o                  common/strcpy.s(9)
+ptr3 (zeropage.o):
+    memcpy.o                  common/memcpy.s(15)
+    ltoa.o                    common/ltoa.s(11)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    shelp.o                   runtime/shelp.s(12)
+    mul8.o                    runtime/mul8.s(10)
+    mul.o                     runtime/mul.s(10)
+push0 (pushax.o):
+push0ax (lpush.o):
+push1 (push1.o):
+    _printf.o                 common/_printf.s(11)
+pusha (pusha.o):
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+pusha0 (pushax.o):
+    push1.o                   runtime/push1.s(8)
+pusha0sp (pusha.o):
+pushax (pushax.o):
+    _printf.o                 common/_printf.s(11)
+    callmain.o                runtime/callmain.s(11)
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    random.o                  random.s(48)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+    new_level.o               new_level.s(447)
+pushaysp (pusha.o):
+pusheax (lpush.o):
+    _printf.o                 common/_printf.s(11)
+    io.o                      io.s(355)
+pushl0 (lpush.o):
+pushw0sp (pushwsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+pushwysp (pushwsp.o):
+putchar (cputc.o):
+putchardirect (cputc.o):
+    cgetc.o                   apple2/cgetc.s(10)
+regbank (zeropage.o):
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(14)
+regsave (zeropage.o):
+    chase.o                   chase.s(10)
+    passages.o                passages.s(10)
+    move.o                    move.s(10)
+    rooms.o                   rooms.s(10)
+return (crt0.o):
+return0 (return0.o):
+    ult.o                     runtime/ult.s(8)
+shlax1 (aslax1.o):
+shrax2 (shrax2.o):
+    new_level.o               new_level.s(447)
+sp (zeropage.o):
+    memcpy.o                  common/memcpy.s(15)
+    decsp6.o                  runtime/decsp6.s(8)
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    vsnprintf.o               common/vsnprintf.s(11)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    subysp.o                  runtime/subysp.s(9)
+    sub.o                     runtime/sub.s(9)
+    staxspi.o                 runtime/staxspi.s(10)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    sprintf.o                 common/sprintf.s(9)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popptr1.o                 runtime/popptr1.s(9)
+    popa.o                    runtime/popa.s(8)
+    lpush.o                   runtime/lpush.s(13)
+    leave.o                   runtime/leave.s(15)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    icmp.o                    runtime/icmp.s(9)
+    enter.o                   runtime/enter.s(8)
+    decsp5.o                  runtime/decsp5.s(8)
+    decsp4.o                  runtime/decsp4.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    addysp.o                  runtime/addysp.s(8)
+    addeqsp.o                 runtime/addeqsp.s(8)
+    add.o                     runtime/add.s(12)
+    io.o                      io.s(10)
+    passages.o                passages.s(10)
+    move.o                    move.s(10)
+    curses.o                  curses.s(10)
+    rooms.o                   rooms.s(10)
+    new_level.o               new_level.s(10)
+    main.o                    main.s(10)
+sreg (zeropage.o):
+    lneg.o                    runtime/lneg.s(11)
+    ltoa.o                    common/ltoa.s(11)
+    axlong.o                  runtime/axlong.s(9)
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    udiv.o                    runtime/udiv.s(10)
+    mod.o                     runtime/mod.s(12)
+    lpush.o                   runtime/lpush.s(13)
+    icmp.o                    runtime/icmp.s(9)
+    io.o                      io.s(10)
+staspidx (staspidx.o):
+    passages.o                passages.s(1442)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+stax0sp (staxsp.o):
+staxspidx (staxspi.o):
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+staxysp (staxsp.o):
+    vsprintf.o                common/vsprintf.s(8)
+    chase.o                   chase.s(125)
+    io.o                      io.s(355)
+    io.o                      io.s(355)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    random.o                  random.s(48)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+subysp (subysp.o):
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+tmp1 (zeropage.o):
+    ltoa.o                    common/ltoa.s(11)
+    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+    staxspi.o                 runtime/staxspi.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    shrax2.o                  runtime/shrax2.s(8)
+    shelp.o                   runtime/shelp.s(12)
+    mul.o                     runtime/mul.s(10)
+    mod.o                     runtime/mod.s(12)
+    incaxy.o                  runtime/incaxy.s(8)
+    div.o                     runtime/div.s(12)
+    cputs.o                   conio/cputs.s(10)
+    chline.o                  /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+    aslax1.o                  runtime/aslax1.s(8)
+    passages.o                passages.s(11)
+    move.o                    move.s(11)
+    rooms.o                   rooms.s(11)
+    new_level.o               new_level.s(11)
+tmp2 (zeropage.o):
+    shelp.o                   runtime/shelp.s(12)
+    div.o                     runtime/div.s(12)
+    chline.o                  /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+tmp3 (zeropage.o):
+tmp4 (zeropage.o):
+tosadda0 (add.o):
+tosaddax (add.o):
+    chase.o                   chase.s(125)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+tosdiva0 (div.o):
+tosdivax (div.o):
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+toseq00 (eq.o):
+toseqa0 (eq.o):
+toseqax (eq.o):
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+tosicmp (icmp.o):
+    ult.o                     runtime/ult.s(8)
+    ule.o                     runtime/ule.s(8)
+    ugt.o                     runtime/ugt.s(8)
+    uge.o                     runtime/uge.s(8)
+    ne.o                      runtime/ne.s(8)
+    lt.o                      runtime/lt.s(8)
+    eq.o                      runtime/eq.s(8)
+tosicmp0 (icmp.o):
+toslt00 (lt.o):
+toslta0 (lt.o):
+tosltax (lt.o):
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+tosmoda0 (mod.o):
+tosmodax (mod.o):
+    random.o                  random.s(48)
+    rooms.o                   rooms.s(800)
+tosmula0 (mul8.o):
+tosmulax (mul.o):
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    curses.o                  curses.s(587)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+    new_level.o               new_level.s(447)
+tosne00 (ne.o):
+tosnea0 (ne.o):
+tosneax (ne.o):
+    io.o                      io.s(355)
+tossuba0 (sub.o):
+tossubax (sub.o):
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    rooms.o                   rooms.s(800)
+tosudiva0 (udiv.o):
+tosudivax (udiv.o):
+tosuge00 (uge.o):
+tosugea0 (uge.o):
+tosugeax (uge.o):
+    rooms.o                   rooms.s(800)
+tosugt00 (ugt.o):
+tosugta0 (ugt.o):
+tosugtax (ugt.o):
+    new_level.o               new_level.s(447)
+tosule00 (ule.o):
+tosulea0 (ule.o):
+tosuleax (ule.o):
+    chase.o                   chase.s(125)
+tosult00 (ult.o):
+tosulta0 (ult.o):
+tosultax (ult.o):
+    chase.o                   chase.s(125)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    passages.o                passages.s(1442)
+    move.o                    move.s(539)
+    move.o                    move.s(539)
+    rooms.o                   rooms.s(800)
+    rooms.o                   rooms.s(800)
+    new_level.o               new_level.s(447)
+tosumula0 (mul8.o):
+tosumulax (mul.o):
+    rooms.o                   rooms.s(800)
+udiv16 (udiv.o):
+    shelp.o                   runtime/shelp.s(11)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                common/vsprintf.s(9)
+zerobss (zerobss.o):
+    crt0.o                    apple2/crt0.s(11)
+
