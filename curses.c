@@ -63,7 +63,7 @@ void wclrtoeol(struct WINDOW *window) {
 
     while (x < COLS)
     {
-        row[x] = ' ';
+        row[x++] = ' ';
     }
 }
 

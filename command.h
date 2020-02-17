@@ -6,5 +6,7 @@
 #define A2ROGUE_COMMAND_H
 
 void command(void);
+void d_level(void);
+void u_level(void);
 
 #endif //A2ROGUE_COMMAND_H

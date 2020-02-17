@@ -40,7 +40,7 @@ void msg(char *fmt, char count, ...)
     va_start(varargs, count);
     doadd(fmt, varargs);
     endmsg();
-    va_end(varargs)
+    va_end(varargs);
 }
 
 /*
@@ -60,6 +60,7 @@ void msg(char *fmt, char count, ...)
 void endmsg(void)
 {
     strcpy(huh, msgbuf);
+
     if (mpos)
     {
         wmove(cw, 0, mpos);
@@ -67,7 +68,10 @@ void endmsg(void)
         //draw(cw);
         wait_for(' ');
     }
+
     mvwaddstr(cw, 0, 0, msgbuf);
+    mvwinch(cw, 0, next_pos);
+
     wclrtoeol(cw);
     mpos = next_pos;
     next_pos = 0;
@@ -76,8 +80,35 @@ void endmsg(void)
 
 void doadd(char *fmt, va_list varargs)
 {
+//    debug_char("do add msgbuf[0]", msgbuf[0]);
+//    debug_char("do add msgbuf[1]", msgbuf[1]);
+//    debug_char("do add msgbuf[2]", msgbuf[2]);
+//    debug_char("do add msgbuf[3]", msgbuf[3]);
+//    debug_char("do add msgbuf[4]", msgbuf[4]);
+//    debug_char("do add msgbuf[5]", msgbuf[5]);
+//    debug_char("do add msgbuf[6]", msgbuf[6]);
+//    debug_char("do add msgbuf[7]", msgbuf[7]);
+//    debug_char("do add msgbuf[8]", msgbuf[8]);
+//    debug_char("do add msgbuf[9]", msgbuf[9]);
+//    debug_char("do add msgbuf[10]", msgbuf[10]);
+//    debug_char("do add msgbuf[11]", msgbuf[11]);
     vsprintf(&msgbuf[next_pos], fmt, varargs);
+
+//    debug_char("msgbuf[0]", msgbuf[0]);
+//    debug_char("msgbuf[1]", msgbuf[1]);
+//    debug_char("msgbuf[2]", msgbuf[2]);
+//    debug_char("msgbuf[3]", msgbuf[3]);
+//    debug_char("msgbuf[4]", msgbuf[4]);
+//    debug_char("msgbuf[5]", msgbuf[5]);
+//    debug_char("msgbuf[6]", msgbuf[6]);
+//    debug_char("msgbuf[7]", msgbuf[7]);
+//    debug_char("msgbuf[8]", msgbuf[8]);
+//    debug_char("msgbuf[9]", msgbuf[9]);
+//    debug_char("msgbuf[10]", msgbuf[10]);
+//    debug_char("msgbuf[11]", msgbuf[11]);
+
     next_pos = strlen(msgbuf);
+//    debug_num("next_pos", next_pos);
 //    static FILE junk;
 
     /*

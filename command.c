@@ -13,6 +13,8 @@
 #include <conio.h>
 #include "move.h"
 #include "misc.h"
+#include "command.h"
+#include "new_level.h"
 
 /*
  * command:
@@ -168,8 +170,8 @@ void command(void)
 //                when 'R' : ring_off();
 //                when 'o' : option();
 //                when 'c' : call();
-//                when '>' : after = FALSE; d_level();
-//                when '<' : after = FALSE; u_level();
+                when '>' : after = FALSE; d_level();
+                when '<' : after = FALSE; u_level();
 //                when '?' : after = FALSE; help();
 //                when '/' : after = FALSE; identify();
 //                when 's' : search();
@@ -310,8 +312,10 @@ void command(void)
 //	        search();
 //	    else if (ISRING(RIGHT, R_TELEPORT) && rnd(100) < 2)
 //	        teleport();
+
     }
     show_window(cw);
+
 }
 //
 ///*
@@ -499,45 +503,46 @@ void command(void)
 //    }
 //    msg("'%s' : %s", unctrl(ch), str);
 //}
-//
-///*
-// * d_level:
-// *	He wants to go down a level
-// */
-//
-//d_level()
-//{
-//    if (winat(hero.y, hero.x) != STAIRS)
-//	msg("I see no way down.");
-//    else
-//    {
-//	level++;
-//	new_level();
-//    }
-//}
-//
-///*
-// * u_level:
-// *	He wants to go up a level
-// */
-//
-//u_level()
-//{
-//    if (winat(hero.y, hero.x) == STAIRS)
-//    {
-//	if (amulet)
-//	{
-//	    level--;
-//	    if (level == 0)
-//		total_winner();
-//	    new_level();
-//	    msg("You feel a wrenching sensation in your gut.");
-//	    return;
-//	}
-//    }
-//    msg("I see no way up.");
-//}
-//
+
+/*
+ * d_level:
+ *	He wants to go down a level
+ */
+
+void d_level(void)
+{
+    if (winat(hero.y, hero.x) != STAIRS) {
+        msg("I see no way down.", 0);
+    }
+    else
+    {
+        level++;
+        new_level();
+    }
+}
+
+/*
+ * u_level:
+ *	He wants to go up a level
+ */
+
+void u_level(void)
+{
+    if (winat(hero.y, hero.x) == STAIRS)
+    {
+        if (amulet)
+        {
+            level--;
+//            if (level == 0)
+//                total_winner();
+            new_level();
+            msg("You feel a wrenching sensation in your gut.", 0);
+            return;
+        }
+    }
+    msg("I see no way up.", 0);
+}
+
 ///*
 // * Let him escape for a while
 // */
