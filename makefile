@@ -10,4 +10,3 @@ main : main.c new_level.c rooms.c random.c curses.c rogue.c passages.c \
 	cl65 -v -vm -t apple2enh main.c new_level.c rooms.c random.c curses.c \
 		rogue.c move.c passages.c io.c chase.c init.c command.c misc.c \
 		-o main
-

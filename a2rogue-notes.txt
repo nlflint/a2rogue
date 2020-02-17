@@ -46,6 +46,26 @@ Facts:
     traps can spawn darts
     
     50 thing limit? 50 * 25 bytes =  1250 bytes
-    
     2k for items and monsters?
+    
+    
+    
+ Jan 27th:
+ Total space seems to be at ~22.5k (code and window data, which is big @~10k).
+ Some ideas to clear up space:
+    Don't utilize a help window, redraw it each time.
+    Don't utilize a monster window, look them up each time by searching a collection.
+    Remove terse mode.
+    Move window data to HIMEM
+    
+Projecting space used based on passages.c = 10bytes per line of code:
+    Armor = 830
+    command = 6500
+    daemon = 1900
+    daemons = 1600
+    fight 7200
+    
+ 
+ 
+    
     

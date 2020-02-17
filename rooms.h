@@ -11,3 +11,4 @@ void draw_room(struct room *rp);
 void horiz(unsigned char cnt);
 
 #endif //A2ROGUE_ROOMS_H
+
