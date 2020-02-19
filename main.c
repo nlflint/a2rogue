@@ -20,8 +20,8 @@
 #include "chase.h"
 #include "command.h"
 
-char *EIGHTY_COLUMN = 0xC00D;
-
+//char *EIGHTY_COLUMN = 0xC00D;
+//char blah[7457];
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
 //#endif
@@ -44,7 +44,6 @@ void main(void)
     mw = &monster_window;
     stdscr = &dungeon_window;
     clrscr();
-
     videomode((unsigned char) 80);
     clrscr();
     while(1) {

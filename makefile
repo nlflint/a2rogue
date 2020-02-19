@@ -7,6 +7,6 @@ main : main.c new_level.c rooms.c random.c curses.c rogue.c passages.c \
 		io.c rogue.h new_level.h curses.h random.h rooms.h passages.h \
 		io.h move.h move.c chase.h chase.c init.c command.h command.c \
 		misc.h misc.c
-	cl65 -v -vm -t apple2enh main.c new_level.c rooms.c random.c curses.c \
+	cl65 -v -vm -m mapfile.txt -t apple2enh main.c new_level.c rooms.c random.c curses.c \
 		rogue.c move.c passages.c io.c chase.c init.c command.c misc.c \
 		-o main
