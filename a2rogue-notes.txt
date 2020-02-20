@@ -71,14 +71,23 @@ Projecting space used based on passages.c = 10bytes per line of code:
     
 Feb 20th:
 Observations:
-    Latest size is: 28892 bytes
-    Greatest possible size is: 36351 bytes
+    Latest size is: 28892 bytes (~16k program code, ~10k data, ~2k init code)
+    Greatest possible program size is: 36351 bytes
     Remaining: 7459 bytes
-    Stack defaults to 
+    Stack default: 2048 bytes
+    RAM configured to end at 38400 bytes
+    So: 38400 - 2051(start address) - 2048(stack) - 36351(max prog size)
+
+
 Ideas to save space:
-    Can share items between inventory and game using a stack/buffer combo.
-    Remove monster window. Lookup monsters via location instead (saves 1-2K)
+    Can share items between inventory and rooms using a stack/buffer combo.
+    Move himem to 0xBEFF (Adds 10k, new total is 45.5k code possible )
     Remove help window (saves 1-2k)
+    Move stack and BCC to language card (Saves ~10k)
+    Reduce stack size: (Adds ~1k)
+    
+
+    Less desirable:
     Reduce resolution (saves 2-4k)
-    Move stack and BCC to language card (Saves ~)
+    Remove monster window. Lookup monsters via location instead (saves 1-2K)
     
