@@ -21,7 +21,7 @@
 #include "command.h"
 
 //char *EIGHTY_COLUMN = 0xC00D;
-//char blah[7457];
+//char blah[7459];
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
 //#endif

@@ -69,3 +69,16 @@ Projecting space used based on passages.c = 10bytes per line of code:
  
     
     
+Feb 20th:
+Observations:
+    Latest size is: 28892 bytes
+    Greatest possible size is: 36351 bytes
+    Remaining: 7459 bytes
+    Stack defaults to 
+Ideas to save space:
+    Can share items between inventory and game using a stack/buffer combo.
+    Remove monster window. Lookup monsters via location instead (saves 1-2K)
+    Remove help window (saves 1-2k)
+    Reduce resolution (saves 2-4k)
+    Move stack and BCC to language card (Saves ~)
+    
