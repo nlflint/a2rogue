@@ -15,6 +15,7 @@
 #include "misc.h"
 #include "command.h"
 #include "new_level.h"
+#include "pack.h"
 
 /*
  * command:
@@ -62,7 +63,7 @@ void command(void)
             {
                 ch = cgetc();
                 if (mpos != 0 && !running)	/* Erase message if its there */
-                    msg("",0);
+                    msg("");
             }
         }
         else ch = ' ';
@@ -70,7 +71,7 @@ void command(void)
         if (no_command)
         {
             if (--no_command == 0)
-                msg("You can move again.", 0);
+                msg("You can move again.");
         }
         else
         {
@@ -291,8 +292,8 @@ void command(void)
         /*
          * If he ran into something to take, let him pick it up.
          */
-//        if (take != 0)
-//            pick_up(take);
+        if (take != 0)
+            pick_up(take);
 //        if (!running)
 //            door_stop = FALSE;
     }
@@ -315,6 +316,7 @@ void command(void)
 
     }
     show_window(cw);
+    status();
 
 }
 //
@@ -512,7 +514,7 @@ void command(void)
 void d_level(void)
 {
     if (winat(hero.y, hero.x) != STAIRS) {
-        msg("I see no way down.", 0);
+        msg("I see no way down.");
     }
     else
     {
@@ -536,11 +538,11 @@ void u_level(void)
 //            if (level == 0)
 //                total_winner();
             new_level();
-            msg("You feel a wrenching sensation in your gut.", 0);
+            msg("You feel a wrenching sensation in your gut.");
             return;
         }
     }
-    msg("I see no way up.", 0);
+    msg("I see no way up. %d hi", 99);
 }
 
 ///*

@@ -7,10 +7,10 @@
 
 #include <stdarg.h>
 
-void doadd(char *fmt, va_list varargs);
+void doadd(const char* fmt, va_list varargs);
 void status(void);
 const char *get_hunger_state(void);
-void msg(char *fmt, char count, ...);
+void msg(const char* fmt, ...);
 void endmsg(void);
 void wait_for(char ch);
 

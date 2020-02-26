@@ -82,7 +82,7 @@ bool running = FALSE;				/* True if player is running */
 bool playing = TRUE;				/* True until he quits */
 bool wizard = FALSE;				/* True if allows wizard commands */
 bool after;				/* True if we want after daemons */
-bool notify;				/* True if player wants to know */
+bool notify = TRUE;				/* True if player wants to know */
 bool fight_flush;			/* True if toilet input */
 bool terse;				/* True if we should be short */
 bool door_stop;				/* Stop running when we pass a door */

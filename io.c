@@ -21,7 +21,7 @@ static char msgbuf[COLS+1];
 static int next_pos = 0;
 
 /*VARARGS1*/
-void msg(char *fmt, char count, ...)
+void msg(const char* fmt, ...)
 {
     va_list varargs;
     /*
@@ -37,10 +37,11 @@ void msg(char *fmt, char count, ...)
     /*
      * otherwise add to the message and flush it out
      */
-    va_start(varargs, count);
+    va_start(varargs, fmt);
     doadd(fmt, varargs);
-    endmsg();
     va_end(varargs);
+
+    endmsg();
 }
 
 /*
@@ -78,7 +79,7 @@ void endmsg(void)
     //draw(cw);
 }
 
-void doadd(char *fmt, va_list varargs)
+void doadd(const char* fmt, va_list varargs)
 {
 //    debug_char("do add msgbuf[0]", msgbuf[0]);
 //    debug_char("do add msgbuf[1]", msgbuf[1]);

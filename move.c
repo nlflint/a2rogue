@@ -57,7 +57,7 @@ void do_move(char dy, char dx)
     if (no_move)
     {
         no_move--;
-        msg("You are still stuck in the bear trap", 0);
+        msg("You are still stuck in the bear trap");
         return;
     }
     /*
@@ -91,7 +91,7 @@ void do_move(char dy, char dx)
 
     if (on(player, ISHELD) && ch != 'F')
     {
-        msg("You are being held", 0);
+        msg("You are being held");
         return;
     }
     switch(ch)
@@ -107,7 +107,7 @@ void do_move(char dy, char dx)
 //            if (ch == TRAPDOOR || ch == TELTRAP)
 //            return;
 //            goto move_stuff;
-//        case GOLD:
+        case GOLD:
 //        case POTION:
 //        case SCROLL:
 //        case FOOD:
@@ -116,8 +116,8 @@ void do_move(char dy, char dx)
 //        case RING:
 //        case AMULET:
 //        case STICK:
-//            running = FALSE;
-//            take = ch;
+            running = FALSE;
+            take = ch;
         default:
 
     move_stuff:

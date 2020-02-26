@@ -227,7 +227,7 @@ void main(void)
             case 'n':
                 level++;
                 hungry_state = rnd(4);
-                purse = rnd(20000);
+                purse = 0;
                 new_level();
             case '2':
                 show_window(stdscr);
