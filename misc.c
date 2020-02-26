@@ -5,6 +5,8 @@
 #include "misc.h"
 #include <ctype.h>
 
+#pragma code-name(push, "LC")
+
 /*
  * all sorts of miscellaneous routines
  *
@@ -429,3 +431,5 @@ char secretdoor(unsigned char y, unsigned char x)
 //    mpos = 0;
 //    return TRUE;
 //}
+
+#pragma code-name(pop)

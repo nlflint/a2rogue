@@ -21,7 +21,11 @@
 #include "command.h"
 
 //char *EIGHTY_COLUMN = 0xC00D;
-//char blah[7459];
+char *ENABLE_LC_BANK1 = 0xC083;
+//#pragma bss-name(push, "LC")
+//char blah[0x0C00];
+//#pragma bss-name("LC")
+
 //#ifdef CHECKTIME
 //static int num_checks;		/* times we've gone over in checkout() */
 //#endif
@@ -37,15 +41,19 @@ void main(void)
 //    char *getpass(), *crypt();
 //    int quit(), lowtime;
 //    long now;
-
     char key_pressed;
+
+    clrscr();
+    videomode((unsigned char) 80);
+    clrscr();
 
     cw = &play_window;
     mw = &monster_window;
     stdscr = &dungeon_window;
-    clrscr();
     videomode((unsigned char) 80);
     clrscr();
+
+
     while(1) {
 
         /*

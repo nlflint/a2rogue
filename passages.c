@@ -10,6 +10,8 @@
 #include "random.h"
 #include "passages.h"
 
+#pragma code-name(push, "LC")
+
 /*
  * do_passages:
  *	Draw all the passages on a level.
@@ -278,3 +280,5 @@ void door(struct room *rm, coord *cp)
 //	    if ((ch=mvinch(y, x)) == PASSAGE || ch == DOOR || ch == SECRETDOOR)
 //		mvwaddch(cw, y, x, ch);
 //}
+
+#pragma code-name(pop)

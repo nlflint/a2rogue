@@ -7,6 +7,8 @@
 #include "curses.h"
 #include "rogue.h"
 
+#pragma code-name(push, "LC")
+
 void wclear(struct WINDOW *window) {
     unsigned char x, y;
     window->y = window->x = 0;
@@ -94,3 +96,5 @@ void debug_char(char *description, char ch) {
     cputsxy(0, 0, buffer);
     cgetc();
 }
+
+#pragma code-name(pop)

@@ -7,7 +7,7 @@
 #include "io.h"
 #include "move.h"
 
-
+#pragma code-name(push, "LC")
 
 /*
  * new_level:
@@ -172,3 +172,5 @@ char rnd_room(void)
 //	cur->o_pos = tp;
 //    }
 //}
+
+#pragma code-name(pop)

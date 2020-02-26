@@ -10,6 +10,7 @@
 #include "random.h"
 #include "new_level.h"
 
+#pragma code-name(push, "LC")
 void do_rooms(void)
 {
     register int i;
@@ -177,3 +178,5 @@ void rnd_pos(struct room *rp, coord *cp)
     cp->x = rp->r_pos.x + rnd(rp->r_max.x-2) + 1;
     cp->y = rp->r_pos.y + rnd(rp->r_max.y-2) + 1;
 }
+
+#pragma code-name(pop)
