@@ -76,7 +76,7 @@ void do_move(char dy, char dx)
      * diagonal move, and stop him if he did.
      */
     if (nh.x < 0 || nh.x > COLS-1 || nh.y < 0 || nh.y > LINES - 1
-//	    || !diag_ok(&hero, &nh)
+	    || !diag_ok(&hero, &nh)
 	    )
     {
         after = FALSE;

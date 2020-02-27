@@ -7,6 +7,7 @@
 #include "rogue.h"
 #include "chase.h"
 #include "curses.h"
+#include "io.h"
 
 
 //coord ch_ret;				/* Where chasing takes you */
@@ -275,19 +276,18 @@ struct room *roomin(coord *cp)
 //    return NULL;
 //}
 //
-///*
-// * diag_ok:
-// *	Check to see if the move is legal if it is diagonal
-// */
-//
-//diag_ok(sp, ep)
-//register coord *sp, *ep;
-//{
-//    if (ep->x == sp->x || ep->y == sp->y)
-//	return TRUE;
-//    return (step_ok(mvinch(ep->y, sp->x)) && step_ok(mvinch(sp->y, ep->x)));
-//}
-//
+/*
+ * diag_ok:
+ *	Check to see if the move is legal if it is diagonal
+ */
+
+bool diag_ok(coord *sp, coord *ep)
+{
+    if (ep->x == sp->x || ep->y == sp->y)
+	    return TRUE;
+    return (step_ok(mvinch(ep->y, sp->x)) && step_ok(mvinch(sp->y, ep->x)));
+}
+
 ///*
 // * cansee:
 // *	returns true if the hero can see a certain coordinate.

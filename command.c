@@ -140,10 +140,10 @@ void command(void)
                 when 'j' : do_move(1, 0);
                 when 'k' : do_move(-1, 0);
                 when 'l' : do_move(0, 1);
-//                when 'y' : do_move(-1, -1);
-//                when 'u' : do_move(-1, 1);
-//                when 'b' : do_move(1, -1);
-//                when 'n' : do_move(1, 1);
+                when 'y' : do_move(-1, -1);
+                when 'u' : do_move(-1, 1);
+                when 'b' : do_move(1, -1);
+                when 'n' : do_move(1, 1);
 //                when 'H' : do_run('h');
 //                when 'J' : do_run('j');
 //                when 'K' : do_run('k');

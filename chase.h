@@ -8,5 +8,6 @@
 #include "rogue.h"
 
 struct room *roomin(coord *cp);
+bool diag_ok(coord *sp, coord *ep);
 
 #endif //A2ROGUE_CHASE_H

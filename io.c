@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <conio.h>
+#include <ctype.h>
 
 
 /*
@@ -129,19 +130,19 @@ void doadd(const char* fmt, va_list varargs)
  *	returns true if it is ok to step on ch
  */
 
-//step_ok(ch)
-//{
-//    switch (ch)
-//    {
-//	case ' ':
-//	case '|':
-//	case '-':
-//	case SECRETDOOR:
-//	    return FALSE;
-//	default:
-//	    return (!isalpha(ch));
-//    }
-//}
+bool step_ok(char ch)
+{
+    switch (ch)
+    {
+        case ' ':
+        case '|':
+        case '-':
+        case SECRETDOOR:
+            return FALSE;
+        default:
+            return (!isalpha(ch));
+    }
+}
 
 /*
  * readchar:

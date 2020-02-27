@@ -13,5 +13,6 @@ const char *get_hunger_state(void);
 void msg(const char* fmt, ...);
 void endmsg(void);
 void wait_for(char ch);
+bool step_ok(char ch);
 
 #endif //A2ROGUE_IO_H
