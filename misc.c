@@ -17,30 +17,28 @@
  * tr_name:
  *	print the name of a trap
  */
-//
-//char *
-//tr_name(ch)
-//char ch;
-//{
-//    register char *s;
-//
-//    switch (ch)
-//    {
-//	when TRAPDOOR:
-//	    s = terse ? "A trapdoor." : "You found a trapdoor.";
-//	when BEARTRAP:
-//	    s = terse ? "A beartrap." : "You found a beartrap.";
-//	when SLEEPTRAP:
-//	    s = terse ? "A sleeping gas trap.":"You found a sleeping gas trap.";
-//	when ARROWTRAP:
-//	    s = terse ? "An arrow trap." : "You found an arrow trap.";
-//	when TELTRAP:
-//	    s = terse ? "A teleport trap." : "You found a teleport trap.";
-//	when DARTTRAP:
-//	    s = terse ? "A dart trap." : "You found a poison dart trap.";
-//    }
-//    return s;
-//}
+
+char *tr_name(char ch)
+{
+    register char *s;
+
+    switch (ch)
+    {
+        when TRAPDOOR:
+            s = terse ? "A trapdoor." : "You found a trapdoor.";
+        when BEARTRAP:
+            s = terse ? "A beartrap." : "You found a beartrap.";
+        when SLEEPTRAP:
+            s = terse ? "A sleeping gas trap.":"You found a sleeping gas trap.";
+        when ARROWTRAP:
+            s = terse ? "An arrow trap." : "You found an arrow trap.";
+        when TELTRAP:
+            s = terse ? "A teleport trap." : "You found a teleport trap.";
+        when DARTTRAP:
+            s = terse ? "A dart trap." : "You found a poison dart trap.";
+    }
+    return s;
+}
 
 /*
  * Look:

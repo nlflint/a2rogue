@@ -16,6 +16,7 @@
 #include "command.h"
 #include "new_level.h"
 #include "pack.h"
+#include "random.h"
 
 /*
  * command:
@@ -37,7 +38,7 @@ void command(void)
 //    do_fuses(BEFORE);
     while (ntimes--)
     {
-//	    look(TRUE);
+	    look(TRUE);
 //	    if (!running)
 //	        door_stop = FALSE;
 	    status();
@@ -175,7 +176,7 @@ void command(void)
                 when '<' : after = FALSE; u_level();
 //                when '?' : after = FALSE; help();
 //                when '/' : after = FALSE; identify();
-//                when 's' : search();
+                when 's' : search();
 //                when 'z' : do_zap(FALSE);
 //                when 'p':
 //                    if (get_dir())
@@ -353,55 +354,59 @@ void command(void)
 //	count = 0;
 //    }
 //}
-//
-///*
-// * search:
-// *	Player gropes about him to find hidden things.
-// */
-//
-//search()
-//{
-//    register int x, y;
-//    register char ch;
-//    register int i;
-//
-//    /*
-//     * Look all around the hero, if there is something hidden there,
-//     * give him a chance to find it.  If its found, display it.
-//     */
-//    if (on(player, ISBLIND))
-//	return;
-//    for (x = hero.x - 1; x <= hero.x + 1; x++)
-//	for (y = hero.y - 1; y <= hero.y + 1; y++)
-//	{
-//	    ch = winat(y, x);
-//	    switch (ch)
-//	    {
-//		case SECRETDOOR:
-//		    if (rnd(100) < 20) {
-//			mvaddch(y, x, DOOR);
-//			count = 0;
-//		    }
-//		    break;
-//		case TRAP:
-//		{
-//		    register struct trap *tp;
-//
-//		    if (mvwinch(cw, y, x) == TRAP)
-//			break;
-//		    if (rnd(100) > 50)
-//			break;
-//		    tp = trap_at(y, x);
-//		    tp->tr_flags |= ISFOUND;
-//		    mvwaddch(cw, y, x, TRAP);
-//		    count = 0;
-//		    running = FALSE;
-//		    msg(tr_name(tp->tr_type));
-//		}
-//	    }
-//	}
-//}
-//
+
+/*
+ * search:
+ *	Player gropes about him to find hidden things.
+ */
+
+void search(void)
+{
+    register int x, y;
+    register char ch;
+    register int i;
+
+    /*
+     * Look all around the hero, if there is something hidden there,
+     * give him a chance to find it.  If its found, display it.
+     */
+    if (on(player, ISBLIND))
+	    return;
+
+    for (x = hero.x - 1; x <= hero.x + 1; x++)
+        for (y = hero.y - 1; y <= hero.y + 1; y++)
+        {
+            ch = winat(y, x);
+            switch (ch)
+            {
+                case SECRETDOOR:
+                    if (rnd(100) < 20) {
+                        mvaddch(y, x, DOOR);
+                        count = 0;
+                    }
+                    break;
+                case TRAP:
+                {
+                    register struct trap *tp;
+
+                    //TODO: why would monster window have a trap???
+//                    if (mvwinch(cw, y, x) == TRAP)
+//                        break;
+
+                    if (rnd(100) > 50)
+                        break;
+
+                    tp = trap_at(y, x);
+                    tp->tr_flags |= ISFOUND;
+                    mvwaddch(cw, y, x, TRAP);
+                    count = 0;
+                    running = FALSE;
+                    msg(tr_name(tp->tr_type));
+                }
+            }
+        }
+}
+
 ///*
 // * help:
 // *	Give single character help, or the whole mess if he wants it
@@ -542,7 +547,7 @@ void u_level(void)
             return;
         }
     }
-    msg("I see no way up. %d hi", 99);
+    msg("I see no way up.");
 }
 
 ///*

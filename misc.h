@@ -9,5 +9,6 @@
 
 void look(bool wakeup);
 char secretdoor(unsigned char y, unsigned char x);
+char *tr_name(char ch);
 
 #endif //A2ROGUE_MISC_H

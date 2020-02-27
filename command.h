@@ -8,5 +8,6 @@
 void command(void);
 void d_level(void);
 void u_level(void);
+void search(void);
 
 #endif //A2ROGUE_COMMAND_H
