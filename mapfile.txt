@@ -110,133 +110,133 @@ things.o:
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_cursor.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_cursor.o):
     CODE              Offs=001495  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002AD  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002730  Size=000001  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_directerrno.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_directerrno.o):
     CODE              Offs=001495  Size=000009  Align=00001  Fill=0000
     RODATA            Offs=0002AD  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_hextab.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_hextab.o):
     CODE              Offs=00149E  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002AD  Size=000010  Align=00001  Fill=0000
     BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_longminstr.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_longminstr.o):
     CODE              Offs=00149E  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002BD  Size=00000C  Align=00001  Fill=0000
     BSS               Offs=002731  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_oserror.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_oserror.o):
     CODE              Offs=00149E  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002731  Size=000001  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_printf.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_printf.o):
     CODE              Offs=00149E  Size=0003A5  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002732  Size=00002B  Align=00001  Fill=0000
     DATA              Offs=0000B4  Size=000003  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(_seterrno.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(_seterrno.o):
     CODE              Offs=001843  Size=000009  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(add.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(add.o):
     CODE              Offs=00184C  Size=000018  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(addeqsp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(addeqsp.o):
     CODE              Offs=001864  Size=000011  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(addysp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(addysp.o):
     CODE              Offs=001875  Size=00000E  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(aslax1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(aslax1.o):
     CODE              Offs=001883  Size=000008  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(axlong.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(axlong.o):
     CODE              Offs=00188B  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(bneg.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(bneg.o):
     CODE              Offs=001898  Size=00000E  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(callmain.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(callmain.o):
     CODE              Offs=0018A6  Size=000017  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000B7  Size=000004  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cclear.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(cclear.o):
     CODE              Offs=0018BD  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000BB  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cgetc.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(cgetc.o):
     CODE              Offs=0018C7  Size=00002D  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000BB  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(chline.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(chline.o):
     CODE              Offs=0018F4  Size=000019  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000BB  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(clrscr.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(clrscr.o):
     CODE              Offs=00190D  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000BB  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(condes.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(condes.o):
     CODE              Offs=00190D  Size=00000C  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
@@ -244,7 +244,7 @@ things.o:
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cout.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(cout.o):
     CODE              Offs=001919  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
@@ -252,7 +252,7 @@ things.o:
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     LOWCODE           Offs=000000  Size=00000A  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cputc.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(cputc.o):
     CODE              Offs=001919  Size=00005B  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
@@ -260,14 +260,14 @@ things.o:
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     ONCE              Offs=00000C  Size=000007  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(cputs.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(cputs.o):
     CODE              Offs=001974  Size=000023  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E0  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(crt0.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(crt0.o):
     CODE              Offs=001997  Size=000012  Align=00001  Fill=0000
     RODATA            Offs=0002C9  Size=000007  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
@@ -277,105 +277,105 @@ things.o:
     STARTUP           Offs=000000  Size=000034  Align=00001  Fill=0000
     ONCE              Offs=000013  Size=00006A  Align=00001  Fill=0000
     INIT              Offs=000000  Size=00001D  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ctype.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ctype.o):
     CODE              Offs=0019A9  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0002D0  Size=000100  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decax1.o):
     CODE              Offs=0019A9  Size=000007  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax2.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decax2.o):
     CODE              Offs=0019B0  Size=000007  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decax4.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decax4.o):
     CODE              Offs=0019B7  Size=000007  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp1.o):
     CODE              Offs=0019BE  Size=000009  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp2.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp2.o):
     CODE              Offs=0019C7  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp4.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp4.o):
     CODE              Offs=0019D4  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp5.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp5.o):
     CODE              Offs=0019E1  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp6.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp6.o):
     CODE              Offs=0019EE  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(decsp7.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(decsp7.o):
     CODE              Offs=0019FB  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(div.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(div.o):
     CODE              Offs=001A08  Size=000015  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(enter.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(enter.o):
     CODE              Offs=001A1D  Size=00000E  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(eq.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(eq.o):
     CODE              Offs=001A2B  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(errno.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(errno.o):
     CODE              Offs=001A35  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275D  Size=000002  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(exehdr.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(exehdr.o):
     CODE              Offs=001A35  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
@@ -383,14 +383,14 @@ things.o:
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     EXEHDR            Offs=000000  Size=00003A  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(gotoxy.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(gotoxy.o):
     CODE              Offs=001A35  Size=000011  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(home.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(home.o):
     CODE              Offs=001A46  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
@@ -398,444 +398,444 @@ things.o:
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     LOWCODE           Offs=00000A  Size=00000A  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(icmp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(icmp.o):
     CODE              Offs=001A46  Size=00002E  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax2.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incax2.o):
     CODE              Offs=001A74  Size=000007  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax3.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incax3.o):
     CODE              Offs=001A7B  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incax5.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incax5.o):
     CODE              Offs=001A80  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incaxy.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incaxy.o):
     CODE              Offs=001A85  Size=00000B  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp1.o):
     CODE              Offs=001A90  Size=000007  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp2.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp2.o):
     CODE              Offs=001A97  Size=000015  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp3.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp3.o):
     CODE              Offs=001AAC  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp4.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp4.o):
     CODE              Offs=001AB1  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp5.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp5.o):
     CODE              Offs=001AB6  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp6.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp6.o):
     CODE              Offs=001ABB  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp7.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp7.o):
     CODE              Offs=001AC0  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(incsp8.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(incsp8.o):
     CODE              Offs=001AC5  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(isalpha.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(isalpha.o):
     CODE              Offs=001ACA  Size=00000F  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaui.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ldaui.o):
     CODE              Offs=001AD9  Size=000009  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaxi.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ldaxi.o):
     CODE              Offs=001AE2  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ldaxsp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ldaxsp.o):
     CODE              Offs=001AEF  Size=000009  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(le.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(le.o):
     CODE              Offs=001AF8  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(leaaxsp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(leaaxsp.o):
     CODE              Offs=001B02  Size=00000C  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(leave.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(leave.o):
     CODE              Offs=001B0E  Size=00001B  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lneg.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(lneg.o):
     CODE              Offs=001B29  Size=00001E  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lpush.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(lpush.o):
     CODE              Offs=001B47  Size=00001E  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(lt.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(lt.o):
     CODE              Offs=001B65  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ltoa.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ltoa.o):
     CODE              Offs=001B6F  Size=000093  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(makebool.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(makebool.o):
     CODE              Offs=001C02  Size=00002C  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(memcpy.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(memcpy.o):
     CODE              Offs=001C2E  Size=00003C  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mod.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(mod.o):
     CODE              Offs=001C6A  Size=000011  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mul.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(mul.o):
     CODE              Offs=001C7B  Size=000045  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mul8.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(mul8.o):
     CODE              Offs=001CC0  Size=00003A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mulax10.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(mulax10.o):
     CODE              Offs=001CFA  Size=000019  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(mulax5.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(mulax5.o):
     CODE              Offs=001D13  Size=000014  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ne.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ne.o):
     CODE              Offs=001D27  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(negabs.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(negabs.o):
     CODE              Offs=001D31  Size=000012  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(popa.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(popa.o):
     CODE              Offs=001D43  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(popptr1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(popptr1.o):
     CODE              Offs=001D4D  Size=00000E  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(push1.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(push1.o):
     CODE              Offs=001D5B  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pusha.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(pusha.o):
     CODE              Offs=001D60  Size=000016  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pushax.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(pushax.o):
     CODE              Offs=001D76  Size=00001A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(pushwsp.o):
+/home/nateflint/repos/cc65/lib/apple2enh.lib(pushwsp.o):
     CODE              Offs=001D90  Size=00001C  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(rand.o):
-    CODE              Offs=001DAC  Size=00004A  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(rand.o):
+    CODE              Offs=001DAC  Size=000031  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E3  Size=000004  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(return0.o):
-    CODE              Offs=001DF6  Size=000004  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(return0.o):
+    CODE              Offs=001DDD  Size=000004  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(return1.o):
-    CODE              Offs=001DFA  Size=000005  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(return1.o):
+    CODE              Offs=001DE1  Size=000005  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(shelp.o):
-    CODE              Offs=001DFF  Size=000020  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(shelp.o):
+    CODE              Offs=001DE6  Size=000020  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(shrax2.o):
-    CODE              Offs=001E1F  Size=00000B  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(shrax2.o):
+    CODE              Offs=001E06  Size=00000B  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(sprintf.o):
-    CODE              Offs=001E2A  Size=00002B  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(sprintf.o):
+    CODE              Offs=001E11  Size=00002B  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=00275F  Size=000001  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staspidx.o):
-    CODE              Offs=001E55  Size=000016  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(staspidx.o):
+    CODE              Offs=001E3C  Size=000016  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staxsp.o):
-    CODE              Offs=001E6B  Size=00000B  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(staxsp.o):
+    CODE              Offs=001E52  Size=00000B  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(staxspi.o):
-    CODE              Offs=001E76  Size=00001A  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(staxspi.o):
+    CODE              Offs=001E5D  Size=00001A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strcpy.o):
-    CODE              Offs=001E90  Size=00001F  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(strcpy.o):
+    CODE              Offs=001E77  Size=00001F  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strlen.o):
-    CODE              Offs=001EAF  Size=000016  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(strlen.o):
+    CODE              Offs=001E96  Size=000016  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(strlower.o):
-    CODE              Offs=001EC5  Size=000028  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(strlower.o):
+    CODE              Offs=001EAC  Size=000028  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(sub.o):
-    CODE              Offs=001EED  Size=000014  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(sub.o):
+    CODE              Offs=001ED4  Size=000014  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(subysp.o):
-    CODE              Offs=001F01  Size=00000D  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(subysp.o):
+    CODE              Offs=001EE8  Size=00000D  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(udiv.o):
-    CODE              Offs=001F0E  Size=00004F  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(udiv.o):
+    CODE              Offs=001EF5  Size=00004F  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(uge.o):
-    CODE              Offs=001F5D  Size=00000A  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(uge.o):
+    CODE              Offs=001F44  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ule.o):
-    CODE              Offs=001F67  Size=00000A  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ule.o):
+    CODE              Offs=001F4E  Size=00000A  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(ult.o):
-    CODE              Offs=001F71  Size=000008  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(ult.o):
+    CODE              Offs=001F58  Size=000008  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(videomode.o):
-    CODE              Offs=001F79  Size=000000  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(videomode.o):
+    CODE              Offs=001F60  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     LOWCODE           Offs=000014  Size=00002A  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vsnprintf.o):
-    CODE              Offs=001F79  Size=0000DA  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(vsnprintf.o):
+    CODE              Offs=001F60  Size=0000DA  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000E7  Size=000008  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vsprintf.o):
-    CODE              Offs=002053  Size=000012  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(vsprintf.o):
+    CODE              Offs=00203A  Size=000012  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000EF  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(vtabz.o):
-    CODE              Offs=002065  Size=000000  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(vtabz.o):
+    CODE              Offs=00204C  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000EF  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
     LOWCODE           Offs=00003E  Size=00000A  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(zerobss.o):
-    CODE              Offs=002065  Size=000023  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(zerobss.o):
+    CODE              Offs=00204C  Size=000023  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000EF  Size=000000  Align=00001  Fill=0000
     ZEROPAGE          Offs=000000  Size=000000  Align=00001  Fill=0000
     NULL              Offs=000000  Size=000000  Align=00001  Fill=0000
-/usr/local/Cellar/cc65/2.18/share/cc65/lib/apple2enh.lib(zeropage.o):
-    CODE              Offs=002088  Size=000000  Align=00001  Fill=0000
+/home/nateflint/repos/cc65/lib/apple2enh.lib(zeropage.o):
+    CODE              Offs=00206F  Size=000000  Align=00001  Fill=0000
     RODATA            Offs=0003D0  Size=000000  Align=00001  Fill=0000
     BSS               Offs=002760  Size=000000  Align=00001  Fill=0000
     DATA              Offs=0000EF  Size=000000  Align=00001  Fill=0000
@@ -852,120 +852,120 @@ ZEROPAGE              000080  000099  00001A  00001
 EXEHDR                0007C9  000802  00003A  00001
 STARTUP               000803  000836  000034  00001
 LOWCODE               000837  00087E  000048  00001
-CODE                  00087F  002906  002088  00001
-RODATA                002907  002CD6  0003D0  00001
-DATA                  002CD7  002DC5  0000EF  00001
-INIT                  002DC6  002DE2  00001D  00001
-BSS                   002DE3  005542  002760  00001
-ONCE                  002DE3  002E61  00007F  00001
+CODE                  00087F  0028ED  00206F  00001
+RODATA                0028EE  002CBD  0003D0  00001
+DATA                  002CBE  002DAC  0000EF  00001
+INIT                  002DAD  002DC9  00001D  00001
+BSS                   002DCA  005529  002760  00001
+ONCE                  002DCA  002E48  00007F  00001
 LC                    00D000  00F2A6  0022A7  00001
 
 
 Exports list by name:
 ---------------------
 COUT                      000837 RLA    HOME                      000841 RLA    
-VTABZ                     000875 RLA    _ENABLE_LC_BANK1          002CD7  LA    
-__BSS_LOAD__              002DE3  LA    __BSS_RUN__               002DE3 RLA    
+VTABZ                     000875 RLA    _ENABLE_LC_BANK1          002CBE  LA    
+__BSS_LOAD__              002DCA  LA    __BSS_RUN__               002DCA RLA    
 __BSS_SIZE__              002760 REA    __CONSTRUCTOR_COUNT__     000001 REA    
-__CONSTRUCTOR_TABLE__     002E60 RLA    __DESTRUCTOR_COUNT__      000000 REA    
-__DESTRUCTOR_TABLE__      002CD7 RLA    __EXEHDR__                000001 REA    
+__CONSTRUCTOR_TABLE__     002E47 RLA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      002CBE RLA    __EXEHDR__                000001 REA    
 __FILETYPE__              000006 REA    __HIMEM__                 00C000 REA    
 __LCADDR__                00D000 REA    __LCSIZE__                003000 REA    
 __LC_FILEOFFS__           000000  EA    __LC_LAST__               00F2A7 RLA    
 __LC_SIZE__               003000  EA    __LC_START__              00D000 RLA    
-__MAIN_FILEOFFS__         00003A  EA    __MAIN_LAST__             005109 RLA    
+__MAIN_FILEOFFS__         00003A  EA    __MAIN_LAST__             0050F0 RLA    
 __MAIN_SIZE__             00B7FD  EA    __MAIN_START__            000803 RLA    
-__ONCE_LOAD__             002DE3 RLA    __ONCE_RUN__              002DE3 RLA    
+__ONCE_LOAD__             002DCA RLA    __ONCE_RUN__              002DCA RLA    
 __ONCE_SIZE__             00007F REA    __STACKSIZE__             000800 REA    
 __STARTUP__               000001 REA    __ZP_FILEOFFS__           000000  EA    
 __ZP_LAST__               00009A  LA    __ZP_SIZE__               00001A  EA    
-__ZP_START__              000080  LA    __argc                    002D8E  LA    
-__argv                    002D90  LA    __ctype                   002BD7 RLA    
-__directerrno             001D14 RLA    __errno                   005540 RLA    
-__hextab                  002BB4 RLA    __longminstr              002BC4 RLA    
-__oserror                 005514 RLA    __printf                  001E10 RLA    
-__seterrno                0020C2 RLA    _a_chances                00331F  LA    
-_a_class                  00332F  LA    _a_names                  003414  LA    
-_abs                      0025B0 RLA    _after                    005474 RLA    
-_amulet                   0054B6 RLA    _askme                    00547C  LA    
-_buffer                   002DE3  LA    _cclear                   002141 RLA    
+__ZP_START__              000080  LA    __argc                    002D75  LA    
+__argv                    002D77  LA    __ctype                   002BBE RLA    
+__directerrno             001D14 RLA    __errno                   005527 RLA    
+__hextab                  002B9B RLA    __longminstr              002BAB RLA    
+__oserror                 0054FB RLA    __printf                  001E10 RLA    
+__seterrno                0020C2 RLA    _a_chances                003306  LA    
+_a_class                  003316  LA    _a_names                  0033FB  LA    
+_abs                      0025B0 RLA    _after                    00545B RLA    
+_amulet                   00549D RLA    _askme                    005463  LA    
+_buffer                   002DCA  LA    _cclear                   002141 RLA    
 _cclearxy                 00213C  LA    _cgetc                    002146 RLA    
 _chline                   002178  LA    _chlinexy                 002173  LA    
 _clrscr                   000841 RLA    _command                  001690 RLA    
-_conn                     00E276  LA    _count                    003345 RLA    
+_conn                     00E276  LA    _count                    00332C RLA    
 _cputc                    00219D RLA    _cputcxy                  002198  LA    
 _cputs                    0021FD  LA    _cputsxy                  0021F3 RLA    
-_cur_armor                00318A RLA    _cur_ring                 00318C  LA    
-_cur_weapon               003188  LA    _cw                       003660 RLA    
+_cur_armor                003171 RLA    _cur_ring                 003173  LA    
+_cur_weapon               00316F  LA    _cw                       003647 RLA    
 _d_level                  001911  LA    _debug_char               00DC8C  LA    
 _debug_coord              00DCCB  LA    _debug_num                00DC3F  LA    
-_delta                    0054BA  LA    _diag_ok                  0015CA RLA    
-_dnum                     003347  LA    _do_move                  000E4F RLA    
+_delta                    0054A1  LA    _diag_ok                  0015CA RLA    
+_dnum                     00332E  LA    _do_move                  000E4F RLA    
 _do_passages              00DDDB RLA    _do_rooms                 00D37F RLA    
 _doadd                    00121E  LA    _door                     00E80D  LA    
-_door_stop                005477 RLA    _draw_room                00D7D0  LA    
-_dungeon_window           004CEF RLA    _endmsg                   0013C7  LA    
-_exit                     00080F  LA    _fight_flush              005475  LA    
-_file_name                0035C0  LA    _firstmove                00547A RLA    
-_food_left                00334F  LA    _fruit                    003492  LA    
-_fung_hit                 003349  LA    _gotox                    0022C2  LA    
-_gotoxy                   0022B7 RLA    _group                    003351  LA    
-_help_window              003DE7  LA    _home                     003610  LA    
-_horiz                    00D9A1  LA    _huh                      0034E2 RLA    
-_hungry_state             003353 RLA    _hw                       003DE5  LA    
-_in_shell                 0054B7  LA    _inpack                   003319  LA    
-_isalpha                  002349 RLA    _jump                     005478  LA    
-_lastscore                00333F  LA    _level                    003310 RLA    
+_door_stop                00545E RLA    _draw_room                00D7D0  LA    
+_dungeon_window           004CD6 RLA    _endmsg                   0013C7  LA    
+_exit                     00080F  LA    _fight_flush              00545C  LA    
+_file_name                0035A7  LA    _firstmove                005461 RLA    
+_food_left                003336  LA    _fruit                    003479  LA    
+_fung_hit                 003330  LA    _gotox                    0022C2  LA    
+_gotoxy                   0022B7 RLA    _group                    003338  LA    
+_help_window              003DCE  LA    _home                     0035F7  LA    
+_horiz                    00D9A1  LA    _huh                      0034C9 RLA    
+_hungry_state             00333A RLA    _hw                       003DCC  LA    
+_in_shell                 00549E  LA    _inpack                   003300  LA    
+_isalpha                  002349 RLA    _jump                     00545F  LA    
+_lastscore                003326  LA    _level                    0032F7 RLA    
 _light                    00099B RLA    _look                     00E8DA RLA    
-_ltoa                     002406 RLA    _lvl_obj                  003186  LA    
-_main                     0008A4 RLA    _max_hp                   00331B RLA    
-_max_level                00334D RLA    _max_stats                002F3A  LA    
-_memcpy                   0024AD RLA    _mlist                    002F1C  LA    
-_money                    001C07 RLA    _monster_window           00456A RLA    
-_monsters                 002F4A  LA    _mpos                     003313 RLA    
+_ltoa                     002406 RLA    _lvl_obj                  00316D  LA    
+_main                     0008A4 RLA    _max_hp                   003302 RLA    
+_max_level                003334 RLA    _max_stats                002F21  LA    
+_memcpy                   0024AD RLA    _mlist                    002F03  LA    
+_money                    001C07 RLA    _monster_window           004551 RLA    
+_monsters                 002F31  LA    _mpos                     0032FA RLA    
 _msg                      001342 RLA    _mvwaddch                 00DBF4 RLA    
-_mvwinch                  00DBCC RLA    _mw                       004CED RLA    
-_new_level                00D000 RLA    _nh                       0054BC  LA    
-_no_command               003317 RLA    _no_food                  003341  LA    
-_no_move                  003315 RLA    _notify                   002CDC  LA    
-_ntraps                   003314 RLA    _oldpos                   0054B8 RLA    
-_oldrp                    002F1A RLA    _p_colors                 0033C6  LA    
-_p_guess                  003552  LA    _p_know                   00548D  LA    
-_p_magic                  00321A  LA    _pick_up                  001BE4 RLA    
-_play_window              003662 RLA    _player                   002F1E RLA    
-_playing                  002CDA RLA    _playit                   00087F  LA    
-_prbuf                    003355  LA    _purse                    003311 RLA    
-_quiet                    00334B  LA    _r_guess                  00356E  LA    
-_r_know                   00549B  LA    _r_magic                  00326E  LA    
-_r_stones                 0033E2  LA    _rand                     00262B RLA    
-_release                  003440  LA    _rnd                      000967 RLA    
+_mvwinch                  00DBCC RLA    _mw                       004CD4 RLA    
+_new_level                00D000 RLA    _nh                       0054A3  LA    
+_no_command               0032FE RLA    _no_food                  003328  LA    
+_no_move                  0032FC RLA    _notify                   002CC3  LA    
+_ntraps                   0032FB RLA    _oldpos                   00549F RLA    
+_oldrp                    002F01 RLA    _p_colors                 0033AD  LA    
+_p_guess                  003539  LA    _p_know                   005474  LA    
+_p_magic                  003201  LA    _pick_up                  001BE4 RLA    
+_play_window              003649 RLA    _player                   002F05 RLA    
+_playing                  002CC1 RLA    _playit                   00087F  LA    
+_prbuf                    00333C  LA    _purse                    0032F8 RLA    
+_quiet                    003332  LA    _r_guess                  003555  LA    
+_r_know                   005482  LA    _r_magic                  003255  LA    
+_r_stones                 0033C9  LA    _rand                     00262B RLA    
+_release                  003427  LA    _rnd                      000967 RLA    
 _rnd_pos                  00D763 RLA    _rnd_room                 00D33A RLA    
-_roomin                   0014C3 RLA    _rooms                    002E66 RLA    
-_runch                    0033A5 RLA    _running                  002CD9 RLA    
-_s_guess                  003532  LA    _s_know                   00547D  LA    
-_s_magic                  0031BA  LA    _s_names                  0033A6  LA    
+_roomin                   0014C3 RLA    _rooms                    002E4D RLA    
+_runch                    00338C RLA    _running                  002CC0 RLA    
+_s_guess                  003519  LA    _s_know                   005464  LA    
+_s_magic                  0031A1  LA    _s_names                  00338D  LA    
 _search                   0019FF  LA    _secretdoor               00F010  LA    
-_seed                     003343  LA    _show                     000C69 RLA    
-_show_window              00DC20 RLA    _slow_invent              005479  LA    
-_sprintf                  0026A9 RLA    _srand                    002666  LA    
-_status                   001254 RLA    _stdscr                   005472 RLA    
-_step_ok                  00147A RLA    _strcpy                   00270F RLA    
-_strlen                   00272E RLA    _strlower                 002744 RLA    
-_strlwr                   002744  LA    _take                     003354 RLA    
-_terse                    005476 RLA    _things                   003190  LA    
-_total                    00331D  LA    _tr_name                  00F1BA RLA    
-_trap_at                  000DA3 RLA    _traps                    002E34 RLA    
+_seed                     00332A  LA    _show                     000C69 RLA    
+_show_window              00DC20 RLA    _slow_invent              005460  LA    
+_sprintf                  002690 RLA    _srand                    00264D  LA    
+_status                   001254 RLA    _stdscr                   005459 RLA    
+_step_ok                  00147A RLA    _strcpy                   0026F6 RLA    
+_strlen                   002715 RLA    _strlower                 00272B RLA    
+_strlwr                   00272B  LA    _take                     00333B RLA    
+_terse                    00545D RLA    _things                   003177  LA    
+_total                    003304  LA    _tr_name                  00F1BA RLA    
+_trap_at                  000DA3 RLA    _traps                    002E1B RLA    
 _u_level                  00197E  LA    _ultoa                    002445 RLA    
 _vert                     00D9C9  LA    _videomode                00084B RLA    
-_vsnprintf                0027F8  LA    _vsprintf                 0028D2 RLA    
-_w_names                  0033FC  LA    _waddch                   00DA6A RLA    
+_vsnprintf                0027DF  LA    _vsprintf                 0028B9 RLA    
+_w_names                  0033E3  LA    _waddch                   00DA6A RLA    
 _waddstr                  00DD97 RLA    _wait_for                 001459  LA    
-_waswizard                00547B  LA    _wclear                   00DB30 RLA    
-_wclrtoeol                00DD2A RLA    _whoami                   003442  LA    
-_winch                    00DAD8 RLA    _wizard                   002CDB  LA    
-_wmove                    00DA3D RLA    _ws_guess                 003588  LA    
-_ws_know                  0054A8  LA    _ws_made                  003424  LA    
-_ws_magic                 0032BC  LA    _ws_type                  0035A4  LA    
+_waswizard                005462  LA    _wclear                   00DB30 RLA    
+_wclrtoeol                00DD2A RLA    _whoami                   003429  LA    
+_winch                    00DAD8 RLA    _wizard                   002CC2  LA    
+_wmove                    00DA3D RLA    _ws_guess                 00356F  LA    
+_ws_know                  00548F  LA    _ws_made                  00340B  LA    
+_ws_magic                 0032A3  LA    _ws_type                  00358B  LA    
 addeq0sp                  0020E3  LA    addeqysp                  0020E5 RLA    
 addysp                    0020F5 RLA    addysp1                   0020F4 RLA    
 aslax1                    002102 RLA    axlong                    00210A RLA    
@@ -976,13 +976,13 @@ boolle                    00248E RLA    boollt                    002490 RLA
 boolne                    002481 RLA    booluge                   0024A8 RLA    
 boolugt                   0024A6  LA    boolule                   00249E RLA    
 boolult                   0024A0 RLA    callmain                  002125 RLA    
-chlinedirect              00217A RLA    condes                    002D92  LA    
-cputdirect                0021A7 RLA    cursor                    005513 RLA    
+chlinedirect              00217A RLA    condes                    002D79  LA    
+cputdirect                0021A7 RLA    cursor                    0054FA RLA    
 decax1                    002228 RLA    decax2                    00222F RLA    
 decax4                    002236 RLA    decsp1                    00223D RLA    
 decsp2                    002246 RLA    decsp4                    002253 RLA    
 decsp5                    002260 RLA    decsp6                    00226D RLA    
-decsp7                    00227A RLA    done                      002DB7  LA    
+decsp7                    00227A RLA    done                      002D9E  LA    
 donelib                   00218C RLA    enter                     00229C RLA    
 gotoxy                    0022B4 RLA    incax2                    0022F3 RLA    
 incax3                    0022FA RLA    incax4                    002304 RLA    
@@ -991,7 +991,7 @@ incsp1                    00230F RLA    incsp2                    00231D RLA
 incsp3                    00232B RLA    incsp4                    002330 RLA    
 incsp5                    002335 RLA    incsp6                    00233A RLA    
 incsp7                    00233F RLA    incsp8                    002344 RLA    
-initconio                 002DEF  LAI   initlib                   002DE3 RLA    
+initconio                 002DD6  LAI   initlib                   002DCA RLA    
 ldauidx                   002358 RLA    ldax0sp                   00236E  LA    
 ldaxi                     002361  LA    ldaxidx                   002363 RLA    
 ldaxysp                   002370 RLA    leaa0sp                   002381 RLA    
@@ -1004,7 +1004,7 @@ mul8x16a                  00254B RLA    mulax10                   002579 RLA
 mulax5                    002592 RLA    negax                     0025B4 RLA    
 negeax                    0023A8 RLA    newline                   0021BA  LA    
 popa                      0025C2 RLA    popax                     002316 RLA    
-popptr1                   0025CC RLA    popsargsudiv16            00267E RLA    
+popptr1                   0025CC RLA    popsargsudiv16            002665 RLA    
 ptr1                      000088 RLZ    ptr2                      00008A RLZ    
 ptr3                      00008C RLZ    ptr4                      00008E RLZ    
 push0                     0025F5  LA    push0ax                   0023C9  LA    
@@ -1015,12 +1015,12 @@ pusheax                   0023CD RLA    pushl0                    0023C6  LA
 pushw0sp                  00260F RLA    pushwysp                  002611  LA    
 putchar                   0021C9  LA    putchardirect             0021D9 RLA    
 regbank                   000094 RLZ    regsave                   000084 RLZ    
-return                    002221  LA    return0                   002675 RLA    
-return1                   002679 RLA    shlax1                    002102  LA    
-shrax2                    00269E RLA    sp                        000080 RLZ    
-sreg                      000082 RLZ    staspidx                  0026D4 RLA    
-stax0sp                   0026EA  LA    staxspidx                 0026F5 RLA    
-staxysp                   0026EC RLA    subysp                    002780 RLA    
+return                    002221  LA    return0                   00265C RLA    
+return1                   002660 RLA    shlax1                    002102  LA    
+shrax2                    002685 RLA    sp                        000080 RLZ    
+sreg                      000082 RLZ    staspidx                  0026BB RLA    
+stax0sp                   0026D1  LA    staxspidx                 0026DC RLA    
+staxysp                   0026D3 RLA    subysp                    002767 RLA    
 tmp1                      000090 RLZ    tmp2                      000091 RLZ    
 tmp3                      000092  LZ    tmp4                      000093  LZ    
 tosadda0                  0020CB  LA    tosaddax                  0020CD RLA    
@@ -1034,22 +1034,22 @@ tosltax                   0023E8 RLA    tosmoda0                  0024E9  LA
 tosmodax                  0024EB RLA    tosmula0                  00253F  LA    
 tosmulax                  0024FA RLA    tosne00                   0025A6  LA    
 tosnea0                   0025A8  LA    tosneax                   0025AA RLA    
-tossuba0                  00276C  LA    tossubax                  00276E RLA    
-tosudiva0                 00278D  LA    tosudivax                 00278F  LA    
-tosuge00                  0027DC  LA    tosugea0                  0027DE  LA    
-tosugeax                  0027E0 RLA    tosule00                  0027E6  LA    
-tosulea0                  0027E8  LA    tosuleax                  0027EA RLA    
-tosult00                  002675  EA    tosulta0                  0027F0  LA    
-tosultax                  0027F2 RLA    tosumula0                 00253F  LA    
-tosumulax                 0024FA RLA    udiv16                    00279E RLA    
-vsnprintf                 0027FB RLA    zerobss                   0028E4 RLA    
+tossuba0                  002753  LA    tossubax                  002755 RLA    
+tosudiva0                 002774  LA    tosudivax                 002776  LA    
+tosuge00                  0027C3  LA    tosugea0                  0027C5  LA    
+tosugeax                  0027C7 RLA    tosule00                  0027CD  LA    
+tosulea0                  0027CF  LA    tosuleax                  0027D1 RLA    
+tosult00                  00265C  EA    tosulta0                  0027D7  LA    
+tosultax                  0027D9 RLA    tosumula0                 00253F  LA    
+tosumulax                 0024FA RLA    udiv16                    002785 RLA    
+vsnprintf                 0027E2 RLA    zerobss                   0028CB RLA    
 
 
 
 Exports list by value:
 ----------------------
-__DESTRUCTOR_COUNT__      000000 REA    __ZP_FILEOFFS__           000000  EA    
-__LC_FILEOFFS__           000000  EA    __CONSTRUCTOR_COUNT__     000001 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __LC_FILEOFFS__           000000  EA    
+__ZP_FILEOFFS__           000000  EA    __CONSTRUCTOR_COUNT__     000001 REA    
 __EXEHDR__                000001 REA    __STARTUP__               000001 REA    
 __FILETYPE__              000006 REA    __ZP_SIZE__               00001A  EA    
 __MAIN_FILEOFFS__         00003A  EA    __ONCE_SIZE__             00007F REA    
@@ -1062,7 +1062,7 @@ tmp3                      000092  LZ    tmp4                      000093  LZ
 regbank                   000094 RLZ    __ZP_LAST__               00009A  LA    
 __STACKSIZE__             000800 REA    __MAIN_START__            000803 RLA    
 _exit                     00080F  LA    COUT                      000837 RLA    
-_clrscr                   000841 RLA    HOME                      000841 RLA    
+HOME                      000841 RLA    _clrscr                   000841 RLA    
 _videomode                00084B RLA    VTABZ                     000875 RLA    
 _playit                   00087F  LA    _main                     0008A4 RLA    
 _rnd                      000967 RLA    _light                    00099B RLA    
@@ -1129,7 +1129,7 @@ booluge                   0024A8 RLA    _memcpy                   0024AD RLA
 memcpy_upwards            0024B0  LA    memcpy_getparams          0024D6  LA    
 tosmoda0                  0024E9  LA    tosmodax                  0024EB RLA    
 tosmulax                  0024FA RLA    tosumulax                 0024FA RLA    
-tosumula0                 00253F  LA    tosmula0                  00253F  LA    
+tosmula0                  00253F  LA    tosumula0                 00253F  LA    
 mul8x16                   002541 RLA    mul8x16a                  00254B RLA    
 mulax10                   002579 RLA    mulax5                    002592 RLA    
 tosne00                   0025A6  LA    tosnea0                   0025A8  LA    
@@ -1140,82 +1140,82 @@ pusha0sp                  0025DF  LA    pushaysp                  0025E1  LA
 pusha                     0025E3 RLA    push0                     0025F5  LA    
 pusha0                    0025F7 RLA    pushax                    0025F9 RLA    
 pushw0sp                  00260F RLA    pushwysp                  002611  LA    
-_rand                     00262B RLA    _srand                    002666  LA    
-return0                   002675 RLA    tosult00                  002675  EA    
-return1                   002679 RLA    popsargsudiv16            00267E RLA    
-shrax2                    00269E RLA    _sprintf                  0026A9 RLA    
-staspidx                  0026D4 RLA    stax0sp                   0026EA  LA    
-staxysp                   0026EC RLA    staxspidx                 0026F5 RLA    
-_strcpy                   00270F RLA    _strlen                   00272E RLA    
-_strlwr                   002744  LA    _strlower                 002744 RLA    
-__BSS_SIZE__              002760 REA    tossuba0                  00276C  LA    
-tossubax                  00276E RLA    subysp                    002780 RLA    
-tosudiva0                 00278D  LA    tosudivax                 00278F  LA    
-udiv16                    00279E RLA    tosuge00                  0027DC  LA    
-tosugea0                  0027DE  LA    tosugeax                  0027E0 RLA    
-tosule00                  0027E6  LA    tosulea0                  0027E8  LA    
-tosuleax                  0027EA RLA    tosulta0                  0027F0  LA    
-tosultax                  0027F2 RLA    _vsnprintf                0027F8  LA    
-vsnprintf                 0027FB RLA    _vsprintf                 0028D2 RLA    
-zerobss                   0028E4 RLA    __hextab                  002BB4 RLA    
-__longminstr              002BC4 RLA    __ctype                   002BD7 RLA    
-__DESTRUCTOR_TABLE__      002CD7 RLA    _ENABLE_LC_BANK1          002CD7  LA    
-_running                  002CD9 RLA    _playing                  002CDA RLA    
-_wizard                   002CDB  LA    _notify                   002CDC  LA    
-__argc                    002D8E  LA    __argv                    002D90  LA    
-condes                    002D92  LA    done                      002DB7  LA    
-_buffer                   002DE3  LA    __ONCE_LOAD__             002DE3 RLA    
-__BSS_LOAD__              002DE3  LA    __ONCE_RUN__              002DE3 RLA    
-__BSS_RUN__               002DE3 RLA    initlib                   002DE3 RLA    
-initconio                 002DEF  LAI   _traps                    002E34 RLA    
-__CONSTRUCTOR_TABLE__     002E60 RLA    _rooms                    002E66 RLA    
-_oldrp                    002F1A RLA    _mlist                    002F1C  LA    
-_player                   002F1E RLA    _max_stats                002F3A  LA    
-_monsters                 002F4A  LA    __LC_SIZE__               003000  EA    
-__LCSIZE__                003000 REA    _lvl_obj                  003186  LA    
-_cur_weapon               003188  LA    _cur_armor                00318A RLA    
-_cur_ring                 00318C  LA    _things                   003190  LA    
-_s_magic                  0031BA  LA    _p_magic                  00321A  LA    
-_r_magic                  00326E  LA    _ws_magic                 0032BC  LA    
-_level                    003310 RLA    _purse                    003311 RLA    
-_mpos                     003313 RLA    _ntraps                   003314 RLA    
-_no_move                  003315 RLA    _no_command               003317 RLA    
-_inpack                   003319  LA    _max_hp                   00331B RLA    
-_total                    00331D  LA    _a_chances                00331F  LA    
-_a_class                  00332F  LA    _lastscore                00333F  LA    
-_no_food                  003341  LA    _seed                     003343  LA    
-_count                    003345 RLA    _dnum                     003347  LA    
-_fung_hit                 003349  LA    _quiet                    00334B  LA    
-_max_level                00334D RLA    _food_left                00334F  LA    
-_group                    003351  LA    _hungry_state             003353 RLA    
-_take                     003354 RLA    _prbuf                    003355  LA    
-_runch                    0033A5 RLA    _s_names                  0033A6  LA    
-_p_colors                 0033C6  LA    _r_stones                 0033E2  LA    
-_w_names                  0033FC  LA    _a_names                  003414  LA    
-_ws_made                  003424  LA    _release                  003440  LA    
-_whoami                   003442  LA    _fruit                    003492  LA    
-_huh                      0034E2 RLA    _s_guess                  003532  LA    
-_p_guess                  003552  LA    _r_guess                  00356E  LA    
-_ws_guess                 003588  LA    _ws_type                  0035A4  LA    
-_file_name                0035C0  LA    _home                     003610  LA    
-_cw                       003660 RLA    _play_window              003662 RLA    
-_hw                       003DE5  LA    _help_window              003DE7  LA    
-_monster_window           00456A RLA    _mw                       004CED RLA    
-_dungeon_window           004CEF RLA    __MAIN_LAST__             005109 RLA    
-_stdscr                   005472 RLA    _after                    005474 RLA    
-_fight_flush              005475  LA    _terse                    005476 RLA    
-_door_stop                005477 RLA    _jump                     005478  LA    
-_slow_invent              005479  LA    _firstmove                00547A RLA    
-_waswizard                00547B  LA    _askme                    00547C  LA    
-_s_know                   00547D  LA    _p_know                   00548D  LA    
-_r_know                   00549B  LA    _ws_know                  0054A8  LA    
-_amulet                   0054B6 RLA    _in_shell                 0054B7  LA    
-_oldpos                   0054B8 RLA    _delta                    0054BA  LA    
-_nh                       0054BC  LA    cursor                    005513 RLA    
-__oserror                 005514 RLA    __errno                   005540 RLA    
+_rand                     00262B RLA    _srand                    00264D  LA    
+return0                   00265C RLA    tosult00                  00265C  EA    
+return1                   002660 RLA    popsargsudiv16            002665 RLA    
+shrax2                    002685 RLA    _sprintf                  002690 RLA    
+staspidx                  0026BB RLA    stax0sp                   0026D1  LA    
+staxysp                   0026D3 RLA    staxspidx                 0026DC RLA    
+_strcpy                   0026F6 RLA    _strlen                   002715 RLA    
+_strlower                 00272B RLA    _strlwr                   00272B  LA    
+tossuba0                  002753  LA    tossubax                  002755 RLA    
+__BSS_SIZE__              002760 REA    subysp                    002767 RLA    
+tosudiva0                 002774  LA    tosudivax                 002776  LA    
+udiv16                    002785 RLA    tosuge00                  0027C3  LA    
+tosugea0                  0027C5  LA    tosugeax                  0027C7 RLA    
+tosule00                  0027CD  LA    tosulea0                  0027CF  LA    
+tosuleax                  0027D1 RLA    tosulta0                  0027D7  LA    
+tosultax                  0027D9 RLA    _vsnprintf                0027DF  LA    
+vsnprintf                 0027E2 RLA    _vsprintf                 0028B9 RLA    
+zerobss                   0028CB RLA    __hextab                  002B9B RLA    
+__longminstr              002BAB RLA    __ctype                   002BBE RLA    
+_ENABLE_LC_BANK1          002CBE  LA    __DESTRUCTOR_TABLE__      002CBE RLA    
+_running                  002CC0 RLA    _playing                  002CC1 RLA    
+_wizard                   002CC2  LA    _notify                   002CC3  LA    
+__argc                    002D75  LA    __argv                    002D77  LA    
+condes                    002D79  LA    done                      002D9E  LA    
+__BSS_LOAD__              002DCA  LA    __BSS_RUN__               002DCA RLA    
+__ONCE_LOAD__             002DCA RLA    __ONCE_RUN__              002DCA RLA    
+_buffer                   002DCA  LA    initlib                   002DCA RLA    
+initconio                 002DD6  LAI   _traps                    002E1B RLA    
+__CONSTRUCTOR_TABLE__     002E47 RLA    _rooms                    002E4D RLA    
+_oldrp                    002F01 RLA    _mlist                    002F03  LA    
+_player                   002F05 RLA    _max_stats                002F21  LA    
+_monsters                 002F31  LA    __LCSIZE__                003000 REA    
+__LC_SIZE__               003000  EA    _lvl_obj                  00316D  LA    
+_cur_weapon               00316F  LA    _cur_armor                003171 RLA    
+_cur_ring                 003173  LA    _things                   003177  LA    
+_s_magic                  0031A1  LA    _p_magic                  003201  LA    
+_r_magic                  003255  LA    _ws_magic                 0032A3  LA    
+_level                    0032F7 RLA    _purse                    0032F8 RLA    
+_mpos                     0032FA RLA    _ntraps                   0032FB RLA    
+_no_move                  0032FC RLA    _no_command               0032FE RLA    
+_inpack                   003300  LA    _max_hp                   003302 RLA    
+_total                    003304  LA    _a_chances                003306  LA    
+_a_class                  003316  LA    _lastscore                003326  LA    
+_no_food                  003328  LA    _seed                     00332A  LA    
+_count                    00332C RLA    _dnum                     00332E  LA    
+_fung_hit                 003330  LA    _quiet                    003332  LA    
+_max_level                003334 RLA    _food_left                003336  LA    
+_group                    003338  LA    _hungry_state             00333A RLA    
+_take                     00333B RLA    _prbuf                    00333C  LA    
+_runch                    00338C RLA    _s_names                  00338D  LA    
+_p_colors                 0033AD  LA    _r_stones                 0033C9  LA    
+_w_names                  0033E3  LA    _a_names                  0033FB  LA    
+_ws_made                  00340B  LA    _release                  003427  LA    
+_whoami                   003429  LA    _fruit                    003479  LA    
+_huh                      0034C9 RLA    _s_guess                  003519  LA    
+_p_guess                  003539  LA    _r_guess                  003555  LA    
+_ws_guess                 00356F  LA    _ws_type                  00358B  LA    
+_file_name                0035A7  LA    _home                     0035F7  LA    
+_cw                       003647 RLA    _play_window              003649 RLA    
+_hw                       003DCC  LA    _help_window              003DCE  LA    
+_monster_window           004551 RLA    _mw                       004CD4 RLA    
+_dungeon_window           004CD6 RLA    __MAIN_LAST__             0050F0 RLA    
+_stdscr                   005459 RLA    _after                    00545B RLA    
+_fight_flush              00545C  LA    _terse                    00545D RLA    
+_door_stop                00545E RLA    _jump                     00545F  LA    
+_slow_invent              005460  LA    _firstmove                005461 RLA    
+_waswizard                005462  LA    _askme                    005463  LA    
+_s_know                   005464  LA    _p_know                   005474  LA    
+_r_know                   005482  LA    _ws_know                  00548F  LA    
+_amulet                   00549D RLA    _in_shell                 00549E  LA    
+_oldpos                   00549F RLA    _delta                    0054A1  LA    
+_nh                       0054A3  LA    cursor                    0054FA RLA    
+__oserror                 0054FB RLA    __errno                   005527 RLA    
 __MAIN_SIZE__             00B7FD  EA    __HIMEM__                 00C000 REA    
-_new_level                00D000 RLA    __LCADDR__                00D000 REA    
-__LC_START__              00D000 RLA    _rnd_room                 00D33A RLA    
+__LCADDR__                00D000 REA    __LC_START__              00D000 RLA    
+_new_level                00D000 RLA    _rnd_room                 00D33A RLA    
 _do_rooms                 00D37F RLA    _rnd_pos                  00D763 RLA    
 _draw_room                00D7D0  LA    _horiz                    00D9A1  LA    
 _vert                     00D9C9  LA    _wmove                    00DA3D RLA    
@@ -1296,21 +1296,21 @@ __argc (callmain.o):
 __argv (callmain.o):
 __ctype (ctype.o):
     strlower.o                common/strlower.s(13)
-    isalpha.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/ctype.inc(9)
+    isalpha.o                 /home/nateflint/repos/cc65/asminc/ctype.inc(9)
 __directerrno (_directerrno.o):
-    vsnprintf.o               /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(10)
+    vsnprintf.o               /home/nateflint/repos/cc65/asminc/errno.inc(10)
 __errno (errno.o):
-    _seterrno.o               /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(7)
+    _seterrno.o               /home/nateflint/repos/cc65/asminc/errno.inc(7)
 __hextab (_hextab.o):
     ltoa.o                    common/ltoa.s(10)
 __longminstr (_longminstr.o):
     ltoa.o                    common/ltoa.s(10)
 __oserror (_oserror.o):
-    _directerrno.o            /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(7)
+    _directerrno.o            /home/nateflint/repos/cc65/asminc/errno.inc(7)
 __printf (_printf.o):
     vsnprintf.o               common/vsnprintf.s(10)
 __seterrno (_seterrno.o):
-    _directerrno.o            /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/errno.inc(9)
+    _directerrno.o            /home/nateflint/repos/cc65/asminc/errno.inc(9)
 _a_chances (rogue.o):
 _a_class (rogue.o):
 _a_names (rogue.o):
@@ -1992,7 +1992,7 @@ ptr1 (zeropage.o):
     strlower.o                common/strlower.s(14)
     memcpy.o                  common/memcpy.s(15)
     ltoa.o                    common/ltoa.s(11)
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(12)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(12)
     vsnprintf.o               common/vsnprintf.s(11)
     zerobss.o                 common/zerobss.s(9)
     udiv.o                    runtime/udiv.s(10)
@@ -2015,7 +2015,7 @@ ptr2 (zeropage.o):
     strlower.o                common/strlower.s(14)
     memcpy.o                  common/memcpy.s(15)
     ltoa.o                    common/ltoa.s(11)
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(12)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(12)
     strlen.o                  common/strlen.s(12)
     strcpy.o                  common/strcpy.s(9)
 ptr3 (zeropage.o):
@@ -2123,7 +2123,7 @@ putchar (cputc.o):
 putchardirect (cputc.o):
     cgetc.o                   apple2/cgetc.s(10)
 regbank (zeropage.o):
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(14)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(14)
 regsave (zeropage.o):
     things.o                  things.s(10)
     misc.o                    misc.s(10)
@@ -2142,7 +2142,7 @@ shrax2 (shrax2.o):
     new_level.o               new_level.s(434)
 sp (zeropage.o):
     memcpy.o                  common/memcpy.s(15)
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(11)
     vsnprintf.o               common/vsnprintf.s(11)
     pushwsp.o                 runtime/pushwsp.s(8)
     subysp.o                  runtime/subysp.s(9)
@@ -2169,7 +2169,7 @@ sp (zeropage.o):
     decsp4.o                  runtime/decsp4.s(8)
     decsp2.o                  runtime/decsp2.s(8)
     decsp1.o                  runtime/decsp1.s(8)
-    crt0.o                    /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    crt0.o                    /home/nateflint/repos/cc65/asminc/zeropage.inc(11)
     addysp.o                  runtime/addysp.s(8)
     addeqsp.o                 runtime/addeqsp.s(8)
     add.o                     runtime/add.s(12)
@@ -2187,7 +2187,7 @@ sreg (zeropage.o):
     lneg.o                    runtime/lneg.s(11)
     ltoa.o                    common/ltoa.s(11)
     axlong.o                  runtime/axlong.s(9)
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(11)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(11)
     udiv.o                    runtime/udiv.s(10)
     mod.o                     runtime/mod.s(12)
     lpush.o                   runtime/lpush.s(13)
@@ -2236,7 +2236,7 @@ subysp (subysp.o):
     rooms.o                   rooms.s(800)
 tmp1 (zeropage.o):
     ltoa.o                    common/ltoa.s(11)
-    _printf.o                 /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+    _printf.o                 /home/nateflint/repos/cc65/asminc/zeropage.inc(13)
     staxspi.o                 runtime/staxspi.s(10)
     staspidx.o                runtime/staspidx.s(9)
     shrax2.o                  runtime/shrax2.s(8)
@@ -2246,7 +2246,7 @@ tmp1 (zeropage.o):
     incaxy.o                  runtime/incaxy.s(8)
     div.o                     runtime/div.s(12)
     cputs.o                   conio/cputs.s(10)
-    chline.o                  /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+    chline.o                  /home/nateflint/repos/cc65/asminc/zeropage.inc(13)
     aslax1.o                  runtime/aslax1.s(8)
     misc.o                    misc.s(11)
     command.o                 command.s(11)
@@ -2257,7 +2257,7 @@ tmp1 (zeropage.o):
 tmp2 (zeropage.o):
     shelp.o                   runtime/shelp.s(12)
     div.o                     runtime/div.s(12)
-    chline.o                  /private/tmp/cc65-20190531-26117-1un8vyh/cc65-2.18/asminc/zeropage.inc(13)
+    chline.o                  /home/nateflint/repos/cc65/asminc/zeropage.inc(13)
 tmp3 (zeropage.o):
 tmp4 (zeropage.o):
 tosadda0 (add.o):

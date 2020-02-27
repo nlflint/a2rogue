@@ -5,6 +5,15 @@ Player uses:
     pack t_pack
     
     Follup: save_throw
+
+Deprioritized features:
+    1. Disk features: Saving game, highscore
+    2. boss screen
+    3. Options
+    4. Custom names
+    5. Wizard
+    6. Prefixing commands with number of repeats
+    7. Running
     
 Monster feature:
 
@@ -38,7 +47,7 @@ Facts:
     There can be 1 monster per room to start
     Wanderers are spawned ~70 moves
     
-    30 monster limit?  20 * 28 bytes = 560 bytes
+    20 monster limit?  20 * 28 bytes = 560 bytes
     
     Hero can hold 23 items
     monsters can hold 1 item
@@ -91,3 +100,37 @@ Ideas to save space:
     Reduce resolution (saves 2-4k)
     Remove monster window. Lookup monsters via location instead (saves 1-2K)
     
+
+Feb 27th:
+    Observations:
+        My total code size: ~13.8kb (not lib code)
+        My total data size: ~10.5kb
+
+        Latest size is 28833kb (all)
+        Highest memory used in main: 0x5529 (~21kb)
+        Free main memory: ~26.7kb
+        LC memory used: 0x22A7 ~8.6kb
+        LC free memory: ~3.4kb
+        Total free memory: ~30.1Kb
+
+
+
+    Discoveries:
+        LC is ready only. So I put code in it instead of game state.
+        Extending HIMEM was easy
+        Monsters can only hold 1 item!
+        Duplicate items in pack are single item with count.
+        When dropping items, they drop 1 at a time :(. Need more item storage
+        
+    Ideas:
+        So, I could put object struct directly on a monster. Takes more space though. 
+            nevermind, monster struct is also player... so pack linked list is for backpack.
+        Use list/stack overlaid for level/backpack objects. Reduces object
+            storage to (23 pack + 9 level + ? monster pack) = ~40 object?
+            No, dropped items pull from count first, how about 100 objects? ~2.5kb!
+        
+    
+        
+        
+
+
