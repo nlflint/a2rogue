@@ -19,11 +19,19 @@ void wclear(struct WINDOW *window) {
 //        }
     }
     window->end = 0;
+
+    if (window == cw) {
+        clrscr();
+    }
 }
 
 void wmove(struct WINDOW *window, unsigned char y, unsigned char x) {
     window->x = x;
     window->y = y;
+
+    if (window == cw)
+        gotoxy(x, y);
+
 }
 
 //put char, then move forward
@@ -31,6 +39,9 @@ void waddch(struct WINDOW *window, char character) {
     unsigned char
         x = window->x,
         y = window->y;
+
+    if (window == cw)
+        putchar(character);
 
     window->data[y][x] = character;
     (window->x)++;
@@ -59,18 +70,31 @@ void show_window(struct WINDOW *window) {
 }
 
 void wclrtoeol(struct WINDOW *window) {
-    unsigned char
-        *row = window->data[window->y],
-        x = window->x;
+    char
+        //*row = window->data[window->y],
+        x = wherex();
 
-    while (x < COLS)
+    while (x++ < COLS)
     {
-        row[x++] = ' ';
+        cputc(' ');
+        //mvwaddch(cw, y, x++, ' ');
+        //row[x++] = ' ';
     }
+
+//    if(window == cw) {
+//        gotoxy(x,y);
+//        clrtoeol();
+//    }
 }
 
 void waddstr(struct WINDOW *window, char *string) {
-    strcpy(&window->data[window->y][window->x], string);
+    unsigned char x = window->x, y = window->y;
+
+    strcpy(&window->data[y][x], string);
+
+    if (window == cw){
+        cputsxy(x, y, string);
+    }
 }
 
 char buffer[81];

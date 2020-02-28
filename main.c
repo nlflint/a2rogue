@@ -222,6 +222,7 @@ void main(void)
                 show_window(mw);
                 break;
             case 'p':
+                show_window(cw);
                 playit();
                 break;
             case 'n':
@@ -229,6 +230,7 @@ void main(void)
                 hungry_state = rnd(4);
                 purse = 0;
                 new_level();
+                break;
             case '2':
                 show_window(stdscr);
                 break;

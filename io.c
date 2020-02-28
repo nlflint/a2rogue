@@ -19,6 +19,7 @@
  */
 
 static char msgbuf[COLS+1];
+static char end = 0;
 static int next_pos = 0;
 
 /*VARARGS1*/
@@ -191,8 +192,8 @@ void status(void)
         default: hungry_description = "";
     }
 
-    status_bar = play_window.data[23];
-    sprintf(status_bar, "Level: %d  Gold: %-5d  Hp: %d(%d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
+
+    sprintf(msgbuf, "Level: %d  Gold: %-5d  Hp: %d(%d)  Str: %-2d/%d Ac: %-2d  Exp: %d/%ld %s",
             level,
             purse,
             pstats.s_hpt,
@@ -203,6 +204,7 @@ void status(void)
             pstats.s_lvl,
             pstats.s_exp,
             /*get_hunger_state()*/ "Hungry");
+    cputsxy(0, 23, msgbuf);
 }
 
 //const char *get_hunger_state() {

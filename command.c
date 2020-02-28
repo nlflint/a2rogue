@@ -38,7 +38,7 @@ void command(void)
 //    do_fuses(BEFORE);
     while (ntimes--)
     {
-	    look(TRUE);
+	    //look(TRUE);
 //	    if (!running)
 //	        door_stop = FALSE;
 	    status();
@@ -316,7 +316,7 @@ void command(void)
 //	        teleport();
 
     }
-    show_window(cw);
+//    show_window(cw);
     status();
 
 }
