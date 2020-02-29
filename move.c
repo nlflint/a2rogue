@@ -185,9 +185,9 @@ void light(coord *cp)
 //                if (isupper(ch))
 //                {
 //                    item = wake_monster(rp->r_pos.y+j, rp->r_pos.x+k);
-//                    if (((struct thing *) ldata(item))->t_oldch == ' ')
+//                    if (((struct monster *) ldata(item))->t_oldch == ' ')
 //                        if (!(rp->r_flags & ISDARK))
-//                            ((struct thing *) ldata(item))->t_oldch = mvwinch(stdscr, rp->r_pos.y+j, rp->r_pos.x+k);
+//                            ((struct monster *) ldata(item))->t_oldch = mvwinch(stdscr, rp->r_pos.y+j, rp->r_pos.x+k);
 //                }
 
                 if (rp->r_flags & ISDARK)
@@ -223,7 +223,7 @@ char show(unsigned char y, unsigned char x)
 {
     register char ch = winat(y, x);
     register struct linked_list *it;
-    register struct thing *tp;
+    register struct monster *tp;
 
     if (ch == TRAP)
 	    return (trap_at(y, x)->tr_flags & ISFOUND) ? TRAP : FLOOR;
@@ -232,7 +232,7 @@ char show(unsigned char y, unsigned char x)
 //        if ((it = find_mons(y, x)) == NULL)
 //            msg("Can't find monster in show", 0);
 
-        tp = (struct thing *) ldata(it);
+        tp = (struct monster *) ldata(it);
 
 	    if (ch == 'M')
             ch = tp->t_disguise;
@@ -349,7 +349,7 @@ struct trap *trap_at(unsigned char y, unsigned char x)
 //
 //coord *
 //rndmove(who)
-//struct thing *who;
+//struct monster *who;
 //{
 //    register int x, y;
 //    register char ch;

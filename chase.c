@@ -20,11 +20,11 @@
 //runners()
 //{
 //    register struct linked_list *item;
-//    register struct thing *tp;
+//    register struct monster *tp;
 //
 //    for (item = mlist; item != NULL; item = next(item))
 //    {
-//	tp = (struct thing *) ldata(item);
+//	tp = (struct monster *) ldata(item);
 //	if (off(*tp, ISHELD) && on(*tp, ISRUN))
 //	{
 //	    if (off(*tp, ISSLOW) || tp->t_turn)
@@ -42,7 +42,7 @@
 // */
 //
 //do_chase(th)
-//register struct thing *th;
+//register struct monster *th;
 //{
 //    register struct room *rer, *ree;	/* room of chaser, room of chasee */
 //    register int mindist = 32767, i, dist;
@@ -123,14 +123,14 @@
 //coord *spot;
 //{
 //    register struct linked_list *item;
-//    register struct thing *tp;
+//    register struct monster *tp;
 //
 //    /*
 //     * If we couldn't find him, something is funny
 //     */
 //    if ((item = find_mons(runner->y, runner->x)) == NULL)
 //	msg("CHASER '%s'", unctrl(winat(runner->y, runner->x)));
-//    tp = (struct thing *) ldata(item);
+//    tp = (struct monster *) ldata(item);
 //    /*
 //     * Start the beastie running
 //     */
@@ -147,7 +147,7 @@
 // */
 //
 //chase(tp, ee)
-//struct thing *tp;
+//struct monster *tp;
 //coord *ee;
 //{
 //    register int x, y;
@@ -265,11 +265,11 @@ struct room *roomin(coord *cp)
 //int x;
 //{
 //    register struct linked_list *item;
-//    register struct thing *th;
+//    register struct monster *th;
 //
 //    for (item = mlist; item != NULL; item = next(item))
 //    {
-//	th = (struct thing *) ldata(item);
+//	th = (struct monster *) ldata(item);
 //	if (th->t_pos.y == y && th->t_pos.x == x)
 //	    return item;
 //    }

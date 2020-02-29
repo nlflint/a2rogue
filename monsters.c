@@ -48,11 +48,11 @@ struct linked_list *item;
 char type;
 register coord *cp;
 {
-    register struct thing *tp;
+    register struct monster *tp;
     register struct monster_type *mp;
 
     attach(mlist, item);
-    tp = (struct thing *) ldata(item);
+    tp = (struct monster *) ldata(item);
     tp->t_type = type;
     tp->t_pos = *cp;
     tp->t_oldch = mvwinch(cw, cp->y, cp->x);
@@ -102,7 +102,7 @@ wanderer()
     register int i, ch;
     register struct room *rp, *hr = roomin(&hero);
     register struct linked_list *item;
-    register struct thing *tp;
+    register struct monster *tp;
     coord cp;
 
     item = new_item(sizeof *tp);
@@ -120,7 +120,7 @@ wanderer()
 	}
     } until(hr != rp && step_ok(ch));
     new_monster(item, randmonster(TRUE), &cp);
-    tp = (struct thing *) ldata(item);
+    tp = (struct monster *) ldata(item);
     tp->t_flags |= ISRUN;
     tp->t_pos = cp;
     tp->t_dest = &hero;
@@ -135,14 +135,14 @@ struct linked_list *
 wake_monster(y, x)
 int y, x;
 {
-    register struct thing *tp;
+    register struct monster *tp;
     register struct linked_list *it;
     register struct room *rp;
     register char ch;
 
     if ((it = find_mons(y, x)) == NULL)
 	msg("Can't find monster in show");
-    tp = (struct thing *) ldata(it);
+    tp = (struct monster *) ldata(it);
     ch = tp->t_type;
     /*
      * Every time he sees mean monster, it might start chasing him
@@ -191,7 +191,7 @@ int y, x;
 genocide()
 {
     register struct linked_list *ip;
-    register struct thing *mp;
+    register struct monster *mp;
     register char c;
     register int i;
     register struct linked_list *nip;
@@ -212,7 +212,7 @@ genocide()
 	c = toupper(c);
     for (ip = mlist; ip; ip = nip)
     {
-	mp = (struct thing *) ldata(ip);
+	mp = (struct monster *) ldata(ip);
 	nip = next(ip);
 	if (mp->t_type == c)
 	    remove(&mp->t_pos, ip);

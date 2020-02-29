@@ -83,9 +83,9 @@ read_scroll()
 			if (y > 0 && x > 0 && isupper(mvwinch(mw, y, x)))
 			    if ((mon = find_mons(y, x)) != NULL)
 			    {
-				register struct thing *th;
+				register struct monster *th;
 
-				th = (struct thing *) ldata(mon);
+				th = (struct monster *) ldata(mon);
 				th->t_flags &= ~ISRUN;
 				th->t_flags |= ISHELD;
 			    }
@@ -133,7 +133,7 @@ read_scroll()
 		    }
 		if (appear)
 		{
-		    titem = new_item(sizeof (struct thing));
+		    titem = new_item(sizeof (struct monster));
 		    new_monster(titem, randmonster(FALSE), &mp);
 		}
 		else
@@ -171,9 +171,9 @@ read_scroll()
 			case STAIRS:
 			    if (mvwinch(mw, i, j) != ' ')
 			    {
-				register struct thing *it;
+				register struct monster *it;
 
-				it = (struct thing *) ldata(find_mons(i, j));
+				it = (struct monster *) ldata(find_mons(i, j));
 				if (it->t_oldch == ' ')
 				    it->t_oldch = nch;
 			    }

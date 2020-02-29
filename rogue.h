@@ -356,7 +356,7 @@ struct stats {
 /*
  * Structure for monsters and player
  */
-struct thing {
+struct monster {
     coord t_pos;			/* Position */
     bool t_turn;			/* If slowed, is it a turn to move */
     char t_type;			/* What it is */
@@ -371,7 +371,7 @@ struct thing {
 /*
  * Array containing information on all the various types of mosnters
  */
-struct monster {
+struct monster_type {
     char *m_name;			/* What to call the monster */
     short m_carry;			/* Probability of carrying something */
     short m_flags;			/* Things about the monster */
@@ -413,10 +413,10 @@ extern struct room rooms[MAXROOMS];		/* One for each room -- A level */
 extern struct room *oldrp;			/* Roomin(&oldpos) */
 extern struct linked_list *mlist;		/* List of monsters on the level */
 
-extern struct thing monsters[MAXMONSTERS];
+extern struct monster monsters[MAXMONSTERS];
 extern char MONSTER_COUNT;
 
-extern struct thing player;			/* The rogue */
+extern struct monster player;			/* The rogue */
 extern struct stats max_stats;			/* The maximum for the player */
 extern struct monster_type monster_types[26];		/* The initial monster states */
 extern struct linked_list *lvl_obj;		/* List of objects on this level */

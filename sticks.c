@@ -36,7 +36,7 @@ bool gotdir;
     register struct linked_list *item;
     register struct object *obj;
     register struct room *rp;
-    register struct thing *tp;
+    register struct monster *tp;
     register int y, x;
 
     if ((item = get_item("zap with", STICK)) == NULL)
@@ -118,7 +118,7 @@ bool gotdir;
 		if (monster == 'F')
 		    player.t_flags &= ~ISHELD;
 		item = find_mons(y, x);
-		tp = (struct thing *) ldata(item);
+		tp = (struct monster *) ldata(item);
 		if (obj->o_which == WS_POLYMORPH)
 		{
 		    detach(mlist, item);
@@ -215,7 +215,7 @@ bool gotdir;
 	    if (isupper(mvwinch(mw, y, x)))
 	    {
 		item = find_mons(y, x);
-		tp = (struct thing *) ldata(item);
+		tp = (struct monster *) ldata(item);
 		if (obj->o_which == WS_HASTE_M)
 		{
 		    if (on(*tp, ISSLOW))
@@ -340,7 +340,7 @@ drain(ymin, ymax, xmin, xmax)
 int ymin, ymax, xmin, xmax;
 {
     register int i, j, count;
-    register struct thing *ick;
+    register struct monster *ick;
     register struct linked_list *item;
 
     /*
@@ -366,7 +366,7 @@ int ymin, ymax, xmin, xmax;
 	    if (isupper(mvwinch(mw, i, j)) &&
 	        ((item = find_mons(i, j)) != NULL))
 	    {
-		ick = (struct thing *) ldata(item);
+		ick = (struct monster *) ldata(item);
 		if ((ick->t_stats.s_hpt -= count) < 1)
 		    killed(item, cansee(i, j) && !on(*ick, ISINVIS));
 	    }

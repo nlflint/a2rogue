@@ -76,13 +76,13 @@ void look(bool wakeup)
 //	    if (isupper(mvwinch(mw, y, x)))
 //	    {
 //		    register struct linked_list *it;
-//		    register struct thing *tp;
+//		    register struct monster *tp;
 
     //		if (wakeup)
     //		    it = wake_monster(y, x);
     //		else
     //		    it = find_mons(y, x);
-//            tp = (struct thing *) ldata(it);
+//            tp = (struct monster *) ldata(it);
 //            if ((tp->t_oldch = mvinch(y, x)) == TRAP)
 //                tp->t_oldch =
 //                (trap_at(y,x)->tr_flags&ISFOUND) ? TRAP : FLOOR;
@@ -348,7 +348,7 @@ char secretdoor(unsigned char y, unsigned char x)
 //    register struct linked_list *mi;
 //
 //    for (mi = mlist; mi != NULL; mi = next(mi))
-//	runto(&((struct thing *) ldata(mi))->t_pos, &hero);
+//	runto(&((struct monster *) ldata(mi))->t_pos, &hero);
 //}
 
 /*

@@ -10,7 +10,7 @@ quaff()
 {
     register struct object *obj;
     register struct linked_list *item, *titem;
-    register struct thing *th;
+    register struct monster *th;
     char buf[80];
 
     item = get_item("quaff", POTION);
@@ -106,7 +106,7 @@ quaff()
 		{
 		    register struct linked_list *pitem;
 
-		    th = (struct thing *) ldata(titem);
+		    th = (struct monster *) ldata(titem);
 		    for (pitem = th->t_pack; pitem != NULL; pitem = next(pitem))
 		    {
 			if (is_magic(ldata(pitem)))

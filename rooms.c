@@ -16,7 +16,7 @@ void do_rooms(void)
     register int i;
     register struct room *rp;
     register struct linked_list *item;
-    register struct thing *tp;
+    register struct monster *tp;
     register int left_out;
     coord top;
     coord bsze;
@@ -94,7 +94,7 @@ void do_rooms(void)
 //    	if (rnd(100) < (rp->r_goldval > 0 ? 80 : 25))
 //    	{
 //    	    item = new_item(sizeof *tp);
-//    	    tp = (struct thing *) ldata(item);
+//    	    tp = (struct monster *) ldata(item);
 //    	    do
 //    	    {
 //    		rnd_pos(rp, &mp);

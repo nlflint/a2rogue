@@ -23,7 +23,7 @@ char mn;
 struct object *weap;
 bool thrown;
 {
-    register struct thing *tp;
+    register struct monster *tp;
     register struct linked_list *item;
     register bool did_hit = TRUE;
 
@@ -32,7 +32,7 @@ bool thrown;
      */
     if ((item = find_mons(mp->y, mp->x)) == NULL)
 	debug("Fight what @ %d,%d", mp->y, mp->x);
-    tp = (struct thing *) ldata(item);
+    tp = (struct monster *) ldata(item);
     /*
      * Since we are fighting, things are not quiet so no healing takes
      * place.
@@ -90,7 +90,7 @@ bool thrown;
  */
 
 attack(mp)
-register struct thing *mp;
+register struct monster *mp;
 {
     register char *mname;
 
@@ -495,7 +495,7 @@ register char *er, *ee;
  */
 save_throw(which, tp)
 int which;
-struct thing *tp;
+struct monster *tp;
 {
     register int need;
 
@@ -611,7 +611,7 @@ register coord *mp;
 register struct linked_list *item;
 {
     mvwaddch(mw, mp->y, mp->x, ' ');
-    mvwaddch(cw, mp->y, mp->x, ((struct thing *) ldata(item))->t_oldch);
+    mvwaddch(cw, mp->y, mp->x, ((struct monster *) ldata(item))->t_oldch);
     detach(mlist, item);
     discard(item);
 }
@@ -649,10 +649,10 @@ killed(item, pr)
 register struct linked_list *item;
 bool pr;
 {
-    register struct thing *tp;
+    register struct monster *tp;
     register struct linked_list *pitem, *nexti;
 
-    tp = (struct thing *) ldata(item);
+    tp = (struct monster *) ldata(item);
     if (pr)
     {
 	addmsg(terse ? "Defeated " : "You have defeated ");

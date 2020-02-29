@@ -11,10 +11,10 @@ struct room *oldrp;			/* Roomin(&oldpos) */
 struct linked_list *mlist;		/* List of monsters on the level */
 
 
-struct thing monsters[MAXMONSTERS];
+struct monster monsters[MAXMONSTERS];
 char MONSTER_COUNT = 0;
 
-struct thing player;			/* The rogue */
+struct monster player;			/* The rogue */
 struct stats max_stats;			/* The maximum for the player */
 struct monster_type monster_types[26];		/* The initial monster states */
 struct linked_list *lvl_obj;		/* List of objects on this level */
