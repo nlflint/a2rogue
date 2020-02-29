@@ -22,7 +22,7 @@
 //
 //#define ___ 1
 //#define _x {1,1}
-//struct monster monsters[26] = {
+//struct monster_type monster_types[26] = {
 //	/* Name		 CARRY	FLAG    str, exp, lvl, amr, hpt, dmg */
 //	{ "giant ant",	 0,	ISMEAN,	{ _x, 10,   2,   3, ___, "1d6" } },
 //	{ "bat",	 0,	0,	{ _x,  1,   1,   3, ___, "1d2" } },
@@ -425,26 +425,27 @@
 //
 //    for (i = 0; i < MAXSTICKS; i++)
 //    {
-//	do
-//	    if (rnd(100) > 50)
-//	    {
-//		str = metal[rnd(NMETAL)];
-//		if (isupper(*str))
-//			ws_type[i] = "wand";
-//	    }
-//	    else
-//	    {
-//		str = wood[rnd(NWOOD)];
-//		if (isupper(*str))
-//			ws_type[i] = "staff";
-//	    }
-//	until (isupper(*str));
-//	*str = tolower(*str);
-//	ws_made[i] = str;
-//	ws_know[i] = FALSE;
-//	ws_guess[i] = NULL;
-//	if (i > 0)
-//		ws_magic[i].mi_prob += ws_magic[i-1].mi_prob;
+//	    do
+//          if (rnd(100) > 50)
+//	        {
+//		        str = metal[rnd(NMETAL)];
+// 		        if (isupper(*str))
+//			        ws_type[i] = "wand";
+//	        }
+//	        else
+//	        {
+//		        str = wood[rnd(NWOOD)];
+//		        if (isupper(*str))
+//			        ws_type[i] = "staff";
+//	        }
+//	    until (isupper(*str));
+//
+//	    *str = tolower(*str);
+//	    ws_made[i] = str;
+//	    ws_know[i] = FALSE;
+//	    ws_guess[i] = NULL;
+//	    if (i > 0)
+//		    ws_magic[i].mi_prob += ws_magic[i-1].mi_prob;
 //    }
 //    badcheck("sticks", ws_magic, MAXSTICKS);
 //}

@@ -20,6 +20,7 @@
 #define MAXPACK 23
 #define MAXTRAPS 10
 #define	NUMTHINGS 7	/* number of types of things (scrolls, rings, etc.) */
+#define MAXMONSTERS 15
 
 /*
  * return values for get functions
@@ -411,9 +412,13 @@ struct WINDOW {
 extern struct room rooms[MAXROOMS];		/* One for each room -- A level */
 extern struct room *oldrp;			/* Roomin(&oldpos) */
 extern struct linked_list *mlist;		/* List of monsters on the level */
+
+extern struct thing monsters[MAXMONSTERS];
+extern char MONSTER_COUNT;
+
 extern struct thing player;			/* The rogue */
 extern struct stats max_stats;			/* The maximum for the player */
-extern struct monster monsters[26];		/* The initial monster states */
+extern struct monster_type monster_types[26];		/* The initial monster states */
 extern struct linked_list *lvl_obj;		/* List of objects on this level */
 extern struct object *cur_weapon;		/* Which weapon he is weilding */
 extern struct object *cur_armor;		/* What a well dresssed rogue wears */

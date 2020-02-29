@@ -49,7 +49,7 @@ char type;
 register coord *cp;
 {
     register struct thing *tp;
-    register struct monster *mp;
+    register struct monster_type *mp;
 
     attach(mlist, item);
     tp = (struct thing *) ldata(item);
@@ -57,7 +57,7 @@ register coord *cp;
     tp->t_pos = *cp;
     tp->t_oldch = mvwinch(cw, cp->y, cp->x);
     mvwaddch(mw, cp->y, cp->x, tp->t_type);
-    mp = &monsters[tp->t_type-'A'];
+    mp = &monster_types[tp->t_type-'A'];
     tp->t_stats.s_hpt = roll(mp->m_stats.s_lvl, 8);
     tp->t_stats.s_lvl = mp->m_stats.s_lvl;
     tp->t_stats.s_arm = mp->m_stats.s_arm;
@@ -125,7 +125,7 @@ wanderer()
     tp->t_pos = cp;
     tp->t_dest = &hero;
     if (wizard)
-	msg("Started a wandering %s", monsters[tp->t_type-'A'].m_name);
+	msg("Started a wandering %s", monster_types[tp->t_type-'A'].m_name);
 }
 
 /*

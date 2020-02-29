@@ -327,7 +327,7 @@ killname(monst)
 register char monst;
 {
     if (isupper(monst))
-	return monsters[monst-'A'].m_name;
+	return monster_types[monst-'A'].m_name;
     else
 	switch (monst)
 	{

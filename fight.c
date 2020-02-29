@@ -56,7 +56,7 @@ bool thrown;
 	if (on(player, ISBLIND))
 	    mname = "it";
 	else
-	    mname = monsters[mn-'A'].m_name;
+	    mname = monster_types[mn-'A'].m_name;
 	if (roll_em(&pstats, &tp->t_stats, weap, thrown))
 	{
 	    did_hit = TRUE;
@@ -105,7 +105,7 @@ register struct thing *mp;
     if (on(player, ISBLIND))
 	mname = "it";
     else
-	mname = monsters[mp->t_type-'A'].m_name;
+	mname = monster_types[mp->t_type-'A'].m_name;
     if (roll_em(&mp->t_stats, &pstats, NULL, FALSE))
     {
 	if (mp->t_type != 'E')
@@ -190,7 +190,7 @@ register struct thing *mp;
 		     * Violet fungi stops the poor guy from moving
 		     */
 		    player.t_flags |= ISHELD;
-		    sprintf(monsters['F'-'A'].m_stats.s_dmg,"%dd1",++fung_hit);
+		    sprintf(monster_types['F'-'A'].m_stats.s_dmg,"%dd1",++fung_hit);
 		when 'L':
 		{
 		    /*
@@ -662,7 +662,7 @@ bool pr;
 	{
 	    if (!terse)
 		addmsg("the ");
-	    msg("%s.", monsters[tp->t_type-'A'].m_name);
+	    msg("%s.", monster_types[tp->t_type-'A'].m_name);
 	}
     }
     pstats.s_exp += tp->t_stats.s_exp;
@@ -678,7 +678,7 @@ bool pr;
 	when 'F':
 	    player.t_flags &= ~ISHELD;
 	    fung_hit = 0;
-	    strcpy(monsters['F'-'A'].m_stats.s_dmg, "000d0");
+	    strcpy(monster_types['F'-'A'].m_stats.s_dmg, "000d0");
 	when 'L':
 	{
 	    register struct room *rp;

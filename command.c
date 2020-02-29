@@ -484,7 +484,7 @@ void search(void)
 //	return;
 //    }
 //    if (isalpha(ch) && isupper(ch))
-//	str = monsters[ch-'A'].m_name;
+//	str = monster_types[ch-'A'].m_name;
 //    else switch(ch)
 //    {
 //	case '|':

@@ -103,7 +103,7 @@ void do_rooms(void)
 //    	    /*
 //    	     * See if we want to give it a treasure to carry around.
 //    	     */
-//    	    if (rnd(100) < monsters[tp->t_type-'A'].m_carry)
+//    	    if (rnd(100) < monster_types[tp->t_type-'A'].m_carry)
 //    		attach(tp->t_pack, new_thing());
 //    	}
     }

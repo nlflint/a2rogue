@@ -9,9 +9,14 @@ struct trap traps[MAXTRAPS];
 struct room rooms[MAXROOMS];		/* One for each room -- A level */
 struct room *oldrp;			/* Roomin(&oldpos) */
 struct linked_list *mlist;		/* List of monsters on the level */
+
+
+struct thing monsters[MAXMONSTERS];
+char MONSTER_COUNT = 0;
+
 struct thing player;			/* The rogue */
 struct stats max_stats;			/* The maximum for the player */
-struct monster monsters[26];		/* The initial monster states */
+struct monster_type monster_types[26];		/* The initial monster states */
 struct linked_list *lvl_obj;		/* List of objects on this level */
 struct object *cur_weapon;		/* Which weapon he is weilding */
 struct object *cur_armor;		/* What a well dresssed rogue wears */

@@ -153,7 +153,7 @@ teleport()
     if (on(player, ISHELD)) {
 	player.t_flags &= ~ISHELD;
 	fung_hit = 0;
-	strcpy(monsters['F'-'A'].m_stats.s_dmg, "000d0");
+	strcpy(monster_types['F'-'A'].m_stats.s_dmg, "000d0");
     }
     count = 0;
     running = FALSE;
