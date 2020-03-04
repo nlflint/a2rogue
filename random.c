@@ -10,3 +10,18 @@ int rnd(int max) {
         max = 1;
     return rand() % max;
 }
+
+
+/*
+ * roll:
+ *	roll a number of dice
+ */
+
+int roll(int number, int sides)
+{
+    register int dtotal = 0;
+
+    while(number--)
+	    dtotal += rnd(sides)+1;
+    return dtotal;
+}

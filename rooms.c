@@ -9,6 +9,7 @@
 #include "rooms.h"
 #include "random.h"
 #include "new_level.h"
+#include "monsters.h"
 
 #pragma code-name(push, "LC")
 void do_rooms(void)
@@ -16,7 +17,7 @@ void do_rooms(void)
     register int i;
     register struct room *rp;
     register struct linked_list *item;
-    register struct monster *tp;
+    register struct monster *monster;
     register int left_out;
     coord top;
     coord bsze;
@@ -91,21 +92,22 @@ void do_rooms(void)
         /*
          * Put the monster in
          */
-//    	if (rnd(100) < (rp->r_goldval > 0 ? 80 : 25))
-//    	{
+    	if (rnd(100) < (rp->r_goldval > 0 ? 80 : 25))
+    	{
 //    	    item = new_item(sizeof *tp);
-//    	    tp = (struct monster *) ldata(item);
-//    	    do
-//    	    {
-//    		rnd_pos(rp, &mp);
-//    	    } until(mvwinch(stdscr, mp.y, mp.x) == FLOOR);
-//    	    new_monster(item, randmonster(FALSE), &mp);
-//    	    /*
-//    	     * See if we want to give it a treasure to carry around.
-//    	     */
+//          tp = (struct monster *) ldata(item);
+    	    do
+    	    {
+    		    rnd_pos(rp, &mp);
+    	    } until(mvwinch(stdscr, mp.y, mp.x) == FLOOR);
+
+    	    monster = new_monster(randmonster(FALSE), &mp);
+    	    /*
+    	     * See if we want to give it a treasure to carry around.
+    	     */
 //    	    if (rnd(100) < monster_types[tp->t_type-'A'].m_carry)
-//    		attach(tp->t_pack, new_thing());
-//    	}
+//    		    attach(tp->t_pack, new_thing());
+    	}
     }
 }
 

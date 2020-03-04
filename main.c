@@ -44,9 +44,6 @@ void main(void)
     char key_pressed;
 
     clrscr();
-    videomode((unsigned char) 80);
-    clrscr();
-
     cw = &play_window;
     mw = &monster_window;
     stdscr = &dungeon_window;
@@ -277,20 +274,6 @@ void main(void)
 //int rnd(int range)
 //{
 //    return range == 0 ? 0 : abs(RN) % range;
-//}
-
-/*
- * roll:
- *	roll a number of dice
- */
-
-//int roll(int number, int sides)
-//{
-//    register int dtotal = 0;
-//
-//    while(number--)
-//	dtotal += rnd(sides)+1;
-//    return dtotal;
 //}
 //# ifdef SIGTSTP
 /*

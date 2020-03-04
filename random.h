@@ -6,6 +6,6 @@
 #define A2ROGUE_RANDOM_H
 
 int rnd(int max);
-void vert(char cnt);
+int roll(int number, int sides);
 
 #endif //A2ROGUE_RANDOM_H
