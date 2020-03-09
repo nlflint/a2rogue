@@ -49,12 +49,14 @@ void msg(const char* fmt, ...)
 /*
  * add things to the current message
  */
-//addmsg(fmt, args)
-//char *fmt;
-//int args;
-//{
-//    doadd(fmt, &args);
-//}
+void addmsg(char *fmt, ...)
+{
+    va_list varargs;
+
+    va_start(varargs, fmt);
+    doadd(fmt, varargs);
+    va_end(varargs);
+}
 
 /*
  * Display a new msg (giving him a chance to see the previous one if it

@@ -17,22 +17,22 @@
  *	Make all the running monsters move.
  */
 //
-//runners()
+//void runners(void)
 //{
 //    register struct linked_list *item;
 //    register struct monster *tp;
 //
 //    for (item = mlist; item != NULL; item = next(item))
 //    {
-//	tp = (struct monster *) ldata(item);
-//	if (off(*tp, ISHELD) && on(*tp, ISRUN))
-//	{
-//	    if (off(*tp, ISSLOW) || tp->t_turn)
-//		do_chase(tp);
-//	    if (on(*tp, ISHASTE))
-//		do_chase(tp);
-//	    tp->t_turn ^= TRUE;
-//	}
+//	    tp = (struct monster *) ldata(item);
+//	    if (off(*tp, ISHELD) && on(*tp, ISRUN))
+//	    {
+//	        if (off(*tp, ISSLOW) || tp->t_turn)
+//		        do_chase(tp);
+//	        if (on(*tp, ISHASTE))
+//		        do_chase(tp);
+//	        tp->t_turn ^= TRUE;
+//	    }
 //    }
 //}
 //
@@ -254,28 +254,25 @@ struct room *roomin(coord *cp)
 }
 
 
-///*
-// * find_mons:
-// *	Find the monster from his corrdinates
-// */
-//
-//struct linked_list *
-//find_mons(y, x)
-//register int y;
-//int x;
-//{
-//    register struct linked_list *item;
-//    register struct monster *th;
-//
-//    for (item = mlist; item != NULL; item = next(item))
-//    {
-//	th = (struct monster *) ldata(item);
-//	if (th->t_pos.y == y && th->t_pos.x == x)
-//	    return item;
-//    }
-//    return NULL;
-//}
-//
+/*
+ * find_mons:
+ *	Find the monster from his corrdinates
+ */
+
+struct monster *find_mons(unsigned char y, unsigned char x)
+{
+    register struct monster *monster;
+    char i;
+
+    for (i = 0; i < MONSTER_COUNT; i++)
+    {
+	    monster = monsters + i;
+	    if (monster->t_pos.y == y && monster->t_pos.x == x)
+	        return monster;
+    }
+    return NULL;
+}
+
 /*
  * diag_ok:
  *	Check to see if the move is legal if it is diagonal

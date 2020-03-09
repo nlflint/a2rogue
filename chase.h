@@ -9,5 +9,6 @@
 
 struct room *roomin(coord *cp);
 bool diag_ok(coord *sp, coord *ep);
+struct monster *find_mons(char y, char x);
 
 #endif //A2ROGUE_CHASE_H

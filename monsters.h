@@ -7,5 +7,7 @@
 
 struct monster *new_monster(char type, coord *cp);
 char randmonster(bool wander);
+struct monster *wake_monster(char y, char x);
+void clear_monsters(void);
 
 #endif //A2ROGUE_MONSTERS_H

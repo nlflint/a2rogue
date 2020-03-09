@@ -121,12 +121,12 @@ void do_move(char dy, char dx)
         default:
 
     move_stuff:
-	    if (ch == PASSAGE && winat(hero.y, hero.x) == DOOR)
-		    light(&hero);
-	    else if (ch == DOOR)
+	    if (ch == PASSAGE && winat(hero.y, hero.x) == DOOR) //going into passage, currently on door
+		    light(&hero); //darken?
+	    else if (ch == DOOR) // going onto door
 	    {
 		    running = FALSE;
-		    if (winat(hero.y, hero.x) == PASSAGE)
+		    if (winat(hero.y, hero.x) == PASSAGE) //passage to door
 		        light(&nh);
 	    }
 	    else if (ch == STAIRS)

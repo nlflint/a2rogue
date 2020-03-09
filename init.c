@@ -22,7 +22,7 @@
 //
 //#define ___ 1
 //#define _x {1,1}
-//struct monster_type monster_types[26] = {
+//monster_types[26] = {
 //	/* Name		 CARRY	FLAG    str, exp, lvl, amr, hpt, dmg */
 //	{ "giant ant",	 0,	ISMEAN,	{ _x, 10,   2,   3, ___, "1d6" } },
 //	{ "bat",	 0,	0,	{ _x,  1,   1,   3, ___, "1d2" } },

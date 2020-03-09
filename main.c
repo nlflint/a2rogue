@@ -19,6 +19,8 @@
 #include "random.h"
 #include "chase.h"
 #include "command.h"
+#include "io.h"
+
 
 //char *EIGHTY_COLUMN = 0xC00D;
 char *ENABLE_LC_BANK1 = 0xC083;
@@ -364,8 +366,11 @@ void playit(void)
 
     oldpos = hero;
     oldrp = roomin(&hero);
-    while (playing)
-	    command();			/* Command execution */
+    while (playing) {
+        command();			/* Command execution */
+    }
+
+
 
 	//endit();
 }

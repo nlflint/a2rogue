@@ -56,7 +56,7 @@ swander()
 
 rollwand()
 {
-    static int between = 0;
+    static char between = 0;
 
     if (++between >= 4)
     {

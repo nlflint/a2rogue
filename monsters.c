@@ -8,6 +8,10 @@
 #include "rogue.h"
 #include "random.h"
 #include "curses.h"
+#include "io.h"
+#include "chase.h"
+#include "fight.h"
+
 
 /*
  * List of monsters in rough order of vorpalness
@@ -50,7 +54,7 @@ struct monster *new_monster(char type, coord *cp)
 
     //attach(mlist, item);
     //tp = (struct monster *) ldata(item);
-    tp = &monsters[MONSTER_COUNT++];
+    tp = monsters + MONSTER_COUNT++;
     tp->t_type = type;
     tp->t_pos = *cp;
     tp->t_oldch = mvwinch(cw, cp->y, cp->x);
@@ -133,62 +137,67 @@ struct monster *new_monster(char type, coord *cp)
 /*
  * what to do when the hero steps next to a monster
  */
-//struct linked_list *
-//wake_monster(y, x)
-//int y, x;
-//{
-//    register struct monster *tp;
+struct monster *wake_monster(char y, char x)
+{
+    register struct monster *tp;
 //    register struct linked_list *it;
-//    register struct room *rp;
-//    register char ch;
-//
-//    if ((it = find_mons(y, x)) == NULL)
-//	msg("Can't find monster in show");
+    register struct room *rp;
+    register char ch;
+
+    if ((tp = find_mons(y, x)) == NULL)
+	    msg("Can't find monster in show");
+
 //    tp = (struct monster *) ldata(it);
-//    ch = tp->t_type;
-//    /*
-//     * Every time he sees mean monster, it might start chasing him
-//     */
-//    if (rnd(100) > 33 && on(*tp, ISMEAN) && off(*tp, ISHELD)
-//	&& !ISWEARING(R_STEALTH))
-//    {
-//	tp->t_dest = &hero;
-//	tp->t_flags |= ISRUN;
-//    }
+    ch = tp->t_type;
+    /*
+     * Every time he sees mean monster, it might start chasing him
+     */
+    if (rnd(100) > 33
+        && on(*tp, ISMEAN)
+        && off(*tp, ISHELD)
+	    && !ISWEARING(R_STEALTH))
+    {
+	    tp->t_dest = &hero;
+	    tp->t_flags |= ISRUN;
+    }
+
 //    if (ch == 'U' && off(player, ISBLIND))
 //    {
 //        rp = roomin(&hero);
-//	if ((rp != NULL && !(rp->r_flags&ISDARK))
-//	    || DISTANCE(y, x, hero.y, hero.x) < 3)
-//	{
-//	    if (off(*tp, ISFOUND) && !save(VS_MAGIC))
+//	    if ((rp != NULL && !(rp->r_flags&ISDARK))
+//	        || DISTANCE(y, x, hero.y, hero.x) < 3)
 //	    {
-//		msg("The umber hulk's gaze has confused you.");
-//		if (on(player, ISHUH))
-//		    lengthen(unconfuse, rnd(20)+HUHDURATION);
-//		else
-//		    fuse(unconfuse, 0, rnd(20)+HUHDURATION, AFTER);
-//		player.t_flags |= ISHUH;
+//	        if (off(*tp, ISFOUND) && !save(VS_MAGIC))
+//	        {
+//		        msg("The umber hulk's gaze has confused you.");
+//		        if (on(player, ISHUH))
+//		            lengthen(unconfuse, rnd(20)+HUHDURATION);
+//		        else
+//		            fuse(unconfuse, 0, rnd(20)+HUHDURATION, AFTER);
+//		        player.t_flags |= ISHUH;
+//	        }
+//
+//	        tp->t_flags |= ISFOUND;
 //	    }
-//	    tp->t_flags |= ISFOUND;
-//	}
 //    }
-//    /*
-//     * Hide invisible monsters
-//     */
-//    if (on(*tp, ISINVIS) && off(player, CANSEE))
-//	ch = mvwinch(stdscr, y, x);
-//    /*
-//     * Let greedy ones guard gold
-//     */
-//    if (on(*tp, ISGREED) && off(*tp, ISRUN))
-//	if (rp != NULL && rp->r_goldval)
-//	{
-//	    tp->t_dest = &rp->r_gold;
-//	    tp->t_flags |= ISRUN;
-//	}
-//    return it;
-//}
+
+    /*
+     * Hide invisible monsters
+     */
+    if (on(*tp, ISINVIS) && off(player, CANSEE))
+	    ch = mvwinch(stdscr, y, x);
+    /*
+     * Let greedy ones guard gold
+     */
+    if (on(*tp, ISGREED) && off(*tp, ISRUN))
+	    if (rp != NULL && rp->r_goldval)
+	    {
+	        tp->t_dest = &rp->r_gold;
+	        tp->t_flags |= ISRUN;
+	    }
+
+    return tp;
+}
 //
 //genocide()
 //{
@@ -227,3 +236,7 @@ struct monster *new_monster(char type, coord *cp)
 //	    break;
 //	}
 //}
+
+void clear_monsters(void) {
+    MONSTER_COUNT = 0;
+}

@@ -502,8 +502,8 @@ extern bool in_shell;				/* True if executing a shell */
 extern coord oldpos;				/* Position before last look() call */
 extern coord delta;				/* Change indicated to get_dir() */
 
-struct linked_list *find_mons(), *find_obj(), *get_item(), *new_item();
-struct linked_list *new_thing(), *wake_monster();
+struct linked_list *find_obj(), *get_item(), *new_item();
+struct linked_list *new_thing();
 
 //char *malloc(), *getenv(), *unctrl(), *tr_name(), *new(), *sprintf();
 char *vowelstr(), *inv_name(), *sbrk(), *brk();

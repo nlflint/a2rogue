@@ -6,6 +6,7 @@
 #include "curses.h"
 #include "io.h"
 #include "move.h"
+#include "monsters.h"
 
 #pragma code-name(push, "LC")
 
@@ -23,8 +24,9 @@ void new_level(void)
 //    register char ch;
     coord stairs;
 
-//    if (level > max_level)
-//	max_level = level;
+    if (level > max_level)
+        max_level = level;
+
     wclear(cw);
     wclear(mw);
     wclear(stdscr);
@@ -33,7 +35,7 @@ void new_level(void)
     /*
      * Free up the monsters on the last level
      */
-//    free_list(mlist);
+    clear_monsters();
     do_rooms();				/* Draw rooms */
     do_passages();			/* Draw passages */
 //    no_food++;
@@ -86,6 +88,11 @@ void new_level(void)
     light(&hero);
     wmove(cw, hero.y, hero.x);
     waddch(cw, PLAYER);
+    addmsg("Monsters (%d): ", MONSTER_COUNT);
+
+    for (i = 0; i < MONSTER_COUNT; i++)
+        addmsg("%c ", monsters[i].t_type);
+    endmsg();
 }
 
 /*

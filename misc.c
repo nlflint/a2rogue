@@ -4,6 +4,7 @@
 #include "chase.h"
 #include "misc.h"
 #include <ctype.h>
+#include "monsters.h"
 
 #pragma code-name(push, "LC")
 
@@ -73,23 +74,28 @@ void look(bool wakeup)
 	        {
 	            if (y <= 0 || y >= LINES - 1)
 		            continue;
-//	    if (isupper(mvwinch(mw, y, x)))
-//	    {
-//		    register struct linked_list *it;
-//		    register struct monster *tp;
 
-    //		if (wakeup)
-    //		    it = wake_monster(y, x);
-    //		else
-    //		    it = find_mons(y, x);
-//            tp = (struct monster *) ldata(it);
-//            if ((tp->t_oldch = mvinch(y, x)) == TRAP)
-//                tp->t_oldch =
-//                (trap_at(y,x)->tr_flags&ISFOUND) ? TRAP : FLOOR;
-//            if (tp->t_oldch == FLOOR && (rp->r_flags & ISDARK)
-//                && off(player, ISBLIND))
-//                tp->t_oldch = ' ';
-//            }
+                if (isupper(mvwinch(mw, y, x)))
+                {
+//                    register struct linked_list *it;
+                    register struct monster *tp;
+
+                    if (wakeup)
+                        tp = wake_monster(y, x);
+//                    else
+//                        tp = find_mons(y, x);
+
+//                    tp = (struct monster *) ldata(it);
+
+                    if ((tp->t_oldch = mvinch(y, x)) == TRAP)
+                        tp->t_oldch = (trap_at(y,x)->tr_flags&ISFOUND) ? TRAP : FLOOR;
+
+                    if (tp->t_oldch == FLOOR
+                            && (rp->r_flags & ISDARK)
+                            && off(player, ISBLIND))
+                        tp->t_oldch = ' ';
+                }
+
                 /*
                  * Secret doors show as walls
                  */
