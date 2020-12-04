@@ -35,3 +35,5 @@ This is a port of Rogue v3.6 (from bsd usenix87) to the Apple IIe Enhanced (and 
 * Opening credits
 * Prompt for hero name
 
+# Original Source
+https://britzl.github.io/roguearchive/ (filename: `from_bsd_usenix87_rogue3.6.zip`)
