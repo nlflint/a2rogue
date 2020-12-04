@@ -25,6 +25,7 @@ This is a port of Rogue v3.6 (from bsd usenix87) to the Apple IIe Enhanced (and 
 * Using items (potions, srolls, staffs, armor, etc..)
 * Monster movement
 * Fighting
+* Hero stats
 * Amulet placement
 * Fuses/Daemons: Hunger, resting, monster spawning, curse/spell recovery
 * Trap triggering
