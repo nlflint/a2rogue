@@ -16,6 +16,8 @@ This is a port of Rogue v3.6 (from bsd usenix87) to the Apple IIe Enhanced (and 
 * Player navigation
 * Room/halway lighting
 * Secret Doors
+* Status bar
+* Message header
 
 **Not started/WIP**
 * Item generation
